@@ -1,0 +1,278 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Daily Dash" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{fd291d22-2768-e911-a95c-000d3a12468b}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{59efcab6-a24e-403b-8c2f-16be7c4ab4c5}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{c98086ad-a429-4592-a3e3-73f2c39e5a03}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell id="{dbea4632-acbc-6193-9104-675c2bd28767}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Company" languagecode="1033" />
+                          </labels>
+                          <control id="Component6067722" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <ViewId>{00000000-0000-0000-00AA-000010001001}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>account</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{A8280C28-3161-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{62c525ef-e9d2-4bbf-b041-d19004873c96}" auto="false">
+                          <labels>
+                            <label description="Companies" languagecode="1033" />
+                          </labels>
+                          <control id="Component90eb145" uniqueid="{47c1e2c1-3ecb-c35b-777c-4acab1b1eb44}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>account</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{00000000-0000-0000-00AA-000010001001}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{137AAB52-2768-E911-A95C-000D3A12468B}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{d1ae2ba8-9b2c-55e8-4240-57945461e36a}" showlabel="false" colspan="1" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Appointments" languagecode="1033" />
+                          </labels>
+                          <control id="Component8712983" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" indicationOfSubgrid="true" uniqueid="{b0edaa64-6429-2983-6c29-82d3dddbcd18}">
+                            <parameters>
+                              <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>appointment</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId>{1BC0FF08-CB08-45D6-8FD4-E49E6B49FE91}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode>#F5F7F6</HeaderColorCode>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{3252116d-b12e-4e8d-a695-92d495103b24}" showlabel="true" colspan="1" availableforphone="false" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Timeline" languagecode="1033" />
+                          </labels>
+                          <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}">
+                            <parameters>
+                              <UClientUniqueName>Timeline</UClientUniqueName>
+                              <UClientModules>Activities,Posts</UClientModules>
+                              <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                              <UClientShowFilterPane>true</UClientShowFilterPane>
+                              <UClientOrderBy>descending</UClientOrderBy>
+                              <UClientRecordPerPage>10</UClientRecordPerPage>
+                              <UClientActivities />
+                              <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                              <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                              <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                              <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                              <UClientActivityCardMap />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell id="{1014adb0-4ea4-2dc0-2601-1a73e94006c7}" showlabel="false" colspan="2" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Financial Products" languagecode="1033" />
+                          </labels>
+                          <control id="Component7398000" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{ab92b916-e291-e581-a665-e694c56a555c}">
+                            <parameters>
+                              <ViewId>{7F811F65-2868-E911-A95C-000D3A12468B}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>msfsi_financialproduct</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId>{E526B7A4-0A6C-E911-A95C-000D3A12468B}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode>#F5F7F6</HeaderColorCode>
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{d5814b19-4a06-70db-6977-13e681a98547}" showlabel="false" colspan="2" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Prospects" languagecode="1033" />
+                          </labels>
+                          <control id="Component5401672" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <ViewId>{60F5A9F6-276D-E911-A95C-000D3A12468B}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>lead</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>true</EnableJumpBar>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions>
+          <controlDescription forControl="{b0edaa64-6429-2983-6c29-82d3dddbcd18}">
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+              <parameters>
+                <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName />
+                <TargetEntityType>appointment</TargetEntityType>
+                <AutoExpand>Fixed</AutoExpand>
+                <EnableQuickFind>true</EnableQuickFind>
+                <EnableViewPicker>true</EnableViewPicker>
+                <ViewIds />
+                <EnableJumpBar>true</EnableJumpBar>
+                <ChartGridMode>Grid</ChartGridMode>
+                <VisualizationId>{1BC0FF08-CB08-45D6-8FD4-E49E6B49FE91}</VisualizationId>
+                <IsUserChart>false</IsUserChart>
+                <EnableChartPicker>false</EnableChartPicker>
+                <RecordsPerPage>8</RecordsPerPage>
+                <HeaderColorCode>#F5F7F6</HeaderColorCode>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.Calendar.CalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                  <StartDate>scheduledstart</StartDate>
+                  <Description>description</Description>
+                  <Duration>scheduleddurationminutes</Duration>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>appointment</TargetEntityType>
+                  <EnableViewPicker>true</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <DisplayMode static="true" type="Enum">anchoredwithhoursofthedaytimeline</DisplayMode>
+                <MinimumDuration static="true" type="Whole.Duration">30</MinimumDuration>
+                <ColorFallbackBehavior static="true" type="Enum">colorfromentity</ColorFallbackBehavior>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.Calendar.CalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                  <StartDate>scheduledstart</StartDate>
+                  <Description>description</Description>
+                  <Duration>scheduleddurationminutes</Duration>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>appointment</TargetEntityType>
+                  <EnableViewPicker>true</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <DisplayMode static="true" type="Enum">anchoredwithhoursofthedaytimeline</DisplayMode>
+                <MinimumDuration static="true" type="Whole.Duration">30</MinimumDuration>
+                <ColorFallbackBehavior static="true" type="Enum">colorfromentity</ColorFallbackBehavior>
+              </parameters>
+            </customControl>
+            <customControl formFactor="2" name="MscrmControls.Calendar.CalendarControl">
+              <parameters>
+                <data-set name="Calendar">
+                  <ViewId>{606EEA12-0C33-47D3-96E1-BA1529EE8205}</ViewId>
+                  <StartDate>scheduledstart</StartDate>
+                  <Description>description</Description>
+                  <Duration>scheduleddurationminutes</Duration>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>appointment</TargetEntityType>
+                  <EnableViewPicker>true</EnableViewPicker>
+                  <FilteredViewIds />
+                </data-set>
+                <DisplayMode static="true" type="Enum">anchoredwithhoursofthedaytimeline</DisplayMode>
+                <MinimumDuration static="true" type="Whole.Duration">30</MinimumDuration>
+                <ColorFallbackBehavior static="true" type="Enum">colorfromentity</ColorFallbackBehavior>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

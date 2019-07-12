@@ -1,0 +1,395 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1df56cab-d22b-42fc-9daf-8b670dfffe4f}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{73c4f8d4-a952-4bed-869f-d535749c933a}" IsUserDefined="1" name="{73c4f8d4-a952-4bed-869f-d535749c933a}" locklevel="0" expanded="true" showlabel="true" labelid="{f78ff984-c868-43a0-baba-24eb7a7b62aa}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{49697774-de27-4821-ae1e-e3c9ed507312}" name="{49697774-de27-4821-ae1e-e3c9ed507312}" columns="1" locklevel="0" labelwidth="113" celllabelalignment="Left" celllabelposition="Left" labelid="{7ff20164-7ee5-4411-8811-3bd9a4ab1f99}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{15cf79a2-588d-4dfe-8ace-0ea33c406232}" labelid="{5fc8a1cc-e214-4836-b986-01f09def664e}">
+                        <labels>
+                          <label description="Number" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_number" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_number" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{daa29e30-72e3-b783-55e0-e658e9e3704d}" showlabel="true" locklevel="0" labelid="{382c77b4-6804-4e2a-aef0-0ebab375e7b7}">
+                        <labels>
+                          <label description="Customer" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_customerid" disabled="false" uniqueid="{8b19c345-cdce-d91d-46a3-11d7608bee9e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41ad5de2-a6cb-e41d-5ea9-2836bb670d23}" showlabel="true" locklevel="0" labelid="{559ed8c9-b609-46da-b6de-37b966c36e1a}">
+                        <labels>
+                          <label description="Available Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_availablebalance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_availablebalance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0007b2a8-566d-8177-37e6-2072eadb6d85}" showlabel="true" locklevel="0" labelid="{f0e1d0ef-42f9-4b6c-b833-1a7537ee0d98}">
+                        <labels>
+                          <label description="Branch" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branchid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_branchid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5d29440-0bc0-e198-d74d-cbbd279a1c9b}" showlabel="true" locklevel="0" labelid="{5ea70114-0c7f-4eef-8999-9fd16523eddc}">
+                        <labels>
+                          <label description="Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_limitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_limitid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0880ab61-3303-b707-1db2-38e6db00a959}" showlabel="true" locklevel="0" labelid="{14db98cc-1bfc-42c3-965f-3ff2766c2327}">
+                        <labels>
+                          <label description="Joint Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_jointtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_jointtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{73c4f8d4-a952-4bed-869f-d535749c933a}_section_4" showlabel="false" showbar="false" locklevel="0" id="{00305e5c-9818-dece-922a-693d3369a030}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{ecc5d676-1d0b-4a16-b2dd-c72d9587fe57}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b3e64951-8cd3-749b-630b-02992cead071}" showlabel="false" labelid="{16cae4b3-f197-4989-aa6f-efe0759fc88f}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_5" id="{5b7b26b6-065b-de24-02b6-29a9c0aba764}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{4f9abab4-c658-4594-ad7a-d63caf63849e}">
+          <labels>
+            <label description="Checking Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="{73c4f8d4-a952-4bed-869f-d535749c933a}_section_2" showlabel="true" showbar="false" locklevel="0" id="{4875e8d3-4430-6ea0-27a4-41486939ebda}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{950ca78d-7dbd-406b-bbb6-953887202af0}">
+                  <labels>
+                    <label description="Checking Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{31678b95-b7de-63d0-3e0b-ab36abbe96a0}" showlabel="true" locklevel="0" labelid="{ca01f1b8-52b1-4c39-9480-611274245260}">
+                        <labels>
+                          <label description="Uncleared Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_unclearedbalance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_unclearedbalance" disabled="false" uniqueid="{22e92b40-cb2e-e60b-bb88-86672e5a90cc}" />
+                      </cell>
+                      <cell id="{95844b01-ab52-d7c9-edc6-26a63372dbbe}" showlabel="true" locklevel="0" labelid="{9e34136c-fd7a-44c6-a4a3-1d1970a9d2f7}">
+                        <labels>
+                          <label description="Overdraft Rate" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overdraftrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_overdraftrate" disabled="false" uniqueid="{3c4e8603-70e9-6d55-d914-7109890005a3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d5dcb828-304e-4ce2-5c22-616e38d2591a}" showlabel="true" locklevel="0" labelid="{92e2996c-90b1-4ba6-b7f8-8bf7579313cd}">
+                        <labels>
+                          <label description="Book Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_bookbalance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_bookbalance" disabled="false" uniqueid="{c4e2570a-1ae6-0b43-1133-d5a8138cd463}" />
+                      </cell>
+                      <cell id="{ab47b9d8-d774-2eca-49bc-e60bc4ce236c}" showlabel="true" locklevel="0" labelid="{b4135a0b-026c-44b2-be02-6f9325fbec51}">
+                        <labels>
+                          <label description="Overdraft Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overdraftlimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_overdraftlimit" disabled="false" uniqueid="{ec6923b8-d1ae-a39d-1a91-4437be7b0b74}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{30b8d062-6359-ba9c-16a1-99ba729db6b1}" showlabel="true" locklevel="0" labelid="{75349828-848c-4b54-807c-a20d6e0a8ab7}">
+                        <labels>
+                          <label description="Average Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_averagebalance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_averagebalance" disabled="false" uniqueid="{a9a16ec7-46a5-9467-215b-bb76bcc1d22b}" />
+                      </cell>
+                      <cell id="{1d63c3ee-11dd-6d23-b9d0-3388e9a7ac58}" showlabel="true" locklevel="0" labelid="{dec8a2e5-a7f6-43e8-9056-6a7b6788c77f}">
+                        <labels>
+                          <label description="Initial Deposit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_initialdeposit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_initialdeposit" disabled="false" uniqueid="{2b880a30-93e2-d1c4-c9ec-c7073c27443b}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e01c55ae-eb71-c983-5b6a-19220b8d743e}" showlabel="true" locklevel="0" labelid="{8ec72588-8e09-4fee-8a3a-6aca82e62c81}">
+                        <labels>
+                          <label description="Blocked Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_blockedamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_blockedamount" disabled="false" uniqueid="{d4d918eb-e5b8-d581-56ee-be4d88257a42}" />
+                      </cell>
+                      <cell id="{e6652557-e443-e2c3-0759-61d30946be85}" showlabel="true" locklevel="0" labelid="{c450d0b0-fe10-4793-869e-3e6bd0312407}">
+                        <labels>
+                          <label description="Initial Deposit Source" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_initialdepositsource" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_initialdepositsource" disabled="false" uniqueid="{098629dd-8b97-5034-5c56-139a71869e3e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{651dad88-e803-cbce-141d-456b43a41375}" showlabel="true" locklevel="0" labelid="{e004d582-f8e1-404c-bd09-cde12f80b622}">
+                        <labels>
+                          <label description="Opening Date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_openingdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_openingdate" disabled="false" uniqueid="{86597437-a94d-bba0-1cd9-331512515db6}" />
+                      </cell>
+                      <cell id="{38970358-4454-8727-dce0-35468e78b60a}" showlabel="true" locklevel="0" labelid="{2fbebabf-bc21-43da-afd4-83255e3a1e6a}">
+                        <labels>
+                          <label description="Source of Funds" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_sourceoffunds" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_sourceoffunds" disabled="false" uniqueid="{2c030703-7906-a812-8637-a49bd8ca5d20}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6bb0b3de-2ece-b34a-c4d2-020162991968}" showlabel="true" locklevel="1" labelid="{6ca9d417-c6b8-4197-997b-43687bbb8324}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{ae4eda5a-9a21-8b26-e117-45e708a11cbd}" />
+                      </cell>
+                      <cell id="{97969462-75c3-5776-808b-dcdc9712843a}" showlabel="false" labelid="{bb96aeec-86c8-485b-bddd-6a24827e336b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_9" id="{4c25a0c8-1c83-0b30-d4b0-8723456226e6}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{8dc34707-c545-42e3-b5a9-89d98e72904b}">
+          <labels>
+            <label description="Notes/Further Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{0a362807-9e4a-0da8-dc92-347d7230bba6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{32be41c9-5822-4c27-8961-00965ac1506e}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea74a71e-20c2-150e-adcb-b38c091a64d8}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{5e24e5f9-5b8a-47d3-b59f-11cbd02c372d}">
+                        <labels>
+                          <label description="Joint Holders" languagecode="1033" />
+                        </labels>
+                        <control id="joint_holders_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{8e319088-80ad-40eb-e006-0b97a7200122}">
+                          <parameters>
+                            <ViewId>{00000000-0000-0000-00AA-000010001003}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialproduct_contact_defaultchargeaccountid</RelationshipName>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001003}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_9_section_6" showlabel="false" showbar="false" locklevel="0" id="{bb1b4a04-8e0e-b356-914d-742aa725601a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{004d2cae-648e-4b28-ab20-12a0230c87c4}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{abeeee99-5544-b053-e737-bd60e8181539}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{b3041b05-a0bd-4b43-a88c-0f25872ab0b3}">
+                        <labels>
+                          <label description="Collaterals" languagecode="1033" />
+                        </labels>
+                        <control id="collaterals_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a0854b46-50a4-d2c8-b6d1-c0447eb1b501}">
+                          <parameters>
+                            <ViewId>{65296BCF-AD88-4BA4-A2A4-089E49890245}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid</RelationshipName>
+                            <TargetEntityType>msfsi_collateral</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{65296BCF-AD88-4BA4-A2A4-089E49890245}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_9_section_7" showlabel="false" showbar="false" locklevel="0" id="{4da679c8-d99b-5621-8da3-4a5aad59b23b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{23637182-654c-4b66-bd04-4f57dd909cad}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9c43929e-5bdb-8263-17dd-83b72c8ce69b}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{b2c1a16a-d719-4688-b6eb-07eb813e56bd}">
+                        <labels>
+                          <label description="Syndicates" languagecode="1033" />
+                        </labels>
+                        <control id="syndicates_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{10065077-7620-1e55-9b31-da34457412ec}">
+                          <parameters>
+                            <ViewId>{D0114CC7-6CEB-4191-9B2D-C2CFA30D2716}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialproduct_msfsi_syndicates_loanid</RelationshipName>
+                            <TargetEntityType>msfsi_syndicates</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D0114CC7-6CEB-4191-9B2D-C2CFA30D2716}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{12a3d160-c849-4679-3405-698071161429}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" labelid="{08514a7f-2f92-4529-8fe0-3f5ee5cf111c}">
+          <labels>
+            <label description="Hidden Fields" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{ad006dd6-be78-6363-ae30-8b970a8e4bba}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{6122eea2-a8bb-4fdb-b24d-3b8a3bc26385}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8fd9b3b-44d2-47ab-b529-55970634a6a1}" labelid="{144b6971-a02d-42d9-8b40-f40aae8c6407}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="1">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Checking" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

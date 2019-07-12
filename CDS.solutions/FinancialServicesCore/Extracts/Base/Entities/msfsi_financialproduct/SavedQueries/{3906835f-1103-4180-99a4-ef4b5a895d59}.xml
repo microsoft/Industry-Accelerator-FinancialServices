@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3906835f-1103-4180-99a4-ef4b5a895d59}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_number" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_financialproductid">
+          <cell name="msfsi_number" width="300" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_financialproduct">
+          <attribute name="msfsi_financialproductid" />
+          <attribute name="msfsi_number" />
+          <attribute name="createdon" />
+          <order attribute="msfsi_number" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="msfsi_number" operator="like" value="{0}" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Financial Products" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

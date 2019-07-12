@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" Name="Mortgage Application" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/MortgageApplication-A85FA825-9E7F-4DB0-ADA6-CDB235C69337.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>new_bpf_a85fa8259e7f4db0ada6cdb235c69337</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Mortgage Application" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{0052c336-989e-4f13-bd81-550a720985eb}">
+      <label languagecode="1033" description="Validate Contact Information" />
+    </steplabels>
+    <steplabels id="{187b7dd8-ec21-48ca-b64d-b6577bac0317}">
+      <label languagecode="1033" description="First Name" />
+    </steplabels>
+    <steplabels id="{46f5be19-765e-4bee-b154-9d238013a1eb}">
+      <label languagecode="1033" description="Last Name" />
+    </steplabels>
+    <steplabels id="{ae475fb9-6c79-4591-8e82-7d081ebe92e2}">
+      <label languagecode="1033" description="Start Application" />
+    </steplabels>
+    <steplabels id="{40674948-434b-44a4-88c7-9aaa5678fb2b}">
+      <label languagecode="1033" description="Purchase Tireframe" />
+    </steplabels>
+    <steplabels id="{e9fd9634-14fb-4556-ae73-627510669a88}">
+      <label languagecode="1033" description="Purchase Process" />
+    </steplabels>
+    <steplabels id="{b4c92d7f-5fe5-4299-8dce-86386bc59d58}">
+      <label languagecode="1033" description="Description" />
+    </steplabels>
+    <steplabels id="{c7257433-34de-4317-a667-7cc8a71229c8}">
+      <label languagecode="1033" description="Product Information" />
+    </steplabels>
+    <steplabels id="{8a36f0f1-d036-4ad8-aead-b2e827b37b1d}">
+      <label languagecode="1033" description="Product" />
+    </steplabels>
+    <steplabels id="{936a162f-4712-45f4-8292-bc97c532c1aa}">
+      <label languagecode="1033" description="Budget Amount" />
+    </steplabels>
+    <steplabels id="{f57edac6-6c7b-426a-ae2e-d5153f9d398e}">
+      <label languagecode="1033" description="Requested Amount" />
+    </steplabels>
+    <steplabels id="{96f985e8-10ff-4f24-8b39-b6ae3fbcd9f8}">
+      <label languagecode="1033" description="Interest Rate" />
+    </steplabels>
+    <steplabels id="{f8873d28-ae2f-4b57-9a60-24d1780194bd}">
+      <label languagecode="1033" description="Cost of Property" />
+    </steplabels>
+    <steplabels id="{038eaf2a-124c-40d1-9afc-2be49e506fcd}">
+      <label languagecode="1033" description="Down Payment" />
+    </steplabels>
+    <steplabels id="{28c3da8c-0130-407b-92ed-2d4102fdf09e}">
+      <label languagecode="1033" description="Term of Loan" />
+    </steplabels>
+    <steplabels id="{29d1475f-a7c9-48da-b559-9b88b6f0acf2}">
+      <label languagecode="1033" description="Qualify" />
+    </steplabels>
+    <steplabels id="{565a5d58-f882-4008-94e9-fdc7d9dff697}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

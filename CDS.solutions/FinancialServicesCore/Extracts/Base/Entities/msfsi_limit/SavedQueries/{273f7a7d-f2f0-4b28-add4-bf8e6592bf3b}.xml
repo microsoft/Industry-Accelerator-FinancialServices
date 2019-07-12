@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>1</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{273f7a7d-f2f0-4b28-add4-bf8e6592bf3b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_limitname" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_limitid">
+          <cell name="msfsi_limitname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_limittype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_limitexpiry" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_companyid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>4</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_limit">
+          <attribute name="msfsi_limitname" />
+          <attribute name="createdon" />
+          <order attribute="msfsi_limitname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <filter type="or" isquickfindfields="1">
+            <condition attribute="msfsi_limitname" operator="like" value="{0}" />
+          </filter>
+          <attribute name="msfsi_limittype" />
+          <attribute name="msfsi_limitexpiry" />
+          <attribute name="msfsi_companyid" />
+          <attribute name="msfsi_limitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Quick Find Active Limits" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

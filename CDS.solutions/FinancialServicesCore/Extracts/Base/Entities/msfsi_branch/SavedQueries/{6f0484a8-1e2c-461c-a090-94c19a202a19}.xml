@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{6f0484a8-1e2c-461c-a090-94c19a202a19}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_branchcode" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_branchid">
+          <cell name="msfsi_branchcode" width="100" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_branchname" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_branchmanagerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_bankid" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_branch">
+          <attribute name="msfsi_branchid" />
+          <attribute name="msfsi_branchcode" />
+          <attribute name="msfsi_branchname" />
+          <attribute name="msfsi_branchmanagerid" />
+          <attribute name="msfsi_bankid" />
+          <order attribute="msfsi_branchcode" descending="false" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Branch Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

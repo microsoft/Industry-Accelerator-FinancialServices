@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{98134714-a11e-4b1a-a623-6a44e56a6aa3}</formid>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{28466c91-23f4-423e-b0f8-b1b02e637764}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{a271c1e3-292b-46be-9356-69ff7ed86009}" name="{a271c1e3-292b-46be-9356-69ff7ed86009}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{57d45fcd-6f7a-40c8-b3e2-59ffd0d320fc}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                      <cell id="{8d493dc9-628d-0268-2e65-be8129c6a20a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Collateral Value" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_collateralvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_collateralvalue" disabled="false" uniqueid="{99131be1-1298-ddd0-7094-9543377c9bec}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88b1279b-da9b-5217-58d7-503606c3435a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Collateral Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_collateraltype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_collateraltype" disabled="false" uniqueid="{0c6bb445-7b1c-e6e8-55dd-aa32d6bbd6dc}" />
+                      </cell>
+                      <cell id="{2c469049-a54d-0975-3120-c1765803d6bc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Evaluated by" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_evaluatedby" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_evaluatedby" disabled="false" uniqueid="{2c020058-dcc6-d4b3-4e7b-7ded63ca701a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b1d4e55-49bc-c748-c972-a9d26107104b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Valuation" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dateofvaluation" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_dateofvaluation" disabled="false" />
+                      </cell>
+                      <cell id="{59d32038-9042-e5bd-129b-1b06806c7714}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Coverage" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_coverage" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_coverage" disabled="false" uniqueid="{466e34e9-76ba-243e-c465-ade1ae9ce0b2}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d34daa8c-2a4d-b497-bda5-304cd8eb27a2}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Next Date of Valuation" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nextdateofvaluation" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_nextdateofvaluation" disabled="false" />
+                      </cell>
+                      <cell id="{b387123a-2679-5bb8-e573-d3816c4a0e11}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_description" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_description" disabled="false" uniqueid="{b39015b7-cd05-0412-581d-8dbe1717e9b1}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1ad48969-01ea-06e7-c72a-43540bd4ea4b}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{46385bbc-9b80-045b-487a-bdab624d5e99}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Financial Product" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_financialproductid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_financialproductid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{a67a0168-b3e9-5862-9781-497ed25b65d8}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
+          <labels>
+            <label description="Hidden Fields" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{3ecd539c-5774-e210-48bc-71616da203b8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e1300848-a84d-4905-aaa4-450966c44dd1}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Collateral" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

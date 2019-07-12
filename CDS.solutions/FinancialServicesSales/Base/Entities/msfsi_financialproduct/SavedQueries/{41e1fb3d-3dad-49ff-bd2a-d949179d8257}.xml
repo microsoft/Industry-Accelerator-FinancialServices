@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{41e1fb3d-3dad-49ff-bd2a-d949179d8257}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msfsi_number" select="1" icon="1" preview="1">
+        <row name="msfsi_financialproduct" id="msfsi_financialproductid">
+          <cell name="msfsi_number" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_customerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_branchid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_availablebalance" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>2</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_financialproduct">
+          <attribute name="msfsi_number" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="msfsi_customerid" />
+          <attribute name="msfsi_branchid" />
+          <attribute name="msfsi_availablebalance" />
+          <order attribute="msfsi_number" descending="false" />
+          <attribute name="msfsi_financialproductid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Financial Product Associated View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

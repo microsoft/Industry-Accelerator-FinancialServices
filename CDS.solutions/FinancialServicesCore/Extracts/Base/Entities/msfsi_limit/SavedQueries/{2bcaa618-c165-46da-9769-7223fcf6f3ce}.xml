@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{2bcaa618-c165-46da-9769-7223fcf6f3ce}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_limitname" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_limitid">
+          <cell name="msfsi_limitname" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_limittype" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_limitexpiry" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_companyid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>1</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_limit">
+          <attribute name="msfsi_limitname" />
+          <attribute name="msfsi_limittype" />
+          <attribute name="msfsi_limitexpiry" />
+          <attribute name="msfsi_companyid" />
+          <order attribute="msfsi_limitname" descending="false" />
+          <attribute name="msfsi_limitid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Limit Advanced Find View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{3712a411-cc0f-4604-9c96-78b747d2d09e}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msfsi_bankcode" select="1" icon="1" preview="0">
+        <row name="msfsi_bank" id="msfsi_bankid">
+          <cell name="msfsi_bankcode" width="300" />
+          <cell name="msfsi_bankname" width="100" />
+          <cell name="msfsi_state" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_bank">
+          <attribute name="msfsi_bankid" />
+          <attribute name="msfsi_bankcode" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="msfsi_bankcode" descending="false" />
+          <attribute name="msfsi_state" />
+          <attribute name="msfsi_bankname" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Bank Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

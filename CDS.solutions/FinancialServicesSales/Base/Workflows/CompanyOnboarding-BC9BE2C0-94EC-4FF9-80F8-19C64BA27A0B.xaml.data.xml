@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{bc9be2c0-94ec-4ff9-80f8-19c64ba27a0b}" Name="Company Onboarding" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/CompanyOnboarding-BC9BE2C0-94EC-4FF9-80F8-19C64BA27A0B.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>msfsi_companyonboarding</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Lead</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Company Onboarding" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{a9af5e04-596f-40e5-8d2e-b417e8b49ef0}">
+      <label languagecode="1033" description="Prospect Information" />
+    </steplabels>
+    <steplabels id="{960bd92e-c174-46d7-983f-9a38f762e240}">
+      <label languagecode="1033" description="Topic" />
+    </steplabels>
+    <steplabels id="{c8c82294-6308-48e6-b192-e7ad6f9ca368}">
+      <label languagecode="1033" description="Prospect Type" />
+    </steplabels>
+    <steplabels id="{85377f61-e574-4dc7-aa90-812129cd1ba1}">
+      <label languagecode="1033" description="Interested Product" />
+    </steplabels>
+    <steplabels id="{5286f962-a299-4de0-b6e3-b5ac574874f8}">
+      <label languagecode="1033" description="First Name" />
+    </steplabels>
+    <steplabels id="{d9c7a7d0-13e5-4f0f-8e0f-0712f2c08dc1}">
+      <label languagecode="1033" description="Last Name" />
+    </steplabels>
+    <steplabels id="{1e95588a-e3a4-4db8-82d7-e75e37d802f4}">
+      <label languagecode="1033" description="Onboarding" />
+    </steplabels>
+    <steplabels id="{c72196da-d72e-4c90-a25b-ed86d8539719}">
+      <label languagecode="1033" description="Account Name" />
+    </steplabels>
+    <steplabels id="{3993f982-d155-4819-ad9b-3707790d210d}">
+      <label languagecode="1033" description="Main Phone" />
+    </steplabels>
+    <steplabels id="{592332dd-ae02-4d8e-b394-0eac057c64df}">
+      <label languagecode="1033" description="Primary Contact" />
+    </steplabels>
+    <steplabels id="{b79b910d-7e7b-4de7-b59f-34549e081e18}">
+      <label languagecode="1033" description="Address Information" />
+    </steplabels>
+    <steplabels id="{3dff2a76-48b7-401b-9352-c54705f39a32}">
+      <label languagecode="1033" description="Address 1: Street 1" />
+    </steplabels>
+    <steplabels id="{816ae05e-df91-4e28-8791-f240f4110363}">
+      <label languagecode="1033" description="Address 1: Street 2" />
+    </steplabels>
+    <steplabels id="{5f5dca77-6ea7-438a-9491-2b2f92d5f357}">
+      <label languagecode="1033" description="Address 1: Street 3" />
+    </steplabels>
+    <steplabels id="{6db65067-2da2-4c43-ab00-cb6008af5997}">
+      <label languagecode="1033" description="Address 1: City" />
+    </steplabels>
+    <steplabels id="{04fec609-216d-4771-b66e-d519c2a8863b}">
+      <label languagecode="1033" description="Address 1: State/Province" />
+    </steplabels>
+    <steplabels id="{aa2e0cbc-3212-43a6-931b-9ce89105940a}">
+      <label languagecode="1033" description="Address 1: ZIP/Postal Code" />
+    </steplabels>
+    <steplabels id="{4a4a2fa3-fec7-441e-95de-910c93f03df2}">
+      <label languagecode="1033" description="Address 1: Country/Region" />
+    </steplabels>
+    <steplabels id="{7baa2eb7-50c5-433c-af6d-a6d196967c3c}">
+      <label languagecode="1033" description="Begin KYC" />
+    </steplabels>
+    <steplabels id="{083bc041-a4d6-40bf-8d47-f273b6706f2b}">
+      <label languagecode="1033" description="Name" />
+    </steplabels>
+    <steplabels id="{39d3486a-c74e-4507-8caf-6bebee921296}">
+      <label languagecode="1033" description="Primary Contact" />
+    </steplabels>
+    <steplabels id="{81adee7c-1502-43a6-9cdb-41e519daf2f0}">
+      <label languagecode="1033" description="Phone Number" />
+    </steplabels>
+    <steplabels id="{9438f623-9af2-43d1-ade7-d2476902f6f0}">
+      <label languagecode="1033" description="Nature of Business" />
+    </steplabels>
+    <steplabels id="{f545e280-6afd-4231-b312-d69f0118c93d}">
+      <label languagecode="1033" description="License Information" />
+    </steplabels>
+    <steplabels id="{62aec87a-76e5-40bd-8ea2-4a5c25efbc6b}">
+      <label languagecode="1033" description="Business License Number" />
+    </steplabels>
+    <steplabels id="{e91eb59b-e399-4381-bbf9-b35e2b60368c}">
+      <label languagecode="1033" description="Business License Expiry Date" />
+    </steplabels>
+    <steplabels id="{ef1a8d8c-11d6-45de-bda8-0adf41dbf574}">
+      <label languagecode="1033" description="Nationality And Residence" />
+    </steplabels>
+    <steplabels id="{35a5ecb0-bcbb-4d6d-92b4-416d3a664378}">
+      <label languagecode="1033" description="KYC Country" />
+    </steplabels>
+    <steplabels id="{54c65bc8-0386-4866-ac75-a55883f8e22d}">
+      <label languagecode="1033" description="Country of Residence" />
+    </steplabels>
+    <steplabels id="{1035a6f4-5be5-4b39-8abf-192adeb0ce83}">
+      <label languagecode="1033" description="Frequency And Prepared On Date" />
+    </steplabels>
+    <steplabels id="{f78747ef-da9c-4987-aa20-4f301ce740fd}">
+      <label languagecode="1033" description="Risk Level" />
+    </steplabels>
+    <steplabels id="{82f120ea-3bf4-4592-a5d1-92858655495c}">
+      <label languagecode="1033" description="Review Frequency" />
+    </steplabels>
+    <steplabels id="{aa2a45b2-882d-4fa3-82b3-22751c2e1105}">
+      <label languagecode="1033" description="KYC Prepared On" />
+    </steplabels>
+    <steplabels id="{daad5cf2-a021-4707-9036-cf602d746d74}">
+      <label languagecode="1033" description="Qualify Prospect" />
+    </steplabels>
+    <steplabels id="{458de780-e5e9-4f2f-bf08-774e4e04a8a6}">
+      <label languagecode="1033" description="Existing Account?" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

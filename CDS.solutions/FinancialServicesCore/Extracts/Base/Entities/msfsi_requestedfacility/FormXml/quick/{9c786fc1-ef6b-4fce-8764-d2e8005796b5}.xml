@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{9c786fc1-ef6b-4fce-8764-d2e8005796b5}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{d8300f90-6332-4280-91c1-78d4add6bbf9}" IsUserDefined="1">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{ce3cadef-92af-4359-9940-0fb6a76b99eb}">
+                  <labels>
+                    <label description="GENERAL" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{22fbb82f-f642-40dc-ab8b-91e0c95bc7ba}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3025a5a2-f331-4978-9a7a-6f91f5c4a2fb}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{57dbb363-b577-a163-bd5e-d9a647d238a9}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_amount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_amount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7d90ca2c-5ad6-ea36-d430-e21e2c3340a6}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Processing Charges" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_processingcharges" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_processingcharges" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab01b619-1663-1161-1231-b9cc15d92c3e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Funding Event" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_fundingevent" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_fundingevent" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5dc5becc-5cd0-812b-0263-606093ba0ab0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Interest Rate" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_interestrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_interestrate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4a69890d-07e0-ca4c-c09a-53015225311b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Purpose" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_purpose" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_purpose" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

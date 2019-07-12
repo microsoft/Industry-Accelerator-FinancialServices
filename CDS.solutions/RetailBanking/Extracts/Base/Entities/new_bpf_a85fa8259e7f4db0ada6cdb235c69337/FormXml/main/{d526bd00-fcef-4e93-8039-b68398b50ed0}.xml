@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d526bd00-fcef-4e93-8039-b68398b50ed0}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{0052c336-989e-4f13-bd81-550a720985eb}" name="StageStep4" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{24cbf123-e8b4-47ed-a9d0-0d60b8ed5a56}" name="StageStep4_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{187b7dd8-ec21-48ca-b64d-b6577bac0317}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="firstname" relationship="bpf_contact_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46f5be19-765e-4bee-b154-9d238013a1eb}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="lastname" relationship="bpf_contact_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{ae475fb9-6c79-4591-8e82-7d081ebe92e2}" name="StageStep10" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{6e4242cd-9344-4047-a2f1-33abc354cbf5}" name="StageStep10_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{40674948-434b-44a4-88c7-9aaa5678fb2b}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9fd9634-14fb-4556-ae73-627510669a88}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:purchaseprocess" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchaseprocess" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4c92d7f-5fe5-4299-8dce-86386bc59d58}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{c7257433-34de-4317-a667-7cc8a71229c8}" name="StageStep18" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{23eff35c-63bc-4c3b-978a-360a890f6795}" name="StageStep18_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8a36f0f1-d036-4ad8-aead-b2e827b37b1d}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:msfsi_productid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_productid" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{936a162f-4712-45f4-8292-bc97c532c1aa}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f57edac6-6c7b-426a-ae2e-d5153f9d398e}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:msfsi_requestedamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="msfsi_requestedamount" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{96f985e8-10ff-4f24-8b39-b6ae3fbcd9f8}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:msfsi_interestrate" classid="{c3efe0c3-0ec6-42be-8349-cbd9079dfd8e}" datafieldname="msfsi_interestrate" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f8873d28-ae2f-4b57-9a60-24d1780194bd}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:msfsi_costofproperty" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="msfsi_costofproperty" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{038eaf2a-124c-40d1-9afc-2be49e506fcd}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:msfsi_downpayment" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="msfsi_downpayment" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{28c3da8c-0130-407b-92ed-2d4102fdf09e}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:msfsi_termofloan" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="msfsi_termofloan" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{29d1475f-a7c9-48da-b559-9b88b6f0acf2}" name="StageStep34" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{3df96293-3161-4a0b-8a14-f3168de155be}" name="StageStep34_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{565a5d58-f882-4008-94e9-fdc7d9dff697}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

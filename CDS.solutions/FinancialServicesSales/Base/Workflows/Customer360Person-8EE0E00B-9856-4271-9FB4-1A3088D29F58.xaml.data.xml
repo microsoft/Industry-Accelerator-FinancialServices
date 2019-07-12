@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{8ee0e00b-9856-4271-9fb4-1a3088d29f58}" Name="Customer 360 Person" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/Customer360Person-8EE0E00B-9856-4271-9FB4-1A3088D29F58.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>2</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>msfsi_customer360person</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Customer 360 Person" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{8a72ca7e-4596-4fc2-8a7e-a3476142c6b2}">
+      <label languagecode="1033" description="Overview" />
+    </steplabels>
+    <steplabels id="{c5a0b800-132f-4068-aa6e-ddfef93771d3}">
+      <label languagecode="1033" description="First Name" />
+    </steplabels>
+    <steplabels id="{ae1dcff7-8e3e-4a25-9159-a7daa5df717c}">
+      <label languagecode="1033" description="Last Name" />
+    </steplabels>
+    <steplabels id="{df6f1dd2-4409-4cff-bc49-e9bf26b06961}">
+      <label languagecode="1033" description="Mobile Phone" />
+    </steplabels>
+    <steplabels id="{2ae13d16-521d-446d-8d8b-db1613c812b9}">
+      <label languagecode="1033" description="Household" />
+    </steplabels>
+    <steplabels id="{623080aa-81e5-4d6f-9706-12a364a21524}">
+      <label languagecode="1033" description="Primary Household" />
+    </steplabels>
+    <steplabels id="{2d78d081-abf5-4ad4-a639-1d5361c38ed2}">
+      <label languagecode="1033" description="Referrals" />
+    </steplabels>
+    <steplabels id="{079178eb-ac02-439c-9cd5-a32b364cb722}">
+      <label languagecode="1033" description="Relationship Type" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

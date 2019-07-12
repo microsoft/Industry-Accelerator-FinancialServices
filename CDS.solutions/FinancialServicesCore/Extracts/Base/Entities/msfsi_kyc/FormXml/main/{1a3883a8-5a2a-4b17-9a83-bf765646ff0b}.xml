@@ -1,0 +1,445 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{1a3883a8-5a2a-4b17-9a83-bf765646ff0b}</formid>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab name="summary" id="{6b7b445d-2b05-6e21-dcb7-aca297b0e7c3}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Summary" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section name="tab_4_section_1" showlabel="false" showbar="false" locklevel="0" id="{d697c81b-7618-226a-8988-6e7bcb8eb367}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{df4c6d9d-5301-4acc-a5b4-0a5fc25a1c51}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_name" uniqueid="{0cb79866-8258-80ce-5cbd-49aea09b9bdb}" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{686c6367-43c8-6cd4-7192-5213bc741064}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="First Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_firstname" disabled="false" uniqueid="{56b041d7-3d9c-5566-ab48-eb0e91e780a0}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3cb55400-03db-db12-0b44-4cca6c831caa}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Middle Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_middlename" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_middlename" disabled="false" uniqueid="{c1647ddc-0597-bd95-ae77-ab13e3d234d8}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0e65d8e9-8596-ba13-dac0-dd66b443b834}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_lastname" disabled="false" uniqueid="{78612a7e-c4b7-d230-19c4-e9a78ab371cc}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_4_section_2" showlabel="false" showbar="false" locklevel="0" id="{1da55ba2-dc78-3e38-1813-b36d3979d8b9}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{a96a4e50-5d01-d845-3ebd-2769d6b3cbee}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Mobile Number" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_mobilenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_mobilenumber" disabled="false" uniqueid="{a9e29455-e8c2-0791-817d-e62e49574840}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1b3d2b63-1c05-d11d-1129-7b3e85e929b1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_email" classid="{ADA2203E-B4CD-49be-9DDF-234642B43B52}" datafieldname="msfsi_email" disabled="false" uniqueid="{582abe05-e86c-bb18-d19b-e507c74c1777}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="tab_4_section_3" showlabel="false" showbar="false" locklevel="0" id="{01c29471-3d56-6e85-417e-88bbcce146d6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8146e8a7-1385-ed2a-4a10-0ece66b4927d}" showlabel="true" locklevel="0" visible="false">
+                        <labels>
+                          <label description="Risk Level" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_risklevel" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" datafieldname="msfsi_risklevel" disabled="false" uniqueid="{a3939a3d-9325-d899-da31-235a3432199c}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{866941c9-66be-a0d9-bcca-ad3b83987b91}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Review Frequency" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_reviewfrequency" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_reviewfrequency" disabled="false" uniqueid="{babb76de-e13d-b0e3-93b4-20b179072a3a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c4255d3-736a-8e1e-d7d0-b909a6330220}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="KYC Prepared On" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_kycpreparedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_kycpreparedon" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="ID" id="{57988481-59ce-dc94-1a1a-e60c2a811b4d}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="ID Information" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="34%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e5c99bb8-6733-40f0-a974-84c4fca80fbb}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dee6a70d-a55e-8eda-9238-30ce7d0e9518}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ID Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_idtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_idtype" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e9664219-7be8-c687-9d94-686bb7ae801d}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ID Number" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_idnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_idnumber" disabled="false" uniqueid="{6b39037d-3e3b-006a-3ae5-7c9cd1c2345a}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d98c9dd6-21e2-e08e-42e0-da7c50cb5773}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="ID Expiry Date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_idexpirydate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_idexpirydate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="ID_section_2" showlabel="false" showbar="false" locklevel="0" id="{71d6854d-8728-64a6-ddee-09ddd54dd1bb}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8b1db567-bc5d-3699-3d0b-eccce9d8a55a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Phone Number" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_phonenumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_phonenumber" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{269c3201-eecc-1297-3c1b-421ccc5d1699}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Primary Contact" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_primarycontact" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_primarycontact" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca5c96e8-09b2-415b-cc41-2a64b3ba5d48}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nature of Business" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_natureofbusiness" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_natureofbusiness" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section name="ID_section_3" showlabel="false" showbar="false" locklevel="0" id="{520a8590-0ea7-7965-0303-a3a250059287}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{12808659-53cd-02be-3904-bb916c494088}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="AdditionalKYCDetails" id="{4e553815-5971-2a25-8704-c2b951202c11}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Additional KYC Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section name="tab_6_section_1" showlabel="false" showbar="false" locklevel="0" id="{bea58d1e-2c1a-1a17-b1a6-3a6ac7667d2a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9887022b-2a53-29a5-dde6-62267e93ee8a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="KYC Country" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_kyccountry" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_kyccountry" disabled="false" uniqueid="{79278ba6-93aa-52ae-6ae7-d8deb9babd70}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2c59c0a0-5a88-2b36-672b-4315bb359252}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Nationality" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nationality" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_nationality" disabled="false" uniqueid="{13052c07-8e50-bad7-b40d-0dcc53a9d700}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{71d81b9d-db5a-ba6a-0a30-d9209dd42268}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Additional Nationality" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_additionalnationality" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_additionalnationality" disabled="false" uniqueid="{3e2039eb-12b9-68b0-7679-d99d75d22c19}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="tab_6_section_2" showlabel="false" showbar="false" locklevel="0" id="{0de349e7-da7b-3e26-0b97-8c4d24872418}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ac48d090-dbd4-9a95-7e91-cb7b22cbcca1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dateofbirth" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_dateofbirth" disabled="false" uniqueid="{42180bc6-017d-80d2-5c02-d9713d59ca91}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{672eb230-c923-5eec-538c-1bd4d6338291}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Place of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_placeofbirth" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_placeofbirth" disabled="false" uniqueid="{c6ce7897-e371-02b5-60b7-c3c9d3352ad3}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72c245ca-141a-9304-41b1-c476ab2e47ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_countryofbirth" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_countryofbirth" disabled="false" uniqueid="{70611d08-c574-9978-66cc-aee919411c05}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{929817ba-b29b-a9ac-7bb4-6ac352ca8be3}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Country of Residence" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_countryofresidence" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_countryofresidence" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{9799a0b6-193e-44a2-c22d-020eb85d4700}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="FATCA Declaration" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="true" showbar="false" locklevel="0" id="{49931942-2a16-c96d-5380-a9c955d54e4b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="FATCA Declaration" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{61448cb6-466d-3e97-3397-9c8317787d77}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Controlling US Citizen or Tax Resident" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_controllinguscitizenortaxresident" classid="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}" datafieldname="msfsi_controllinguscitizenortaxresident" disabled="false" uniqueid="{550a0b5a-953d-395c-7d51-51e22c6d203b}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{8b23050e-63be-73e7-ecb1-b2e751cdc578}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
+          <labels>
+            <label description="Hidden" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{c42644b5-bc23-d0d2-5679-d4bd80475630}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ca64528b-f564-42f5-928c-e8e101dd4b7c}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <header id="{2b68c846-9330-492f-9d41-b3ae2a6eebb1}" columns="111">
+        <rows>
+          <row>
+            <cell id="{7e08cbc5-cdbc-4b69-9c43-10985a6d501e}" showlabel="false">
+              <labels>
+                <label description="" languagecode="1033" />
+              </labels>
+            </cell>
+            <cell id="{17956938-e0a5-235e-170d-99ad3be9921e}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="KYC Prepared On" languagecode="1033" />
+              </labels>
+              <control id="header_msfsi_kycpreparedon" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_kycpreparedon" disabled="false" />
+            </cell>
+            <cell id="{332d20a8-ca79-6104-5a9d-e9a41e9e00db}" showlabel="true" locklevel="0">
+              <labels>
+                <label description="Customer" languagecode="1033" />
+              </labels>
+              <control id="header_msfsi_customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_customerid" disabled="false" />
+            </cell>
+          </row>
+        </rows>
+      </header>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions>
+        <controlDescription forControl="{a3939a3d-9325-d899-da31-235a3432199c}">
+          <customControl id="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}">
+            <parameters>
+              <datafieldname>msfsi_risklevel</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.OptionSet.OptionSetControl">
+            <parameters>
+              <value>msfsi_risklevel</value>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.OptionSet.OptionSetControl">
+            <parameters>
+              <value>msfsi_risklevel</value>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.OptionSet.OptionSetControl">
+            <parameters>
+              <value>msfsi_risklevel</value>
+              <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Retail KYC" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

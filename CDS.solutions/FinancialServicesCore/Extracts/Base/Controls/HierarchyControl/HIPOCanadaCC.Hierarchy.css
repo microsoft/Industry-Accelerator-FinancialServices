@@ -1,0 +1,153 @@
+.HIPOCanadaCC.HierarchyControl * {
+  margin: 0;
+  padding: 0; }
+
+.HIPOCanadaCC.HierarchyControl > ul {
+  display: flex;
+  justify-content: center; }
+
+.HIPOCanadaCC.HierarchyControl ul {
+  padding-top: 20px;
+  top: -4px;
+  position: relative;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  /*Time to add downward connectors from parents*/ }
+  .HIPOCanadaCC.HierarchyControl ul ul::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    border-left: 1px solid #ccc;
+    width: 0;
+    height: 20px; }
+
+.HIPOCanadaCC.HierarchyControl li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  position: relative;
+  padding: 20px 5px 0 5px;
+  transition: all 0.5s;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  /*We will use ::before and ::after to draw the connectors*/
+  /*We need to remove left-right connectors from elements without 
+		any siblings*/
+  /*Remove space from the top of single children*/
+  /*Remove left connector from first child and 
+		right connector from last child*/
+  /*Adding back the vertical connector to the last nodes*/ }
+  .HIPOCanadaCC.HierarchyControl li::before, .HIPOCanadaCC.HierarchyControl li::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 50%;
+    border-top: 1px solid #ccc;
+    width: 50%;
+    height: 20px; }
+  .HIPOCanadaCC.HierarchyControl li::after {
+    right: auto;
+    left: 50%;
+    border-left: 1px solid #ccc; }
+  .HIPOCanadaCC.HierarchyControl li:only-child::after, .HIPOCanadaCC.HierarchyControl li:only-child::before {
+    display: none; }
+  .HIPOCanadaCC.HierarchyControl li:only-child {
+    padding-top: 0; }
+  .HIPOCanadaCC.HierarchyControl li:first-child::before, .HIPOCanadaCC.HierarchyControl li:last-child::after {
+    border: 0 none; }
+  .HIPOCanadaCC.HierarchyControl li:last-child::before {
+    border-right: 1px solid #ccc;
+    border-radius: 0 0 0 0;
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0; }
+  .HIPOCanadaCC.HierarchyControl li:first-child::after {
+    border-radius: 0 0 0 0;
+    -webkit-border-radius: 0 0 0 0;
+    -moz-border-radius: 0 0 0 0; }
+  .HIPOCanadaCC.HierarchyControl li div.tile {
+    height: auto;
+    width: auto;
+    min-width: 150px;
+    min-height: 40px;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    text-decoration: none;
+    text-align: left;
+    font-family: 'Segoe UI Regular', 'SegoeUI', 'Segoe UI';
+    font-size: 11px;
+    display: inline-block;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    /*Time for some hover effects*/
+    /*We will apply the hover effect the the lineage of the element also*/
+    /*Connector styles on hover*/ }
+    .HIPOCanadaCC.HierarchyControl li div.tile.current {
+      background-color: #eee; }
+    .HIPOCanadaCC.HierarchyControl li div.tile::after {
+      content: "";
+      display: table;
+      clear: both; }
+    .HIPOCanadaCC.HierarchyControl li div.tile > * {
+      float: left; }
+    .HIPOCanadaCC.HierarchyControl li div.tile > a img {
+      border-radius: 16px;
+      vertical-align: top;
+      width: 32px;
+      margin-top: 4px;
+      margin-right: 10px; }
+    .HIPOCanadaCC.HierarchyControl li div.tile > div {
+      max-width: 200px;
+      font-family: 'Segoe UI Regular', 'SegoeUI', 'Segoe UI'; }
+      .HIPOCanadaCC.HierarchyControl li div.tile > div .line1 {
+        font-size: 14px;
+        padding-bottom: 3px; }
+      .HIPOCanadaCC.HierarchyControl li div.tile > div .line2 {
+        font-size: 11px;
+        font-weight: normal;
+        font-style: italic;
+        padding-bottom: 3px; }
+      .HIPOCanadaCC.HierarchyControl li div.tile > div .line3 {
+        font-size: 11px;
+        font-weight: normal; }
+    .HIPOCanadaCC.HierarchyControl li div.tile:hover,
+    .HIPOCanadaCC.HierarchyControl li div.tile:hover + ul div.tile {
+      background: #d8d8d8;
+      color: #000;
+      border: 1px solid #d8d8d8; }
+    .HIPOCanadaCC.HierarchyControl li div.tile:hover + ul li::after,
+    .HIPOCanadaCC.HierarchyControl li div.tile:hover + ul li::before,
+    .HIPOCanadaCC.HierarchyControl li div.tile:hover + ul::before,
+    .HIPOCanadaCC.HierarchyControl li div.tile:hover + ul ul::before {
+      border-color: #d8d8d8; }
+  .HIPOCanadaCC.HierarchyControl li div.record {
+    padding-top: 8px;
+    padding-bottom: 3px;
+    margin-top: 3px;
+    text-align: center;
+    display: inline-block; }
+  .HIPOCanadaCC.HierarchyControl li div.initials {
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #ffffff;
+    line-height: 33px;
+    text-align: center;
+    background: #94a0b4;
+    display: inline-block;
+    margin-top: 4px;
+    margin-right: 10px; }
+  .HIPOCanadaCC.HierarchyControl li a.FamilyLink {
+    text-decoration: none; }
+    .HIPOCanadaCC.HierarchyControl li a.FamilyLink:hover {
+      text-decoration: underline;
+      font-weight: bold; }
+    .HIPOCanadaCC.HierarchyControl li a.FamilyLink:visited {
+      color: #045999; }

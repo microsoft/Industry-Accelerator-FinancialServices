@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{6603d56e-7cd3-4999-b58a-b683007dd749}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab id="{52babf2f-d598-41df-9754-dfebfc94b670}" name="newOpportunity" locklevel="0" expanded="true" showlabel="false" IsUserDefined="0" labelid="{731b5cf5-e77b-4957-ad10-b72dcfe69cd5}">
+          <labels>
+            <label description="New Opportunity" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{08041ef6-f9f8-44b4-b84b-94e0250dcac8}" name="quickOpportunity_column1" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelid="{c9a689df-dee2-4727-a3a3-65844fa4ad9e}">
+                  <labels>
+                    <label description="Details" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{61aee087-89b8-d9b0-01ee-4bb4d2251d8b}" showlabel="true" locklevel="0" labelid="{66b59ef9-c640-45db-b9df-34e9b340d401}">
+                        <labels>
+                          <label description="Topic" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{219ae953-a7d6-b3e5-571d-d2806b44713a}" showlabel="true" locklevel="0" labelid="{22ec3e81-9e22-4812-9b2e-3d0055e01266}">
+                        <labels>
+                          <label description="Contact" languagecode="1033" />
+                        </labels>
+                        <control id="parentcontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcontactid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{5d946dc3-8850-4e43-a6d4-7b5ceaa4d013}" name="quickOpportunity_column2" columns="1" showlabel="false" showbar="false" IsUserDefined="0" labelid="{0c7ae30b-c77e-4ccb-999a-9b8ac8fa2b3f}">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{aaa1c8eb-3ad2-db99-65b0-686519709763}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Purchase Process" languagecode="1033" />
+                        </labels>
+                        <control id="purchaseprocess" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="purchaseprocess" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{cd06ac1a-720e-a144-4717-64128e4ba856}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Purchase Timeframe" languagecode="1033" />
+                        </labels>
+                        <control id="purchasetimeframe" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="purchasetimeframe" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9665b409-e439-cb10-e334-8899aeeb5cce}" showlabel="true" locklevel="0" labelid="{687016f9-4e3c-48e1-9876-d07a6429ec2d}" visible="false">
+                        <labels>
+                          <label description="Est. Revenue" languagecode="1033" />
+                        </labels>
+                        <control id="estimatedvalue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="estimatedvalue" disabled="false" uniqueid="{5079347a-b7c1-5cca-04e8-3981715d9164}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="34%">
+              <sections>
+                <section id="{d4962dcf-e1f0-4158-8439-f49597a92b78}" name="quickOpportunity_column3" columns="1" showlabel="true" showbar="false" IsUserDefined="0" labelid="{07ccd989-a749-481c-8398-dab67d87a3d2}" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{49b01e18-987e-a405-e44c-e3a6c50325c1}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.OpportunityMainSystemLibraryWebResource.Form_onload" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="CA9EAB39-674D-449C-9EBB-694BC6B3EDE9" enabled="true">
+              <dependencies>
+                <dependency id="transactioncurrencyid" />
+                <dependency id="estimatedvalue" />
+                <dependency id="isrevenuesystemcalculated" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:Sales/Opportunity/Opportunity_main_system_library.js" />
+          </clientincludes>
+        </internalresources>
+      </clientresources>
+      <controlDescriptions />
+      <DisplayConditions FallbackForm="true" Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Banking Quick Create Opportunity" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default quick create form for Opportunity" languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

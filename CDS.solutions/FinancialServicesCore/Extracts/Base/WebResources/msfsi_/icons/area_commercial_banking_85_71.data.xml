@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{121ee452-288d-e911-a818-000d3a3b522c}</WebResourceId>
+  <Name>msfsi_/icons/area_commercial_banking_85_71</Name>
+  <DisplayName>Commercial Area 85x71 18pct</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.3</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_iconsarea_commercial_banking_85_71121EE452-288D-E911-A818-000D3A3B522C</FileName>
+</WebResource>
