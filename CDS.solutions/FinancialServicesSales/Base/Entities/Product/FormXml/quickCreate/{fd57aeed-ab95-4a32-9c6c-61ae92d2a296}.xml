@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{fd57aeed-ab95-4a32-9c6c-61ae92d2a296}</formid>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <hiddencontrols>
+        <data id="productstructure" datafieldname="productstructure" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab id="{9ac26423-81f7-4539-b3d1-c5d6ec1001ca}" name="tab_1" expanded="true" locklevel="0" showlabel="false" IsUserDefined="0">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{6b6f8627-de0a-43b4-b10f-b8f4b5baf2af}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{032808da-c4a8-4edd-ad01-c47d6f86723a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{37a883b9-ea67-470b-a4de-df9605265c7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product ID" languagecode="1033" />
+                        </labels>
+                        <control id="productnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="productnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{19789ef6-ebf7-4aff-8708-2ed31d8537be}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent" languagecode="1033" />
+                        </labels>
+                        <control id="parentproductid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentproductid" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{19d7f2e0-e427-40fb-85e8-53e7cef2b166}</DefaultViewId>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42d6ac31-7e64-802d-7914-cd9b9ab10da8}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Unit Group" languagecode="1033" />
+                        </labels>
+                        <control id="defaultuomscheduleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defaultuomscheduleid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{2D013A3A-07CD-4163-8208-8E8E605492F4}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3c2a38d5-dcca-d714-a502-66614b65b592}" locklevel="0" showlabel="true">
+                        <labels>
+                          <label description="Default Unit" languagecode="1033" />
+                        </labels>
+                        <events>
+                          <event name="setadditionalparams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.defaultuomid_setadditionalparams" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="68591841-8005-405d-b202-8723cca570c0" enabled="true" passExecutionContext="true" />
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control id="defaultuomid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defaultuomid" disabled="false">
+                          <parameters>
+                            <AutoResolve>true</AutoResolve>
+                            <DisableMru>true</DisableMru>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                            <DisableQuickFind>false</DisableQuickFind>
+                            <DisableViewPicker>false</DisableViewPicker>
+                            <DefaultViewId>{4DA6F46B-3649-4D0E-B5D2-CCB590F4227D}</DefaultViewId>
+                            <AllowFilterOff>false</AllowFilterOff>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row height="auto">
+                      <cell auto="true" id="{D59346B1-2A88-4266-B6CE-CA64E7E1C73B}" locklevel="0" colspan="1">
+                        <labels>
+                          <label description="Decimals Supported" languagecode="1033" />
+                        </labels>
+                        <control id="quantitydecimal" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="quantitydecimal" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{d3822c4a-d344-4de4-94a0-2e4938dfa6b1}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b106bf38-f450-457f-8a55-b4ff801f7bf8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid From" languagecode="1033" />
+                        </labels>
+                        <control id="validfromdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="validfromdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3a81c2c1-c15d-4084-9d30-aeb24ed20986}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid To" languagecode="1033" />
+                        </labels>
+                        <control id="validtodate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="validtodate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.ProductMainSystemLibraryWebResource.formOnLoad" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="97193957-e24b-470f-8dd8-b8fac43fa4f3" enabled="true">
+              <dependencies>
+                <dependency id="quantitydecimal" />
+                <dependency id="defaultuomid" />
+                <dependency id="defaultuomscheduleid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="validfromdate">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.validfromdate_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="cf4ddedc-22e7-44a4-8c63-529f59e01d7e" enabled="true">
+              <dependencies>
+                <dependency id="validtodate" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="validtodate">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.validtodate_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="f805a942-538e-4709-8947-f68e935376ef" enabled="true">
+              <dependencies>
+                <dependency id="validfromdate" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onsave" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.ProductMainSystemLibraryWebResource.formOnSave" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="70e08e7e-d89d-4007-9660-7c66204a72f1" enabled="true" passExecutionContext="true">
+              <dependencies>
+                <dependency id="validfromdate" />
+                <dependency id="validtodate" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" active="true" attribute="defaultuomscheduleid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.ProductMainSystemLibraryWebResource.defaultUoMScheduleIdOnChange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="{eadc4deb-b9d5-32ad-92b4-b2135b3db974}" enabled="true" passExecutionContext="true" />
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:ProductManagement/_static/entities/product.js" />
+            <internaljscriptfile src="$webresource:ProductManagement/Product/Product_main_system_library.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_TODATE_LT_FROMDATE" resourceid="Web.products.ValidToEarlierThanValidFromDate" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+      <DisplayConditions FallbackForm="true" Order="1">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Product family Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default quick create form for Product family." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

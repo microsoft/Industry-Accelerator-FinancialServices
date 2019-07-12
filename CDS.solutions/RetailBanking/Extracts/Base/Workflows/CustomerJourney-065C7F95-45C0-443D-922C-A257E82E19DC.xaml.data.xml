@@ -1,0 +1,85 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{065c7f95-45c0-443d-922c-a257e82e19dc}" Name="Customer Journey" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/CustomerJourney-065C7F95-45C0-443D-922C-A257E82E19DC.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>0</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>msfsi_customerjourney</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Customer Journey" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{c322e6a8-3d66-4780-908c-560591b6439b}">
+      <label languagecode="1033" description="Discover" />
+    </steplabels>
+    <steplabels id="{22344bd3-5563-4738-b9bf-7a99e5b0d614}">
+      <label languagecode="1033" description="First Name" />
+    </steplabels>
+    <steplabels id="{252e5f6a-5567-485a-a9c9-bc68a63a31fd}">
+      <label languagecode="1033" description="Last Name" />
+    </steplabels>
+    <steplabels id="{e9a320ae-c84a-4afc-a274-fd5a80b204ce}">
+      <label languagecode="1033" description="Job Title" />
+    </steplabels>
+    <steplabels id="{b5c071ca-21c3-4085-b7fe-091e03539616}">
+      <label languagecode="1033" description="Build Relationship" />
+    </steplabels>
+    <steplabels id="{ee963d4b-9e58-4717-94b3-418d8258469e}">
+      <label languagecode="1033" description="Date of Birth" />
+    </steplabels>
+    <steplabels id="{a08e6d05-30ce-40ba-8e87-d915c5b62199}">
+      <label languagecode="1033" description="Resident in Country Since" />
+    </steplabels>
+    <steplabels id="{e9c6a9cb-53e3-46ca-a02f-ef2d1fa0c2e4}">
+      <label languagecode="1033" description="Onboard" />
+    </steplabels>
+    <steplabels id="{d32be4ea-4f42-419a-8ee7-03d75c7b09d6}">
+      <label languagecode="1033" description="Enrollment Branch" />
+    </steplabels>
+    <steplabels id="{1645876b-c69e-41e1-a0ea-735f2734f11a}">
+      <label languagecode="1033" description="Preferred Branch" />
+    </steplabels>
+    <steplabels id="{2036ac8d-c76d-4a41-a24a-a53b19cc1010}">
+      <label languagecode="1033" description="Monthly Income" />
+    </steplabels>
+    <steplabels id="{7e67cfc8-e966-4e89-ab2e-33898d948bac}">
+      <label languagecode="1033" description="Direct Deposit" />
+    </steplabels>
+    <steplabels id="{5786b029-b014-4913-bf9e-04a3f02b35f5}">
+      <label languagecode="1033" description="Engage" />
+    </steplabels>
+    <steplabels id="{4f9cd1a2-19a3-4b27-84b4-fc2e85a1ce48}">
+      <label languagecode="1033" description="Churn Score" />
+    </steplabels>
+    <steplabels id="{fb7c2451-a628-426f-8185-ef2c8aaf8053}">
+      <label languagecode="1033" description="Residency Status" />
+    </steplabels>
+    <steplabels id="{834310a6-201e-44fe-84da-6f3430539e16}">
+      <label languagecode="1033" description="Grow" />
+    </steplabels>
+    <steplabels id="{372b6af0-3dc2-4971-b72d-f007bc97d7ec}">
+      <label languagecode="1033" description="Employer" />
+    </steplabels>
+    <steplabels id="{f4643d86-4987-4a79-85a4-675db913afcd}">
+      <label languagecode="1033" description="Employment Status" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

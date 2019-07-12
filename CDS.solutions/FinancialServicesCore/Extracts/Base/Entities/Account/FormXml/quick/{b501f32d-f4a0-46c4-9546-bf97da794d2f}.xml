@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{b501f32d-f4a0-46c4-9546-bf97da794d2f}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{b80125f8-9691-45bb-8531-86aae6b7bf4c}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{3af09d5d-c3a1-4dc6-a993-0496defca536}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b1ee79ae-4ba9-6622-0164-c77829eeea64}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Bank’s YTD Revenue" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_banksytdrevenue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_banksytdrevenue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{15122d3c-5c6b-9483-869c-a73489e160e8}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company’s Profit in the Last Year" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_companysprofitinthelastyear" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_companysprofitinthelastyear" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{759ea491-4e5e-343e-4701-da84006338ed}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company Turnover in the last Year" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_companyturnoverinthelastyear" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_companyturnoverinthelastyear" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c59d97c3-290b-8913-474a-91216cca3eae}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Past Due" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_totalpastdue" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_totalpastdue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{058b5e19-4892-8dd9-7840-3c216829ec8a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Past Due Since" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_pastduesince" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_pastduesince" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ca34ca5e-d812-e180-1179-d53cbec1d19b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Deposits" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_totaldeposits" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_totaldeposits" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{88765731-9d2d-ecc9-8a89-66413cb09659}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Loans" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_totalloans" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_totalloans" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2254e6c1-d68b-4517-4a10-041c91dbbe16}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Total Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_totallimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_totallimit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{776020e4-d73c-38d8-9d12-b4763405b750}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Risk Rating" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_riskrating" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_riskrating" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="6">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Opp Company Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

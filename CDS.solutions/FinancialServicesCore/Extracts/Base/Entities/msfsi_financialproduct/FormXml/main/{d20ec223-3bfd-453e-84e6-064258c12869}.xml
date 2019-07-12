@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{d20ec223-3bfd-453e-84e6-064258c12869}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{73c4f8d4-a952-4bed-869f-d535749c933a}" IsUserDefined="1" name="{73c4f8d4-a952-4bed-869f-d535749c933a}" locklevel="0" expanded="true" showlabel="true" labelid="{ca6062a4-ec96-4525-8787-6e8058d6a2e7}">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="50%">
+              <sections>
+                <section showlabel="true" showbar="false" IsUserDefined="0" id="{49697774-de27-4821-ae1e-e3c9ed507312}" name="{49697774-de27-4821-ae1e-e3c9ed507312}" columns="1" locklevel="0" labelwidth="113" celllabelalignment="Left" celllabelposition="Left" labelid="{9b58177a-8c47-4961-bf49-33971b656b8b}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{15cf79a2-588d-4dfe-8ace-0ea33c406232}" labelid="{4f95aac5-5bd3-4969-ba2a-58e8fe832b9c}">
+                        <labels>
+                          <label description="Number" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_number" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_number" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{daa29e30-72e3-b783-55e0-e658e9e3704d}" showlabel="true" locklevel="0" labelid="{7ed6b949-9416-444d-a11f-bb5cef98207a}">
+                        <labels>
+                          <label description="Customer" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_customerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_customerid" disabled="false" uniqueid="{8b19c345-cdce-d91d-46a3-11d7608bee9e}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{41ad5de2-a6cb-e41d-5ea9-2836bb670d23}" showlabel="true" locklevel="0" labelid="{cd69d391-c246-4aee-8cd7-c914aa3ff2e3}">
+                        <labels>
+                          <label description="Available Balance" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_availablebalance" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_availablebalance" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0007b2a8-566d-8177-37e6-2072eadb6d85}" showlabel="true" locklevel="0" labelid="{32d6c3ed-9712-4b06-8504-c1f808da0d02}">
+                        <labels>
+                          <label description="Branch" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_branchid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_branchid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e5d29440-0bc0-e198-d74d-cbbd279a1c9b}" showlabel="true" locklevel="0" labelid="{3e73f953-e6b8-4c2c-8576-4c33c8f719fd}">
+                        <labels>
+                          <label description="Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_limitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_limitid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{0880ab61-3303-b707-1db2-38e6db00a959}" showlabel="true" locklevel="0" labelid="{81e6c015-ba62-41ae-a918-5b9a07d934e1}">
+                        <labels>
+                          <label description="Joint Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_jointtype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_jointtype" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="50%">
+              <sections>
+                <section name="{73c4f8d4-a952-4bed-869f-d535749c933a}_section_4" showlabel="false" showbar="false" locklevel="0" id="{00305e5c-9818-dece-922a-693d3369a030}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{648e704d-b9ed-447d-81a1-2df327e0ed9e}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{b3e64951-8cd3-749b-630b-02992cead071}" showlabel="false" labelid="{d686ece6-37be-47a7-8fba-e061b687c11b}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{c0186e0c-c33d-ad82-c370-64b993ab180c}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{bcc97b4c-b7f2-4572-be9d-31295f659eb4}">
+          <labels>
+            <label description="Loan Detail" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="{73c4f8d4-a952-4bed-869f-d535749c933a}_section_6" showlabel="true" showbar="false" locklevel="0" id="{1a71c414-3678-4dca-cb4c-9a02da649757}" IsUserDefined="0" layout="varwidth" columns="11" labelwidth="115" celllabelalignment="Left" celllabelposition="Left" labelid="{c83f3a08-475e-40d2-815f-ac390214f5bf}">
+                  <labels>
+                    <label description="Loan Detail" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8c7509d4-4516-7c3d-a6c5-eca227cae94e}" showlabel="true" locklevel="0" labelid="{e914afd3-b384-4af4-94a5-08552ffeda92}">
+                        <labels>
+                          <label description="Loan Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_loantype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_loantype" disabled="false" />
+                      </cell>
+                      <cell id="{6005c5a8-dcbc-3813-0cde-c63d908d6063}" showlabel="true" locklevel="0" labelid="{4e3366df-7d03-4fc3-8927-81478aa63973}">
+                        <labels>
+                          <label description="Outstanding Total Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_outstandingtotalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_outstandingtotalamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c8a52214-ae53-7541-b5ee-c2a9339535db}" showlabel="true" locklevel="0" labelid="{2176487c-46cf-40c4-95c6-92b9d6287426}">
+                        <labels>
+                          <label description="Purpose of Loan" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_purposeofloan" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_purposeofloan" disabled="false" />
+                      </cell>
+                      <cell id="{a9739bad-4e68-e9a2-53c3-9baa2de61925}" showlabel="true" locklevel="0" labelid="{1ba37a06-cb62-4be9-8f25-adc88901e3e4}">
+                        <labels>
+                          <label description="Loan Start Date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_loanstartdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_loanstartdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{80057b9a-e229-61ca-549c-3ce4c8ce2ebc}" showlabel="true" locklevel="0" labelid="{b39968ea-d577-4403-a256-746e67ad20f9}">
+                        <labels>
+                          <label description="Principal Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_principalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_principalamount" disabled="false" />
+                      </cell>
+                      <cell id="{b05023d2-9d56-33d7-4a6b-a8aecd35b538}" showlabel="true" locklevel="0" labelid="{31f5452e-c072-4173-bedf-d00a505cc5ed}">
+                        <labels>
+                          <label description="Last Payment Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_lastpaymentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_lastpaymentamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{2d13bcce-6924-478c-a84c-4e519700809c}" showlabel="true" locklevel="0" labelid="{39e794e0-f6f5-4dab-a75d-a3ea8b98f071}">
+                        <labels>
+                          <label description="Disbursed Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_disbursedamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_disbursedamount" disabled="false" />
+                      </cell>
+                      <cell id="{770ddd6d-2ec1-3692-7436-74b68b26b3d0}" showlabel="true" locklevel="0" labelid="{f42d1588-c054-4b2d-af33-dfe3fbee4ff1}">
+                        <labels>
+                          <label description="Next Payment Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_nextpaymentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_nextpaymentamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3605c8ec-27e0-51b0-a53e-bc309291c68c}" showlabel="true" locklevel="0" labelid="{05167719-dc95-41b6-a099-25f6d29a74a2}">
+                        <labels>
+                          <label description="Disbursement Date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_disbursementdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_disbursementdate" disabled="false" uniqueid="{916b9a23-bce3-b063-3d57-77382a3b43d9}" />
+                      </cell>
+                      <cell id="{56746a3e-a102-c648-1c1d-035217e9aa21}" showlabel="true" locklevel="0" labelid="{550f617e-5d0f-4c19-a1da-2f0721452229}">
+                        <labels>
+                          <label description="Loan Maturity Date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_loanmaturitydate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_loanmaturitydate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a54136bd-04b2-3a28-c5e2-6cdc8b2c802e}" showlabel="true" locklevel="0" labelid="{fcbc775a-cc16-4f20-8d46-eaa392343dd1}">
+                        <labels>
+                          <label description="Interest Rate" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_interestrate" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_interestrate" disabled="false" />
+                      </cell>
+                      <cell id="{4210ceec-c8c3-8a8a-4cd8-3e27dd5a18c4}" showlabel="true" locklevel="0" labelid="{caa3ba8c-3feb-489d-8471-affcaf893075}">
+                        <labels>
+                          <label description="Overdue Installment Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overdueinstallmentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_overdueinstallmentamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8b9972ba-cdee-3ae6-95ac-a996eda0c459}" showlabel="true" locklevel="0" labelid="{425093c1-3c14-44ef-835a-daddef2fe9d7}">
+                        <labels>
+                          <label description="Interest Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_interestamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_interestamount" disabled="false" />
+                      </cell>
+                      <cell id="{875b802c-dc90-801c-848b-e82e1c69e553}" showlabel="true" locklevel="0" labelid="{e264b913-3c1e-432d-a1a9-a1a2f7eeecd3}">
+                        <labels>
+                          <label description="Overdue Date" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_overduedate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_overduedate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e9eb7a3-61e8-cc40-1c78-411b3c1c0935}" showlabel="true" locklevel="0" labelid="{20c13549-2259-4e53-bf88-bc202f7072e7}">
+                        <labels>
+                          <label description="Installment Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_installmentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_installmentamount" disabled="false" />
+                      </cell>
+                      <cell id="{59aeb8aa-8e41-87c4-3a5d-e772a8d93cd4}" showlabel="true" locklevel="0" labelid="{6e3e94be-95d3-451e-9c92-42dfb8bfff3d}">
+                        <labels>
+                          <label description="Days Past Due" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_dayspastdue" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_dayspastdue" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b924bd57-dec3-ac31-409d-150558e23e3c}" showlabel="true" locklevel="0" labelid="{65bc7074-89c9-4de0-b892-0da2e10cd615}">
+                        <labels>
+                          <label description="Term" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_term" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_term" disabled="false" />
+                      </cell>
+                      <cell id="{d4944e88-784e-5991-805c-24dc239db568}" showlabel="true" locklevel="0" labelid="{7f22a19a-d968-49cd-9ca0-8e44f564c1fc}">
+                        <labels>
+                          <label description="Delinquency Status" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_delinquencystatus" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_delinquencystatus" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c530dd48-09b7-77a7-1479-6c949856ae49}" showlabel="true" locklevel="0" labelid="{0c30e764-654b-4bd5-a2a4-4492964040f1}">
+                        <labels>
+                          <label description="Outstanding Principal Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_outstandingprincipalamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_outstandingprincipalamount" disabled="false" />
+                      </cell>
+                      <cell id="{dd6dd67c-16b5-6e25-3aa4-457e9e081bd0}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of Installments Paid" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_numberofinstallmentspaid" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_numberofinstallmentspaid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{11d40251-c350-edad-6562-c758c6a81580}" showlabel="false" labelid="{1266edd9-cf7e-4f94-876d-a34be926b460}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{35727dcd-1aba-8691-e732-ae78e008eabb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Number of Deferrals Made" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_numberofdeferralsmade" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_numberofdeferralsmade" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_9" id="{4c25a0c8-1c83-0b30-d4b0-8723456226e6}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" labelid="{f046e9c6-a59d-470c-9ea9-2e1c0cb30185}">
+          <labels>
+            <label description="Notes/Further Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_9_section_1" showlabel="false" showbar="false" locklevel="0" id="{0a362807-9e4a-0da8-dc92-347d7230bba6}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{f9de3e08-eb9b-4733-a04c-cfb11776bfdf}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ea74a71e-20c2-150e-adcb-b38c091a64d8}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{61c544ba-b435-46ef-930d-893ef09b7595}">
+                        <labels>
+                          <label description="Joint Holders" languagecode="1033" />
+                        </labels>
+                        <control id="joint_holders_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{8e319088-80ad-40eb-e006-0b97a7200122}">
+                          <parameters>
+                            <ViewId>{00000000-0000-0000-00AA-000010001003}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialproduct_contact_defaultchargeaccountid</RelationshipName>
+                            <TargetEntityType>contact</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{00000000-0000-0000-00AA-000010001003}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_9_section_6" showlabel="false" showbar="false" locklevel="0" id="{bb1b4a04-8e0e-b356-914d-742aa725601a}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{d3409271-e673-4d52-81a6-bccf0e52b054}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{abeeee99-5544-b053-e737-bd60e8181539}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{ec0418d7-afe7-45bd-b799-438891e51e27}">
+                        <labels>
+                          <label description="Collaterals" languagecode="1033" />
+                        </labels>
+                        <control id="collaterals_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{a0854b46-50a4-d2c8-b6d1-c0447eb1b501}">
+                          <parameters>
+                            <ViewId>{65296BCF-AD88-4BA4-A2A4-089E49890245}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid</RelationshipName>
+                            <TargetEntityType>msfsi_collateral</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{65296BCF-AD88-4BA4-A2A4-089E49890245}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+                <section name="tab_9_section_7" showlabel="false" showbar="false" locklevel="0" id="{4da679c8-d99b-5621-8da3-4a5aad59b23b}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{050142c3-387e-4213-8491-c3a4614fc477}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9c43929e-5bdb-8263-17dd-83b72c8ce69b}" showlabel="true" colspan="1" auto="false" rowspan="7" labelid="{14cd355f-5468-4e11-9b7c-58797dd8b0c9}">
+                        <labels>
+                          <label description="Syndicates" languagecode="1033" />
+                        </labels>
+                        <control id="syndicates_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{10065077-7620-1e55-9b31-da34457412ec}">
+                          <parameters>
+                            <ViewId>{D0114CC7-6CEB-4191-9B2D-C2CFA30D2716}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_financialproduct_msfsi_syndicates_loanid</RelationshipName>
+                            <TargetEntityType>msfsi_syndicates</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{D0114CC7-6CEB-4191-9B2D-C2CFA30D2716}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{12a3d160-c849-4679-3405-698071161429}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false" labelid="{4de4833e-7001-4cbd-ad95-9abe376b62a3}">
+          <labels>
+            <label description="Hidden Fields" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{ad006dd6-be78-6363-ae30-8b970a8e4bba}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{488e6d60-1197-435d-aee3-0effa120ccb0}">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e8fd9b3b-44d2-47ab-b529-55970634a6a1}" labelid="{c773a1a7-9458-4a1f-9135-3db409c7979d}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6bb0b3de-2ece-b34a-c4d2-020162991968}" showlabel="true" locklevel="1" labelid="{49645fb6-8720-4108-836a-881c3cd19b9a}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="statecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="statecode" disabled="false" uniqueid="{ae4eda5a-9a21-8b26-e117-45e708a11cbd}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+      <DisplayConditions Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Loan Product" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,7 @@
+{
+    "name": "Banking Accelerator",
+    "dataColors": ["#F0C107", "#71BE44", "#EC2024", "#888888", "#4D02A5", "#59C4C3", "#D48700"],
+    "background": "#FFFFFF",
+    "foreground": "#131823",
+    "tableAccent": "#0668A4"
+}

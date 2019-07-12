@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{e20c32c8-f161-e911-a956-000d3a124001}" Name="Show/Hide Referred By" Description="This business rule is used to show and hide the appropriate Referred By when a Lead Source is chosen" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/ShowHideReferredBy-E20C32C8-F161-E911-A956-000D3A124001.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>2</Category>
+  <Mode>1</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>0</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <RunAs>1</RunAs>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Lead</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Show/Hide Referred By" />
+  </LocalizedNames>
+  <Descriptions>
+    <Description languagecode="1033" description="This business rule is used to show and hide the appropriate Referred By when a Lead Source is chosen" />
+  </Descriptions>
+  <ProcessTriggers>
+    <ProcessTrigger processtriggerid="{ef7f4170-a86f-e911-a95c-000d3a12468b}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>leadsourcecode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{f07f4170-a86f-e911-a95c-000d3a12468b}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{f17f4170-a86f-e911-a95c-000d3a12468b}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>leadsourcecode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{f27f4170-a86f-e911-a95c-000d3a12468b}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{f37f4170-a86f-e911-a95c-000d3a12468b}">
+      <controltype>1</controltype>
+      <scope>1</scope>
+      <controlname>leadsourcecode</controlname>
+      <event>change</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+    <ProcessTrigger processtriggerid="{f47f4170-a86f-e911-a95c-000d3a12468b}">
+      <scope>1</scope>
+      <event>load</event>
+      <pipelinestage>0</pipelinestage>
+      <iscustomizable>1</iscustomizable>
+      <primaryentitytypecode>Lead</primaryentitytypecode>
+    </ProcessTrigger>
+  </ProcessTriggers>
+</Workflow>

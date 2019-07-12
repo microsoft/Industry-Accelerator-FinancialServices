@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{1fb3568f-f371-4b0e-87e5-e8f327983cba}" Name="Commercial Deal" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/CommercialDeal-1FB3568F-F371-4B0E-87E5-E8F327983CBA.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>1</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>msfsi_commercialloan</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Account</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Commercial Deal" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{a9c8b20f-39b5-430a-8055-6d1225f784ce}">
+      <label languagecode="1033" description="Validate Company Information" />
+    </steplabels>
+    <steplabels id="{6a7012c4-379e-4da0-9ebf-28f3b5b0e201}">
+      <label languagecode="1033" description="Company Name" />
+    </steplabels>
+    <steplabels id="{255e616c-5f3d-4719-a5cb-c229e160d9ad}">
+      <label languagecode="1033" description="Main Phone" />
+    </steplabels>
+    <steplabels id="{d27a7d5b-1613-4193-b7d8-c192d20c2689}">
+      <label languagecode="1033" description="Primary Contact" />
+    </steplabels>
+    <steplabels id="{d38dfdef-857a-4c50-9eb5-017817693777}">
+      <label languagecode="1033" description="Start Application" />
+    </steplabels>
+    <steplabels id="{f3055d2f-6fe5-4a1c-9cba-d52de1bdfcfd}">
+      <label languagecode="1033" description="Purchase Timeframe" />
+    </steplabels>
+    <steplabels id="{8e0c1b4b-1f98-4f2f-acd7-be0eb2744777}">
+      <label languagecode="1033" description="Budget Amount" />
+    </steplabels>
+    <steplabels id="{7e2cacb4-c000-4458-86eb-6d46a8185b20}">
+      <label languagecode="1033" description="Purchase Process" />
+    </steplabels>
+    <steplabels id="{89dad7a9-4745-4cd5-b777-00543d5a3371}">
+      <label languagecode="1033" description="Description" />
+    </steplabels>
+    <steplabels id="{371b24ef-9d68-48d6-93c3-85bf6e74bca5}">
+      <label languagecode="1033" description="Enter Requested Facilities" />
+    </steplabels>
+    <steplabels id="{f5feb7db-543f-4a44-97d2-8a4aec0b4fd6}">
+      <label languagecode="1033" description="Topic" />
+    </steplabels>
+    <steplabels id="{a679cd96-335d-4c5c-99f0-a1ca0c7f8e04}">
+      <label languagecode="1033" description="Budget Amount" />
+    </steplabels>
+    <steplabels id="{97249035-968f-4d26-bd81-3720f27e3b95}">
+      <label languagecode="1033" description="Gather Documents" />
+    </steplabels>
+    <steplabels id="{6f1f0eed-9809-4550-9a13-f0fbfcc6a6ca}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+    <steplabels id="{926d86f2-f073-454d-8850-0eb068408eb4}">
+      <label languagecode="1033" description="Close" />
+    </steplabels>
+    <steplabels id="{8cca26ac-486f-459d-a305-2960d0066856}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

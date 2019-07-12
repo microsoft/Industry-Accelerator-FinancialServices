@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Commercial Relationship Manager" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{385e797b-fb64-e911-a956-000d3a124001}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="dashboard">
+      <form>
+        <tabs>
+          <tab showlabel="false" verticallayout="true" id="{2ce807a3-b054-43f7-b71b-5f395cb61c7f}">
+            <labels>
+              <label description="Tab" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section showlabel="false" showbar="false" columns="1111" id="{191ccf4f-679a-4306-a48e-95a5eb41fe94}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{5c94affe-51da-4573-ab5f-388afe9da467}" auto="false">
+                          <labels>
+                            <label description="Prospects" languagecode="1033" />
+                          </labels>
+                          <control id="Component91b47f6" uniqueid="{00d328aa-bb53-757c-d196-2c7919760282}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>account</TargetEntityType>
+                              <ChartGridMode>Grid</ChartGridMode>
+                              <EnableQuickFind>true</EnableQuickFind>
+                              <EnableViewPicker>true</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode>#F5F7F6</HeaderColorCode>
+                              <ViewId>{725BC256-2E61-E911-A956-000D3A124001}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds>{00000000-0000-0000-00AA-000010001001},{725BC256-2E61-E911-A956-000D3A124001}</ViewIds>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{56DBA6D6-D465-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{31283e86-69ab-425b-a71b-4cf151740a74}" auto="false">
+                          <labels>
+                            <label description="Prospects" languagecode="1033" />
+                          </labels>
+                          <control id="Component4f656e5" uniqueid="{701db45d-000c-b704-0956-e5891d4832e6}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>account</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{58390126-2E61-E911-A956-000D3A124001}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{5B12491B-FC64-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" id="{3fc94522-20b4-418d-8fc5-c717e98de078}" visible="false">
+                          <labels>
+                            <label description="Relationship Assistant" languagecode="1033" />
+                          </labels>
+                          <control id="ActionCards" classid="{F9A8A302-114E-466A-B582-6771B2AE0D92}" uniqueid="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}" disabled="false">
+                            <parameters>
+                              <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>actioncard</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>All</ChartGridMode>
+                              <VisualizationId />
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>4</RecordsPerPage>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="2" rowspan="12" showlabel="false" id="{18e64581-1488-4638-a641-5d1ca18b7227}" auto="false">
+                          <labels>
+                            <label description="Prospects" languagecode="1033" />
+                          </labels>
+                          <control id="Component76cd479" uniqueid="{de440ea3-71e8-e8e9-576b-452494e30419}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>opportunity</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{00000000-0000-0000-00AA-000010003000}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{8BFB380D-FD64-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell id="{76ce8e2a-4770-8db0-8209-98d9b0a70e68}" showlabel="false" colspan="2" auto="false" rowspan="12">
+                          <labels>
+                            <label description="Opportunity" languagecode="1033" />
+                          </labels>
+                          <control id="Component4825836" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{3814d9e2-6a8a-1a33-522b-8e3403036061}">
+                            <parameters>
+                              <ViewId>{74C14904-4A68-E911-A95C-000D3A12468B}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <RelationshipName />
+                              <TargetEntityType>opportunity</TargetEntityType>
+                              <AutoExpand>Fixed</AutoExpand>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <ViewIds />
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <VisualizationId>{CEABDBF3-286D-E911-A95C-000D3A12468B}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RecordsPerPage>8</RecordsPerPage>
+                              <HeaderColorCode />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+        <controlDescriptions>
+          <controlDescription forControl="{3ff9a528-dd50-4aca-8f10-2e5ed73513ad}">
+            <customControl formFactor="2" name="MscrmControls.CardFeedContainer.CardFeedContainer">
+              <parameters>
+                <data-set name="SubGrid">
+                  <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>actioncard</TargetEntityType>
+                  <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</FilteredViewIds>
+                  <EnableViewPicker>false</EnableViewPicker>
+                </data-set>
+                <Location static="true" type="Decimal">2</Location>
+                <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+            <customControl formFactor="0" name="MscrmControls.CardFeedContainer.CardFeedContainer">
+              <parameters>
+                <data-set name="SubGrid">
+                  <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>actioncard</TargetEntityType>
+                  <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</FilteredViewIds>
+                  <EnableViewPicker>false</EnableViewPicker>
+                </data-set>
+                <Location static="true" type="Decimal">2</Location>
+                <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+            <customControl formFactor="1" name="MscrmControls.CardFeedContainer.CardFeedContainer">
+              <parameters>
+                <data-set name="SubGrid">
+                  <ViewId>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</ViewId>
+                  <IsUserView>false</IsUserView>
+                  <TargetEntityType>actioncard</TargetEntityType>
+                  <FilteredViewIds>{92AFD454-0F2E-4397-A1C8-05E37C6AD699}</FilteredViewIds>
+                  <EnableViewPicker>false</EnableViewPicker>
+                </data-set>
+                <Location static="true" type="Decimal">2</Location>
+                <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</Dashboard>

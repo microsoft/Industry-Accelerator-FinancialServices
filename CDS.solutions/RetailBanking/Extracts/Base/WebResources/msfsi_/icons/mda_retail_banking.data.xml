@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{ca0734a1-238d-e911-a81a-000d3a3b53c4}</WebResourceId>
+  <Name>msfsi_/icons/mda_retail_banking</Name>
+  <DisplayName>Retail App (MDA)</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_iconsmda_retail_bankingCA0734A1-238D-E911-A81A-000D3A3B53C4</FileName>
+</WebResource>

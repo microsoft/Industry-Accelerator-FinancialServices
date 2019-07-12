@@ -1,0 +1,201 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{50bf19eb-3668-4a10-af8b-5d6372a08bd0}</formid>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form shownavigationbar="true" showImage="false" maxWidth="1920">
+      <tabs>
+        <tab verticallayout="true" id="{106f85bf-6155-4cfe-8c20-b68c1ecff911}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{e3f118bd-563f-4c34-ba99-92a61fda028c}" name="{e3f118bd-563f-4c34-ba99-92a61fda028c}" columns="11" locklevel="0" labelwidth="130" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{276fcb12-031d-46a3-85b6-6fab72583060}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Limit Name" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_limitname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_limitname" uniqueid="{264333ad-9b0d-9091-ebd9-79487c9c9a81}" disabled="false" />
+                      </cell>
+                      <cell id="{3091d6ae-7ca3-aeec-1a80-3aaccad99e96}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Implemented Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_implementedamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_implementedamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3cb7c668-645b-5074-84ec-1076545e4383}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Company" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_companyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_companyid" disabled="false" uniqueid="{6a0d2ccb-c9b5-94da-ea9e-53ad2b553b81}" />
+                      </cell>
+                      <cell id="{c1de9851-1c65-7d51-6390-004d468d642c}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Utilized Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_utilizedamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_utilizedamount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8c295797-054d-d9b4-a992-162c0096e301}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Limit Type" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_limittype" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="msfsi_limittype" disabled="false" uniqueid="{67734d9d-42e5-0093-b8b7-2b014937c4db}" />
+                      </cell>
+                      <cell id="{bcdb859a-2cb8-3d87-6847-a4d506231804}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Available Limit" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_availablelimit" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_availablelimit" disabled="false" uniqueid="{ba10dcdd-e179-6a6c-9e58-d3953853c412}" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{46b54c25-860b-76d4-d1d0-5b5043360eed}" showlabel="false">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{5210e041-0253-1440-71cb-6b8e405dacab}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Limit Expiry" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_limitexpiry" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="msfsi_limitexpiry" disabled="false" uniqueid="{ad149bda-a12b-252c-0a95-147222708b2e}" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_3" id="{110bd258-7982-4d6e-c313-e7819736b8d2}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
+          <labels>
+            <label description="Further Details" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_3_section_1" showlabel="false" showbar="false" locklevel="0" id="{989c6e69-5358-5578-c98c-ce1ba98de58d}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{9da4e490-4683-2615-3b13-8851362475b8}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                        <labels>
+                          <label description="Customer Products" languagecode="1033" />
+                        </labels>
+                        <control id="products_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{35dc70c1-24e6-462b-1ede-107e17742c48}">
+                          <parameters>
+                            <ViewId>{1E140711-B06D-487E-82F5-2779AEF73150}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>msfsi_msfsi_limit_msfsi_financialproduct_limitid</RelationshipName>
+                            <TargetEntityType>msfsi_financialproduct</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <ViewIds>{1E140711-B06D-487E-82F5-2779AEF73150}</ViewIds>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>All</ChartGridMode>
+                            <VisualizationId>{32A17CD7-096C-E911-A95C-000D3A12468B}</VisualizationId>
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>true</EnableChartPicker>
+                            <RecordsPerPage>4</RecordsPerPage>
+                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="tab_2" id="{880ed9ab-c974-5b07-9e9d-1b2232e8b540}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="false" visible="false">
+          <labels>
+            <label description="Hidden Fields" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="tab_2_section_1" showlabel="false" showbar="false" locklevel="0" id="{512c0aa0-c89e-5d96-7b62-554204c94c46}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                  <labels>
+                    <label description="Section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{dfcbd8fb-52c6-4ec1-b9a5-b839df0a3692}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <Navigation>
+        <NavBar></NavBar>
+        <NavBarAreas>
+          <NavBarArea Id="Info">
+            <Titles>
+              <Title LCID="1033" Text="Common" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Sales">
+            <Titles>
+              <Title LCID="1033" Text="Sales" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Service">
+            <Titles>
+              <Title LCID="1033" Text="Service" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="Marketing">
+            <Titles>
+              <Title LCID="1033" Text="Marketing" />
+            </Titles>
+          </NavBarArea>
+          <NavBarArea Id="ProcessCenter">
+            <Titles>
+              <Title LCID="1033" Text="Process Sessions" />
+            </Titles>
+          </NavBarArea>
+        </NavBarAreas>
+      </Navigation>
+      <controlDescriptions />
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Limit" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

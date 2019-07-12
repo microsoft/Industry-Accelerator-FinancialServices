@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<AppModule>
+  <UniqueName>msfsi_retailbanking</UniqueName>
+  <IntroducedVersion>1.0.0</IntroducedVersion>
+  <WebResourceId>ca0734a1-238d-e911-a81a-000d3a3b53c4</WebResourceId>
+  <FormFactor>1</FormFactor>
+  <ClientType>4</ClientType>
+  <NavigationType>0</NavigationType>
+  <AppModuleComponents>
+    <AppModuleComponent type="62" schemaName="msfsi_retailbanking" />
+    <AppModuleComponent type="29" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+    <AppModuleComponent type="29" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+    <AppModuleComponent type="29" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+    <AppModuleComponent type="29" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
+    <AppModuleComponent type="60" id="{8360c747-7665-e911-a956-000d3a124001}" />
+    <AppModuleComponent type="60" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
+    <AppModuleComponent type="60" id="{f7172d9f-3768-e911-a95c-000d3a12468b}" />
+    <AppModuleComponent type="1" schemaName="activitypointer" />
+    <AppModuleComponent type="1" schemaName="appointment" />
+    <AppModuleComponent type="1" schemaName="kbarticle" />
+    <AppModuleComponent type="1" schemaName="msfsi_bank" />
+    <AppModuleComponent type="1" schemaName="msfsi_branch" />
+    <AppModuleComponent type="1" schemaName="msfsi_businesscheckingaccount" />
+    <AppModuleComponent type="1" schemaName="campaign" />
+    <AppModuleComponent type="1" schemaName="incident" />
+    <AppModuleComponent type="1" schemaName="msfsi_certificateofdeposit" />
+    <AppModuleComponent type="1" schemaName="msfsi_collateral" />
+    <AppModuleComponent type="1" schemaName="account" />
+    <AppModuleComponent type="60" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+    <AppModuleComponent type="1" schemaName="competitor" />
+    <AppModuleComponent type="1" schemaName="msfsi_contactonboardingfromprospect" />
+    <AppModuleComponent type="1" schemaName="contract" />
+    <AppModuleComponent type="1" schemaName="msfsi_customerjourney" />
+    <AppModuleComponent type="1" schemaName="sharepointdocumentlocation" />
+    <AppModuleComponent type="1" schemaName="expiredprocess" />
+    <AppModuleComponent type="1" schemaName="msfsi_financialproduct" />
+    <AppModuleComponent type="1" schemaName="goal" />
+    <AppModuleComponent type="1" schemaName="metric" />
+    <AppModuleComponent type="1" schemaName="invoice" />
+    <AppModuleComponent type="1" schemaName="knowledgearticle" />
+    <AppModuleComponent type="1" schemaName="msfsi_kyc" />
+    <AppModuleComponent type="60" id="{c968d387-328a-4a43-b03a-c08399ef91d3}" />
+    <AppModuleComponent type="60" id="{1a3883a8-5a2a-4b17-9a83-bf765646ff0b}" />
+    <AppModuleComponent type="1" schemaName="leadtoopportunitysalesprocess" />
+    <AppModuleComponent type="1" schemaName="msfsi_limit" />
+    <AppModuleComponent type="1" schemaName="list" />
+    <AppModuleComponent type="1" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337" />
+    <AppModuleComponent type="1" schemaName="newprocess" />
+    <AppModuleComponent type="1" schemaName="opportunity" />
+    <AppModuleComponent type="60" id="{6603d56e-7cd3-4999-b58a-b683007dd749}" />
+    <AppModuleComponent type="60" id="{e9c5eb9c-0fc4-4a5b-abcb-2efdfe5ca31b}" />
+    <AppModuleComponent type="26" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
+    <AppModuleComponent type="26" id="{ed36f294-3b68-e911-a95c-000d3a12468b}" />
+    <AppModuleComponent type="26" id="{0e535f54-4e68-e911-a95c-000d3a12468b}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000000666800}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001203}" />
+    <AppModuleComponent type="26" id="{9eb361b4-67ac-4830-8abf-2d29efbaee2c}" />
+    <AppModuleComponent type="26" id="{f73a5bef-a782-de11-9ff3-00155da3b012}" />
+    <AppModuleComponent type="1" schemaName="opportunitysalesprocess" />
+    <AppModuleComponent type="1" schemaName="salesorder" />
+    <AppModuleComponent type="1" schemaName="contact" />
+    <AppModuleComponent type="60" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+    <AppModuleComponent type="60" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
+    <AppModuleComponent type="60" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+    <AppModuleComponent type="1" schemaName="phonetocaseprocess" />
+    <AppModuleComponent type="1" schemaName="msdyn_postconfig" />
+    <AppModuleComponent type="1" schemaName="msdyn_postruleconfig" />
+    <AppModuleComponent type="1" schemaName="workflow" />
+    <AppModuleComponent type="1" schemaName="product" />
+    <AppModuleComponent type="1" schemaName="lead" />
+    <AppModuleComponent type="60" id="{fc43206d-c339-4c39-a8bf-2f2804b075d9}" />
+    <AppModuleComponent type="1" schemaName="queue" />
+    <AppModuleComponent type="1" schemaName="queueitem" />
+    <AppModuleComponent type="1" schemaName="bulkoperation" />
+    <AppModuleComponent type="1" schemaName="quote" />
+    <AppModuleComponent type="1" schemaName="report" />
+    <AppModuleComponent type="1" schemaName="msfsi_requestedfacility" />
+    <AppModuleComponent type="1" schemaName="goalrollupquery" />
+    <AppModuleComponent type="1" schemaName="salesliterature" />
+    <AppModuleComponent type="1" schemaName="service" />
+    <AppModuleComponent type="1" schemaName="sharepointsite" />
+    <AppModuleComponent type="1" schemaName="socialprofile" />
+    <AppModuleComponent type="1" schemaName="solution" />
+    <AppModuleComponent type="1" schemaName="msdyn_solutionhistory" />
+    <AppModuleComponent type="1" schemaName="syncerror" />
+    <AppModuleComponent type="1" schemaName="msfsi_syndicates" />
+    <AppModuleComponent type="1" schemaName="translationprocess" />
+    <AppModuleComponent type="1" schemaName="msdyn_upgraderun" />
+  </AppModuleComponents>
+  <AppModuleRoleMaps>
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+  </AppModuleRoleMaps>
+  <LocalizedNames>
+    <LocalizedName description="Retail Banking" languagecode="1033" />
+  </LocalizedNames>
+</AppModule>

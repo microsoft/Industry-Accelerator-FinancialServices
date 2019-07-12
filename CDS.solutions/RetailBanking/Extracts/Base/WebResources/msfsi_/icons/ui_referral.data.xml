@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{db0cac03-ed8d-e911-a819-000d3a3b5c12}</WebResourceId>
+  <Name>msfsi_/icons/ui_referral</Name>
+  <DisplayName>Referral UI</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_iconsui_referralDB0CAC03-ED8D-E911-A819-000D3A3B5C12</FileName>
+</WebResource>

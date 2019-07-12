@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InteractionCentricDashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Leads Dashboard" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{9a14ebb4-143e-e711-80e1-00155d871bb4}</FormId>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="interactioncentricdashboard">
+      <form>
+        <tabs filterby="createdon" timeframe="7" primaryentitylogicalname="lead" entityview="{5A926B99-3A5F-DF11-AE90-00155D2E3002}" dashboardCategory="1_1" tilespresent="false">
+          <tab showlabel="true" verticallayout="true" collapsible="true" id="{882e84a0-9536-4721-acf5-28ee5dcc1445}">
+            <labels>
+              <label description="Visual Filters" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section name="VisualFilters" showlabel="false" showbar="false" columns="111" id="{a0c0ce4a-dff2-439a-8add-976f70fb12b5}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{c8fda591-d793-486b-a91d-d629e08c10b4}" auto="false">
+                          <labels>
+                            <label description="Lead" languagecode="1033" />
+                          </labels>
+                          <control id="Componentb331101" uniqueid="{e4c6a707-b389-68c1-aba1-2d2041431cd2}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>lead</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{5A926B99-3A5F-DF11-AE90-00155D2E3002}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{D311600C-163A-E711-80E3-00155D42A416}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{a40c0d0e-851a-49a6-b572-531b8d6129a4}" auto="false">
+                          <labels>
+                            <label description="Lead" languagecode="1033" />
+                          </labels>
+                          <control id="Componentd3ca6ed" uniqueid="{99e786e0-b75c-1488-2e53-0804253a25b5}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>lead</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{5A926B99-3A5F-DF11-AE90-00155D2E3002}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{F5976C58-5693-DE11-97D4-00155DA3B01E}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                        <cell colspan="1" rowspan="12" showlabel="false" ischartcell="true" id="{85545e97-0104-4f08-a6d5-8beba74d037a}" auto="false">
+                          <labels>
+                            <label description="Lead" languagecode="1033" />
+                          </labels>
+                          <control id="Componentf835e12" uniqueid="{73bd691d-c3de-edb2-ca38-bec43ded894c}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>lead</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>10</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{5A926B99-3A5F-DF11-AE90-00155D2E3002}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{B92A5119-193A-E711-80E3-00155D42A416}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+          <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{e8dffa9b-19ad-4b5d-bbbb-18d97eecc878}">
+            <labels>
+              <label description="Streams" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="100%">
+                <sections>
+                  <section name="Streams" showlabel="false" showbar="false" columns="1111" id="{c6dae392-5c89-4418-be87-faa9006a8c5c}">
+                    <labels>
+                      <label description="Section" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="4" rowspan="12" showlabel="false" isstreamcell="true" id="{374ee018-b6c4-4749-9aa9-85c001795cd5}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{71203de0-1572-9d25-7be5-7d25e0d0981d}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>false</ShowAsTiles>
+                                <StreamObject id="{e160e32c-e188-713e-2205-c518e555ea71}" type="1">
+                                  <LogicalEntityName>lead</LogicalEntityName>
+                                  <EntityViewId>{00000000-0000-0000-00AA-000010001005}</EntityViewId>
+                                </StreamObject>
+                                <StreamObject id="{6ed9303a-9a88-26bd-3418-426e0d520e75}" type="1">
+                                  <LogicalEntityName>lead</LogicalEntityName>
+                                  <EntityViewId>{00000000-0000-0000-00AA-000010001006}</EntityViewId>
+                                </StreamObject>
+                                <StreamObject id="{c24409c1-7b5a-64b9-44d5-a9b660c4d657}" type="1">
+                                  <LogicalEntityName>lead</LogicalEntityName>
+                                  <EntityViewId>{00000000-0000-0000-00AA-000010001009}</EntityViewId>
+                                </StreamObject>
+                                <StreamObject id="{335bb01d-e324-11ca-5240-c122e8664316}" type="1">
+                                  <LogicalEntityName>lead</LogicalEntityName>
+                                  <EntityViewId>{5A926B99-3A5F-DF11-AE90-00155D2E3002}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</InteractionCentricDashboard>

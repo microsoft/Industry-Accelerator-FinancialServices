@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<InteractionCentricDashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <LocalizedNames>
+    <LocalizedName description="Prospects and Referrals" languagecode="1033" />
+  </LocalizedNames>
+  <FormId>{974a8cf8-7765-e911-a956-000d3a124001}</FormId>
+  <IsCustomizable>1</IsCustomizable>
+  <IsDefault>0</IsDefault>
+  <FormXml>
+    <forms type="interactioncentricdashboard">
+      <form>
+        <tabs filterby="createdon" timeframe="4" primaryentitylogicalname="lead" entityview="{5A926B99-3A5F-DF11-AE90-00155D2E3002}" dashboardCategory="2_0" tilespresent="false">
+          <tab name="StreamsContainer" showlabel="true" verticallayout="true" collapsible="false" id="{6d158f50-7854-4c32-be3c-ada0c9fc631d}">
+            <labels>
+              <label description="Streams and Visual Filters" languagecode="1033" />
+            </labels>
+            <columns>
+              <column width="25%">
+                <sections>
+                  <section name="Streams" showlabel="true" showbar="false" columns="11" id="{bfe077dc-386c-42c2-8813-a0d91e67240e}">
+                    <labels>
+                      <label description="Streams" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="2" rowspan="24" showlabel="false" isstreamcell="true" id="{db4c4553-c581-4484-ab2b-0f11d7b3f3e8}">
+                          <labels>
+                            <label description="" languagecode="1033" />
+                          </labels>
+                          <control id="Component{5689d218-7c03-3ce0-2d81-059535c17a27}" classid="{EE9078C8-6946-4E2C-B8F8-35E65F4BE6A8}">
+                            <parameters>
+                              <StreamObjects>
+                                <ShowAsTiles>false</ShowAsTiles>
+                                <StreamObject id="{2512690a-e4e4-3a59-9dcd-32a4cd27d44a}" type="1">
+                                  <LogicalEntityName>lead</LogicalEntityName>
+                                  <EntityViewId>{00000000-0000-0000-00aa-000010001006}</EntityViewId>
+                                </StreamObject>
+                              </StreamObjects>
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+              <column width="75%">
+                <sections>
+                  <section name="VisualFilters" showlabel="true" showbar="false" columns="111" id="{dc09642c-57c7-4458-a955-57ada95e3798}">
+                    <labels>
+                      <label description="Charts" languagecode="1033" />
+                    </labels>
+                    <rows>
+                      <row>
+                        <cell colspan="3" rowspan="8" showlabel="false" ischartcell="true" id="{3d0b801e-90e4-443f-8e99-d0813a4eb68a}" auto="false">
+                          <labels>
+                            <label description="Prospect" languagecode="1033" />
+                          </labels>
+                          <control id="Componentf760088" uniqueid="{77d94dec-6a6e-bd62-ad15-e1e25160d709}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>lead</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{00000000-0000-0000-00AA-000010001006}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{F5BA975E-BE65-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="3" rowspan="8" showlabel="false" ischartcell="true" id="{fa0ec95b-1986-473a-a423-c9eeb0b14b14}" auto="false">
+                          <labels>
+                            <label description="Prospect" languagecode="1033" />
+                          </labels>
+                          <control id="Component61808f5" uniqueid="{3a5217b3-1872-6d12-b9ca-e33737696d44}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>lead</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{21D066A5-335D-E911-A956-000D3A124001}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{5F982045-BB65-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row>
+                        <cell colspan="3" rowspan="8" showlabel="false" ischartcell="true" id="{44a41cad-03e5-46e6-9ed3-5918d73c2377}" auto="false">
+                          <labels>
+                            <label description="Prospects" languagecode="1033" />
+                          </labels>
+                          <control id="Component3d726c6" uniqueid="{65962400-17dd-ae93-8296-1a6833741b32}" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                            <parameters>
+                              <TargetEntityType>lead</TargetEntityType>
+                              <ChartGridMode>Chart</ChartGridMode>
+                              <EnableQuickFind>false</EnableQuickFind>
+                              <EnableViewPicker>false</EnableViewPicker>
+                              <EnableJumpBar>false</EnableJumpBar>
+                              <RecordsPerPage>6</RecordsPerPage>
+                              <HeaderColorCode />
+                              <ViewId>{00000000-0000-0000-00AA-000010001006}</ViewId>
+                              <IsUserView>false</IsUserView>
+                              <ViewIds />
+                              <AutoExpand>Fixed</AutoExpand>
+                              <VisualizationId>{7ABBDBA7-0265-E911-A956-000D3A124001}</VisualizationId>
+                              <IsUserChart>false</IsUserChart>
+                              <EnableChartPicker>false</EnableChartPicker>
+                              <RelationshipName />
+                            </parameters>
+                          </control>
+                        </cell>
+                      </row>
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                      <row />
+                    </rows>
+                  </section>
+                </sections>
+              </column>
+            </columns>
+          </tab>
+        </tabs>
+      </form>
+    </forms>
+  </FormXml>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsTabletEnabled>0</IsTabletEnabled>
+</InteractionCentricDashboard>

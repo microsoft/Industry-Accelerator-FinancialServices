@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Workflow WorkflowId="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" Name="Certificate of Deposit" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <XamlFileName>/Workflows/CertificateofDeposit-D32AC2A6-22D2-4E3C-AD32-89C1DC5CC15F.xaml</XamlFileName>
+  <Type>1</Type>
+  <Subprocess>0</Subprocess>
+  <Category>4</Category>
+  <Mode>0</Mode>
+  <Scope>4</Scope>
+  <OnDemand>0</OnDemand>
+  <TriggerOnCreate>1</TriggerOnCreate>
+  <TriggerOnDelete>0</TriggerOnDelete>
+  <AsyncAutodelete>0</AsyncAutodelete>
+  <SyncWorkflowLogOnFailure>0</SyncWorkflowLogOnFailure>
+  <StateCode>1</StateCode>
+  <StatusCode>2</StatusCode>
+  <processorder>100</processorder>
+  <processroleassignment>&lt;DisplayConditions&gt;&lt;Role Id="{627090ff-40a3-4053-8790-584edc5be201}" /&gt;&lt;Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" /&gt;&lt;/DisplayConditions&gt;</processroleassignment>
+  <RunAs>1</RunAs>
+  <UniqueName>msfsi_certificateofdeposit</UniqueName>
+  <IsTransacted>1</IsTransacted>
+  <IntroducedVersion>1.1.0.0</IntroducedVersion>
+  <IsCustomizable>1</IsCustomizable>
+  <BusinessProcessType>0</BusinessProcessType>
+  <PrimaryEntity>Contact</PrimaryEntity>
+  <LocalizedNames>
+    <LocalizedName languagecode="1033" description="Certificate of Deposit" />
+  </LocalizedNames>
+  <labels>
+    <steplabels id="{681f95fa-c0d4-46d3-aff6-5694e0d64011}">
+      <label languagecode="1033" description="Validate Contact Information" />
+    </steplabels>
+    <steplabels id="{e872e0d8-a9c5-46ec-95ea-053b4657dae3}">
+      <label languagecode="1033" description="First Name" />
+    </steplabels>
+    <steplabels id="{3b55411e-e519-4894-a951-3586489cfecf}">
+      <label languagecode="1033" description="Last Name" />
+    </steplabels>
+    <steplabels id="{9705e700-3dca-4567-9fe1-e4ba91a8e283}">
+      <label languagecode="1033" description="Start Application" />
+    </steplabels>
+    <steplabels id="{797986c2-0690-4ea5-95de-218a8f4eef82}">
+      <label languagecode="1033" description="Purchase Timeframe" />
+    </steplabels>
+    <steplabels id="{ce4e7154-7e1d-4827-b65e-9029c7498388}">
+      <label languagecode="1033" description="Purchase Process" />
+    </steplabels>
+    <steplabels id="{126d408a-88d9-4382-9d51-a1b8e0104535}">
+      <label languagecode="1033" description="Description" />
+    </steplabels>
+    <steplabels id="{0bc8fd07-54f5-4d2f-a72b-99667534b932}">
+      <label languagecode="1033" description="Product Information" />
+    </steplabels>
+    <steplabels id="{5a537e4b-d4ee-4569-a86e-1bc1147257e4}">
+      <label languagecode="1033" description="Product" />
+    </steplabels>
+    <steplabels id="{94d84349-2671-4140-8a11-3c8b01f89adc}">
+      <label languagecode="1033" description="Requested Amount" />
+    </steplabels>
+    <steplabels id="{fb56e73d-ce6f-4271-b3ae-aa8fd24d664c}">
+      <label languagecode="1033" description="Interest Rate" />
+    </steplabels>
+    <steplabels id="{feca2b52-6282-422b-8c24-06c5f56e6c4f}">
+      <label languagecode="1033" description="Close Opportunity" />
+    </steplabels>
+    <steplabels id="{a4cf6600-6481-4e75-90ab-3e5d9d7225c6}">
+      <label languagecode="1033" description="Status Reason" />
+    </steplabels>
+  </labels>
+  <ProcessTriggers />
+</Workflow>

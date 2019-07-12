@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{e0a774d4-2f6d-40a8-a72c-7a216ab1eb4d}</savedqueryid>
+    <layoutxml>
+      <grid name="" jump="msfsi_branchcode" select="1" icon="1" preview="0">
+        <row name="msfsi_branch" id="msfsi_branchid">
+          <cell name="msfsi_branchcode" width="200" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_branchname" width="100" />
+          <cell name="msfsi_branchmanagerid" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_bankid" width="100" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_branch">
+          <attribute name="msfsi_branchid" />
+          <attribute name="msfsi_branchcode" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="msfsi_branchcode" descending="false" />
+          <attribute name="msfsi_branchname" />
+          <attribute name="msfsi_branchmanagerid" />
+          <attribute name="msfsi_bankid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Branch Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

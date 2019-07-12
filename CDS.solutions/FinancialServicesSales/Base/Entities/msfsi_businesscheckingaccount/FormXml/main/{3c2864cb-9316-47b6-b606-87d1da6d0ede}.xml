@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{3c2864cb-9316-47b6-b606-87d1da6d0ede}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{0271061d-a728-4b2b-be95-a1a006167a34}" name="StageStep4" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{91bad793-aa3a-48a9-8628-c16cc815f253}" name="StageStep4_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{13064ec3-421f-458b-a3c6-fad61d6e5a3d}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_msfsi_businesscheckingaccount:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5a4dbc8a-da2e-4c7c-b69b-0ea37220aae5}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_msfsi_businesscheckingaccount:telephone1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="telephone1" relationship="bpf_account_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a811c293-de90-4a8e-8163-46504b3a8089}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_account_msfsi_businesscheckingaccount:primarycontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="primarycontactid" relationship="bpf_account_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{4b436821-f5be-4e8d-9445-65db7aae4502}" name="StageStep12" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{fa88e912-6267-4cd4-b651-1cb7ec554098}" name="StageStep12_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{ff9e5653-8d92-4c1e-91fa-aabba394fe49}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:msfsi_productid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_productid" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1de5b05e-f427-4000-8f36-2c1bdc72a52c}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e00b0ca2-dc2c-4501-97f9-e843ea27b6b2}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5e915703-a63e-42e7-9403-17e761c26ad8}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:purchaseprocess" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchaseprocess" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5897ce63-f258-4191-b04f-dd8d6524d0c7}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{495483cb-a20c-47d6-814d-b8e2a916e9d3}" name="StageStep24" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{0bd9ac79-aa76-4475-8dbb-90fbeddc1ab1}" name="StageStep24_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{e681a9cc-af10-4d71-843f-6f9e0f0e1272}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{b45b18b1-5e12-4e24-8e54-54d37b98d6ef}" name="StageStep28" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{644f85b7-6c84-44ca-9768-46c290f81b18}" name="StageStep28_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{d69a5462-13b8-4956-b3a1-9a0bac05a15d}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="Status Reason" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_businesscheckingaccount:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_msfsi_businesscheckingaccount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

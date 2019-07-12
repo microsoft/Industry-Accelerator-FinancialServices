@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{edaa2de6-298d-e911-a818-000d3a3b522c}</WebResourceId>
+  <Name>msfsi_/icons/svg_retail_banking</Name>
+  <DisplayName>Retail Banking SVG</DisplayName>
+  <WebResourceType>11</WebResourceType>
+  <IntroducedVersion>0.3</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_iconssvg_retail_bankingEDAA2DE6-298D-E911-A818-000D3A3B522C</FileName>
+</WebResource>

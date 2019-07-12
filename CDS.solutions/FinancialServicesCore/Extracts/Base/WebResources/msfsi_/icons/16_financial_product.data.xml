@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{44d2266a-6e88-e911-a81c-000d3a3b55b9}</WebResourceId>
+  <Name>msfsi_/icons/16_financial_product</Name>
+  <DisplayName>Financial Product 16x16</DisplayName>
+  <WebResourceType>5</WebResourceType>
+  <IntroducedVersion>0.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_icons16_financial_product44D2266A-6E88-E911-A81C-000D3A3B55B9</FileName>
+</WebResource>

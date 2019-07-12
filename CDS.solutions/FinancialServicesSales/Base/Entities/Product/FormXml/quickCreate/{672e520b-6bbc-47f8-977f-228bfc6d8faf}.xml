@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{672e520b-6bbc-47f8-977f-228bfc6d8faf}</formid>
+    <IntroducedVersion>7.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="1900">
+      <hiddencontrols>
+        <data id="productstructure" datafieldname="productstructure" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab id="{e94a7555-ff20-443d-84ee-e78be7b167db}" name="tab_1" expanded="true" locklevel="0" showlabel="false" IsUserDefined="0">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="33%">
+              <sections>
+                <section id="{7d5b2c24-0c68-4898-ad89-162e0499265f}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{eb339653-bca0-4d8c-ba1b-d6d94ea83f7b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{d408b307-074d-4925-b01d-85644c282bbc}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Product ID" languagecode="1033" />
+                        </labels>
+                        <control id="productnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="productnumber" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8d3c674a-e701-4670-9d25-e3fd85cae731}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Parent" languagecode="1033" />
+                        </labels>
+                        <control id="parentproductid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentproductid" disabled="false">
+                          <parameters>
+                            <DefaultViewId>{19d7f2e0-e427-40fb-85e8-53e7cef2b166}</DefaultViewId>
+                            <IsInlineNewEnabled>false</IsInlineNewEnabled>
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{dde1387f-0b29-4762-86a1-aeb59aa0a25a}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid From" languagecode="1033" />
+                        </labels>
+                        <control id="validfromdate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="validfromdate" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b4078b02-78fd-4db3-88a3-adffb0330d5e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Valid To" languagecode="1033" />
+                        </labels>
+                        <control id="validtodate" classid="{5B773807-9FB2-42db-97C3-7A91EFF8ADFF}" datafieldname="validtodate" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{2dab3026-b35b-4b9a-aa64-3c309f11bf4d}" name="tab_1_column_2_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{5c664ccb-e0a8-b075-a912-b49379b2b980}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Unit Group" languagecode="1033" />
+                        </labels>
+                        <control id="defaultuomscheduleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defaultuomscheduleid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32270036-9caa-8c67-7b75-e3350a579cde}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Default Unit" languagecode="1033" />
+                        </labels>
+                        <control id="defaultuomid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defaultuomid" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{94b08352-12d7-eb48-068e-a12dbd846584}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Decimals Supported" languagecode="1033" />
+                        </labels>
+                        <control id="quantitydecimal" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="quantitydecimal" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9884bdeb-e377-b9bd-3702-3eb9675073ea}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="subjectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="subjectid" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+            <column width="33%">
+              <sections>
+                <section id="{5da17d18-e402-4fc0-975e-ae5a9f224e45}" name="tab_1_column_3_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0" locklevel="0" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{51103b4e-94bb-0eae-348c-53994de1cce0}" showlabel="true" locklevel="0" rowspan="4">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" disabled="false" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onchange" application="true" active="true" attribute="validfromdate">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.validfromdate_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="63a13cef-80aa-4347-b85f-bc41ed879938" enabled="true">
+              <dependencies>
+                <dependency id="validtodate" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="validtodate">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.validtodate_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="8ade30f0-ddae-494f-9835-34bd3df2a82d" enabled="true">
+              <dependencies>
+                <dependency id="validfromdate" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onsave" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.ProductMainSystemLibraryWebResource.formOnSave" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="a42c809a-2eb3-477e-98cf-46da2295cc13" enabled="true" passExecutionContext="true">
+              <dependencies>
+                <dependency id="validfromdate" />
+                <dependency id="validtodate" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:ProductManagement/_static/entities/product.js" />
+            <internaljscriptfile src="$webresource:ProductManagement/Product/Product_main_system_library.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_TODATE_LT_FROMDATE" resourceid="Web.products.ValidToEarlierThanValidFromDate" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+      <DisplayConditions FallbackForm="true" Order="2">
+        <Everyone />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Product Quick Create" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Default quick create form for product." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,287 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ImportExportXml version="9.1.0.6032" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <SolutionManifest>
+    <UniqueName>FinancialServicesCommonAccelerator</UniqueName>
+    <LocalizedNames>
+      <LocalizedName description="Financial Services Common Accelerator" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="Microsoft Dynamics 365 Financial Services Common Accelerator" languagecode="1033" />
+    </Descriptions>
+    <Version>1.0.0.0</Version>
+    <Managed>0</Managed>
+    <Publisher>
+      <UniqueName>financialservicesaccelerator</UniqueName>
+      <LocalizedNames>
+        <LocalizedName description="Financial Services Accelerator" languagecode="1033" />
+      </LocalizedNames>
+      <Descriptions />
+      <EMailAddress xsi:nil="true"></EMailAddress>
+      <SupportingWebsiteUrl xsi:nil="true"></SupportingWebsiteUrl>
+      <CustomizationPrefix>msfsi</CustomizationPrefix>
+      <CustomizationOptionValuePrefix>10480</CustomizationOptionValuePrefix>
+      <Addresses>
+        <Address>
+          <AddressNumber>1</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+        <Address>
+          <AddressNumber>2</AddressNumber>
+          <AddressTypeCode>1</AddressTypeCode>
+          <City xsi:nil="true"></City>
+          <County xsi:nil="true"></County>
+          <Country xsi:nil="true"></Country>
+          <Fax xsi:nil="true"></Fax>
+          <FreightTermsCode xsi:nil="true"></FreightTermsCode>
+          <ImportSequenceNumber xsi:nil="true"></ImportSequenceNumber>
+          <Latitude xsi:nil="true"></Latitude>
+          <Line1 xsi:nil="true"></Line1>
+          <Line2 xsi:nil="true"></Line2>
+          <Line3 xsi:nil="true"></Line3>
+          <Longitude xsi:nil="true"></Longitude>
+          <Name xsi:nil="true"></Name>
+          <PostalCode xsi:nil="true"></PostalCode>
+          <PostOfficeBox xsi:nil="true"></PostOfficeBox>
+          <PrimaryContactName xsi:nil="true"></PrimaryContactName>
+          <ShippingMethodCode>1</ShippingMethodCode>
+          <StateOrProvince xsi:nil="true"></StateOrProvince>
+          <Telephone1 xsi:nil="true"></Telephone1>
+          <Telephone2 xsi:nil="true"></Telephone2>
+          <Telephone3 xsi:nil="true"></Telephone3>
+          <TimeZoneRuleVersionNumber xsi:nil="true"></TimeZoneRuleVersionNumber>
+          <UPSZone xsi:nil="true"></UPSZone>
+          <UTCOffset xsi:nil="true"></UTCOffset>
+          <UTCConversionTimeZoneCode xsi:nil="true"></UTCConversionTimeZoneCode>
+        </Address>
+      </Addresses>
+    </Publisher>
+    <RootComponents>
+      <RootComponent type="1" schemaName="account" behavior="1" />
+      <RootComponent type="1" schemaName="connection" behavior="2" />
+      <RootComponent type="1" schemaName="contact" behavior="1" />
+      <RootComponent type="1" schemaName="msfsi_bank" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_branch" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_collateral" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_financialproduct" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_kyc" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_limit" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_requestedfacility" behavior="0" />
+      <RootComponent type="1" schemaName="msfsi_syndicates" behavior="0" />
+      <RootComponent type="1" schemaName="systemuser" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_cardtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_collateraltype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_collectionrisk" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_contactpreference" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_dateofmonth" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_dayofweek" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_debttype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_delinquencystatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_employmentstatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_frequency" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_fundingevent" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_idtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_jointtype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_limittype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_loantype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_modeofpayment" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_paymentstatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_paymenttype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_profittier" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_prospecttype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_residencystatus" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_reviewfrequency" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_risklevel" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_riskrating" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_serviceprovidertype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_statusofcard" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_transactionfrequency" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_transactiontype" behavior="0" />
+      <RootComponent type="9" schemaName="msfsi_type" behavior="0" />
+      <RootComponent type="60" id="{03c15467-c52a-4701-940c-931b8bc01002}" behavior="0" />
+      <RootComponent type="60" id="{079f453e-4f0a-40dc-a20b-ecbf1dc5b2f7}" behavior="0" />
+      <RootComponent type="60" id="{09a56c39-75e5-4b61-8a82-def302495728}" behavior="0" />
+      <RootComponent type="60" id="{14bc04c3-8892-4552-ac58-8718cda1dd37}" behavior="0" />
+      <RootComponent type="60" id="{1a3883a8-5a2a-4b17-9a83-bf765646ff0b}" behavior="0" />
+      <RootComponent type="60" id="{1df56cab-d22b-42fc-9daf-8b670dfffe4f}" behavior="0" />
+      <RootComponent type="60" id="{22f26026-440f-440f-812a-e3fc457654cd}" behavior="0" />
+      <RootComponent type="60" id="{319e68fa-5ae8-49ed-8651-084dfa30c7af}" behavior="0" />
+      <RootComponent type="60" id="{3dff2373-cd8a-4d66-af74-146bb53c4d8f}" behavior="0" />
+      <RootComponent type="60" id="{3fa44331-5e00-407f-806a-3dd5f1cab494}" behavior="0" />
+      <RootComponent type="60" id="{44225d5d-d1f8-4f8a-b3c4-3e2a7d32f1f6}" behavior="0" />
+      <RootComponent type="60" id="{50bf19eb-3668-4a10-af8b-5d6372a08bd0}" behavior="0" />
+      <RootComponent type="60" id="{5a157b05-cc6a-41dd-b532-bec5c1fde329}" behavior="0" />
+      <RootComponent type="60" id="{8b62eeb2-f6ef-4095-a475-381d1e39d983}" behavior="0" />
+      <RootComponent type="60" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" behavior="0" />
+      <RootComponent type="60" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" behavior="0" />
+      <RootComponent type="60" id="{9c786fc1-ef6b-4fce-8764-d2e8005796b5}" behavior="0" />
+      <RootComponent type="60" id="{9e6f9c66-85b8-42b0-94fd-976e9306b638}" behavior="0" />
+      <RootComponent type="60" id="{a32229f9-87f9-40d7-a258-65aa8e03571e}" behavior="0" />
+      <RootComponent type="60" id="{b501f32d-f4a0-46c4-9546-bf97da794d2f}" behavior="0" />
+      <RootComponent type="60" id="{b839b813-546a-4b53-ad2b-c532815de624}" behavior="0" />
+      <RootComponent type="60" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" behavior="0" />
+      <RootComponent type="60" id="{c2ba88b1-d4df-4e86-aa9d-0b34a41397fb}" behavior="0" />
+      <RootComponent type="60" id="{ce76a796-139e-4f40-b6f7-4752ba511488}" behavior="0" />
+      <RootComponent type="60" id="{d20ec223-3bfd-453e-84e6-064258c12869}" behavior="0" />
+      <RootComponent type="60" id="{def552ad-4029-4879-be00-6dcb55d744ac}" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_bank" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_branch" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_collateral" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_deal_facility" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_financial_product" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_kyc" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_limit" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_product" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/16_syndicate" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_bank" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_branch" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_collateral" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_deal_facility" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_financial_product" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_financial_product_2" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_financial_product_3" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_financial_product_4" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_financial_product_5" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_kyc" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_limit" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_product" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/32_syndicate" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/area_banking_85_71" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/area_commercial_banking_85_71" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/area_retail_banking_85_71" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/svg_banking" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/svg_commercial_banking" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/svg_financial_service" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/svg_retail_banking" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_bank" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_branch" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_collateral" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_deal_facility" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_financial_product" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_kyc" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_limit" behavior="0" />
+      <RootComponent type="61" schemaName="msfsi_/icons/UI_syndicate" behavior="0" />
+      <RootComponent type="62" schemaName="msfsi_basebankinghub" behavior="0" />
+      <RootComponent type="62" schemaName="msfsi_RetailBankingHub" behavior="0" />
+      <RootComponent type="62" behavior="0" />
+      <RootComponent type="66" schemaName="HIPOCanadaCC.HierarchyControl" behavior="0" />
+    </RootComponents>
+    <MissingDependencies>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.8)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="0" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.8)" />
+        <Dependent key="2" type="62" schemaName="msfsi_basebankinghub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="3" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="4" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="5" type="60" displayName="account contact card" parentDisplayName="Person" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="7" type="66" schemaName="MscrmControls.Knob.ArcKnobControl" displayName="MscrmControls.Knob.ArcKnobControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="8" type="66" schemaName="MscrmControls.Slider.LinearSliderControl" displayName="MscrmControls.Slider.LinearSliderControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="11" type="60" displayName="Retail KYC" parentDisplayName="KYC" id="{1a3883a8-5a2a-4b17-9a83-bf765646ff0b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="12" type="60" displayName="Commercial KYC" parentDisplayName="KYC" id="{079f453e-4f0a-40dc-a20b-ecbf1dc5b2f7}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="13" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="14" type="60" displayName="Commercial KYC Quick Create" parentDisplayName="KYC" id="{03c15467-c52a-4701-940c-931b8bc01002}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="15" type="60" displayName="KYC Quick Create" parentDisplayName="KYC" id="{c968d387-328a-4a43-b03a-c08399ef91d3}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="17" type="60" displayName="Retail Onboarding" parentDisplayName="Person" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="13" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="18" type="60" displayName="Base Bank Person" parentDisplayName="Person" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.6032)" />
+        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="2" type="62" schemaName="msfsi_basebankinghub" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="19" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
+        <Dependent key="1" type="62" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="17" type="60" displayName="Retail Onboarding" parentDisplayName="Person" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="20" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="13" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+      </MissingDependency>
+    </MissingDependencies>
+  </SolutionManifest>
+</ImportExportXml>

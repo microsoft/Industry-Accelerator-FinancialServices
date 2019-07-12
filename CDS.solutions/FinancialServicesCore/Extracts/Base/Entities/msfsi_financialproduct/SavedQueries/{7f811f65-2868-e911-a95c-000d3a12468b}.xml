@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{7f811f65-2868-e911-a95c-000d3a12468b}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_number" select="1" icon="1" preview="1">
+        <row name="result" id="msfsi_financialproductid">
+          <cell name="msfsi_number" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_customerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_branchid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_loantype" width="100" />
+          <cell name="msfsi_loanmaturitydate" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_outstandingtotalamount" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="false">
+        <entity name="msfsi_financialproduct">
+          <attribute name="msfsi_number" />
+          <attribute name="msfsi_customerid" />
+          <attribute name="msfsi_branchid" />
+          <attribute name="msfsi_loantype" />
+          <attribute name="msfsi_outstandingtotalamount" />
+          <attribute name="msfsi_loanmaturitydate" />
+          <order attribute="msfsi_number" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+            <filter type="or">
+              <condition attribute="msfsi_loanmaturitydate" operator="this-month" />
+              <condition attribute="msfsi_loanmaturitydate" operator="next-month" />
+            </filter>
+          </filter>
+          <attribute name="msfsi_financialproductid" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Loans w/ Close Maturing Date" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

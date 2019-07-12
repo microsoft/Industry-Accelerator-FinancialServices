@@ -1,0 +1,115 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{dc582bf7-4824-48dc-aacd-27441f8b0af4}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{8a72ca7e-4596-4fc2-8a7e-a3476142c6b2}" name="StageStep3" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{9ea8fffe-d3dc-424c-a4fe-d84230c97c29}" name="StageStep3_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c5a0b800-132f-4068-aa6e-ddfef93771d3}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_msfsi_customer360person:firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="firstname" relationship="bpf_contact_msfsi_customer360person" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ae1dcff7-8e3e-4a25-9159-a7daa5df717c}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_msfsi_customer360person:lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="lastname" relationship="bpf_contact_msfsi_customer360person" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{df6f1dd2-4409-4cff-bc49-e9bf26b06961}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_msfsi_customer360person:mobilephone" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="mobilephone" relationship="bpf_contact_msfsi_customer360person" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{2ae13d16-521d-446d-8d8b-db1613c812b9}" name="StageStep11" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{b5b3eb43-faea-43cd-a193-e442fd43d6a6}" name="StageStep11_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{623080aa-81e5-4d6f-9706-12a364a21524}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_msfsi_customer360person:parentcustomerid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="parentcustomerid" relationship="bpf_contact_msfsi_customer360person" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab verticallayout="true" id="{2d78d081-abf5-4ad4-a639-1d5361c38ed2}" name="StageStep15" locklevel="0" expanded="true">
+          <labels>
+            <label description="" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showbar="false" columns="1" id="{04cb7154-7742-421b-82bf-b2567c7f6985}" name="StageStep15_section1">
+                  <labels>
+                    <label description="" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{079178eb-ac02-439c-9cd5-a32b364cb722}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_contact_msfsi_customer360person:customertypecode" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="customertypecode" relationship="bpf_contact_msfsi_customer360person" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

@@ -1,0 +1,330 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{42805efb-1f65-4ae8-91bc-618967a55c6e}</formid>
+    <IntroducedVersion>5.0.0.0</IntroducedVersion>
+    <FormPresentation>0</FormPresentation>
+    <FormActivationState>0</FormActivationState>
+    <form enablerelatedinformation="true">
+      <hiddencontrols>
+        <data id="productstructure" datafieldname="productstructure" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
+      </hiddencontrols>
+      <tabs>
+        <tab name="general" verticallayout="true" id="{382e2e1b-69a8-41b9-b17a-201fdd4cd865}" IsUserDefined="0">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="product information" showlabel="false" showbar="false" id="{5e89a895-2b45-47e1-8ec8-fd8a5188b6f9}" IsUserDefined="0">
+                  <labels>
+                    <label description="Product Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{efb50d01-e08b-4637-b692-9fa1d754e1a7}">
+                        <labels>
+                          <label description="Product ID" languagecode="1033" />
+                        </labels>
+                        <control id="productnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="productnumber" />
+                      </cell>
+                      <cell id="{9645fb41-0532-4b4c-b1b5-3ed3223e4cec}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                    <row>
+                      <cell colspan="2" id="{ec666c3e-5c59-4232-984f-706a292c8f37}">
+                        <labels>
+                          <label description="Name" languagecode="1033" />
+                        </labels>
+                        <control id="name" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="name" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{72189403-1c9d-48af-8d3a-1a20392af14f}">
+                        <labels>
+                          <label description="Subject" languagecode="1033" />
+                        </labels>
+                        <control id="subjectid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="subjectid" />
+                      </cell>
+                      <cell id="{0f221106-9d6c-4522-8ad9-647e762c510b}">
+                        <labels>
+                          <label description="Product Type" languagecode="1033" />
+                        </labels>
+                        <control id="producttypecode" classid="{3EF39988-22BB-4f0b-BBBE-64B5A3748AEE}" datafieldname="producttypecode" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7825a8f4-fccf-413c-ac3e-0302eb38ad98}">
+                        <labels>
+                          <label description="Unit Group" languagecode="1033" />
+                        </labels>
+                        <control id="defaultuomscheduleid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defaultuomscheduleid" />
+                      </cell>
+                      <cell id="{16733c54-9cb6-48f5-985a-8d2e1a04bddf}">
+                        <labels>
+                          <label description="Quantity On Hand" languagecode="1033" />
+                        </labels>
+                        <control id="quantityonhand" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="quantityonhand" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{671e55c9-d03e-4102-9649-9ff8ca61151a}">
+                        <labels>
+                          <label description="Default Unit" languagecode="1033" />
+                        </labels>
+                        <events>
+                          <event name="setadditionalparams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.defaultuomid_setadditionalparams" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="4509435d-d55d-4e42-82ec-6edf62a44f8a" enabled="true" passExecutionContext="true" />
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control id="defaultuomid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="defaultuomid" />
+                      </cell>
+                      <cell id="{181e0004-0b82-4601-be43-08558db4fb39}">
+                        <labels>
+                          <label description="URL" languagecode="1033" />
+                        </labels>
+                        <control id="producturl" classid="{71716B6C-711E-476c-8AB8-5D11542BFB47}" datafieldname="producturl" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6f42f949-23cc-4bc0-a1fa-bcd2ff022a49}">
+                        <labels>
+                          <label description="Currency" languagecode="1033" />
+                        </labels>
+                        <control id="transactioncurrencyid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="transactioncurrencyid" />
+                      </cell>
+                      <cell id="{5fd27bbc-40a3-4fda-9571-0aa7fb742bf8}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="costs" showlabel="true" showbar="true" id="{e51091e6-3431-4bd6-a0f6-e592b89f883e}" IsUserDefined="0" labelwidth="125">
+                  <labels>
+                    <label description="Costs" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c8f3baa1-e280-40d1-ba5e-9dfd33563990}">
+                        <labels>
+                          <label description="Default Price List" languagecode="1033" />
+                        </labels>
+                        <events>
+                          <event name="setadditionalparams" application="true" active="true">
+                            <InternalHandlers>
+                              <Handler functionName="Mscrm.pricelevelid_setadditionalparams" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="8d9b4067-8129-4668-8534-6436d16b9727" enabled="true" passExecutionContext="true" />
+                            </InternalHandlers>
+                          </event>
+                        </events>
+                        <control id="pricelevelid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="pricelevelid">
+                          <parameters>
+                            <DefaultViewId>{2261E01B-B7E6-433A-8D6D-F1FD6AC9F70F}</DefaultViewId>
+                          </parameters>
+                        </control>
+                      </cell>
+                      <cell id="{db30df11-02ea-4215-8ef6-3ec64ce3e76d}">
+                        <labels>
+                          <label description="List Price" languagecode="1033" />
+                        </labels>
+                        <control id="price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="price" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{1df61893-5b6d-4d6a-a79a-81afdca156f9}">
+                        <labels>
+                          <label description="Decimals Supported" languagecode="1033" />
+                        </labels>
+                        <control id="quantitydecimal" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="quantitydecimal" />
+                      </cell>
+                      <cell id="{363bfcc1-ac76-40f5-b11f-7abb68d8266f}">
+                        <labels>
+                          <label description="Standard Cost" languagecode="1033" />
+                        </labels>
+                        <control id="standardcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="standardcost" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{f2888d4c-f452-4a8e-90e1-ea0a3838a6e0}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                      </cell>
+                      <cell id="{20fa180e-3b20-47f6-bd91-02823dae45b8}">
+                        <labels>
+                          <label description="Current Cost" languagecode="1033" />
+                        </labels>
+                        <control id="currentcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="currentcost" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="description" id="{16b827e6-ed99-4430-9a48-e891ddf64d19}" IsUserDefined="0">
+          <labels>
+            <label description="Description" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="description information" showlabel="false" showbar="false" id="{268a6e21-1a52-4363-b2a9-9ca627501ea8}" IsUserDefined="0">
+                  <labels>
+                    <label description="Description Information" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{c322e3e7-749a-4751-88bc-738bde43d2a8}">
+                        <labels>
+                          <label description="Vendor" languagecode="1033" />
+                        </labels>
+                        <control id="vendorname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vendorname" />
+                      </cell>
+                      <cell id="{2189c4b2-8d3c-4655-ba51-ecbea37d2124}">
+                        <labels>
+                          <label description="Stock Weight" languagecode="1033" />
+                        </labels>
+                        <control id="stockweight" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="stockweight" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7a0265cb-a4cb-4d97-b323-e1ce884d9b5a}">
+                        <labels>
+                          <label description="Vendor Name" languagecode="1033" />
+                        </labels>
+                        <control id="vendorpartnumber" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="vendorpartnumber" />
+                      </cell>
+                      <cell id="{b87fa0ce-b773-436a-80dd-daf336514041}">
+                        <labels>
+                          <label description="Stock Volume" languagecode="1033" />
+                        </labels>
+                        <control id="stockvolume" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="stockvolume" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+                <section name="description" showlabel="true" showbar="true" id="{3da2cc07-4ec1-41b0-9875-7f6fb3aad0ef}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Description" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{59f69c5d-515b-4eec-835c-63b94d83f9dd}">
+                        <labels>
+                          <label description="Description" languagecode="1033" />
+                        </labels>
+                        <control id="description" classid="{E0DECE4B-6FC8-4a8f-A065-082708572369}" datafieldname="description" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+        <tab name="notes" id="{A2F84DE3-C17B-4355-8712-D9B7C204DBA6}" IsUserDefined="0" expanded="false">
+          <labels>
+            <label description="Notes" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section name="notes" showlabel="false" showbar="false" id="{FBBDD22A-2A82-41c4-B434-BD3A685BAC70}" IsUserDefined="0" height="auto">
+                  <labels>
+                    <label description="Notes" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell colspan="2" showlabel="false" rowspan="5" auto="true" id="{2dd81f71-ed5a-491d-b594-5ef83d4907c9}">
+                        <labels>
+                          <label description="Note Text" languagecode="1033" />
+                        </labels>
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" />
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row height="auto" />
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <events>
+        <event name="onload" application="true" active="true">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.Form_onload" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="4842ce96-833c-4abc-a6ea-94ff497cc081" enabled="true">
+              <dependencies>
+                <dependency id="quantitydecimal" />
+                <dependency id="quantityonhand" />
+                <dependency id="defaultuomid" />
+                <dependency id="defaultuomscheduleid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="defaultuomscheduleid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.defaultuomscheduleid_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="b12d0ff3-7dad-495f-8b18-b84a06ad4ecb" enabled="true">
+              <dependencies>
+                <dependency id="defaultuomid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="quantitydecimal">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.quantitydecimal_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="83a11011-cda3-44af-a04a-838672079779" enabled="true">
+              <dependencies>
+                <dependency id="quantityonhand" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+        <event name="onchange" application="true" active="true" attribute="pricelevelid">
+          <InternalHandlers>
+            <Handler functionName="Mscrm.pricelevelid_onchange" libraryName="ProductManagement/Product/Product_main_system_library.js" handlerUniqueId="83a11011-cda3-44af-a04a-838672079780" enabled="true">
+              <dependencies>
+                <dependency id="pricelevelid" />
+              </dependencies>
+            </Handler>
+          </InternalHandlers>
+        </event>
+      </events>
+      <clientresources>
+        <internalresources>
+          <clientincludes>
+            <internaljscriptfile src="$webresource:ProductManagement/_static/entities/product.js" />
+            <internaljscriptfile src="$webresource:ProductManagement/Product/Product_main_system_library.js" />
+          </clientincludes>
+          <clientvariables>
+            <internaljscriptvariable name="LOCID_ERRORMISSINGPL" resourceid="Web.SFA.product.edit.aspx_91" />
+            <internaljscriptvariable name="LOCID_ERRORMISSINGPLPRE" resourceid="Web.SFA.product.edit.aspx_90" />
+          </clientvariables>
+        </internalresources>
+      </clientresources>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
