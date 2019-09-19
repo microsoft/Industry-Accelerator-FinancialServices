@@ -877,18 +877,10 @@
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
     </entity>
   </EntityInfo>
   <FormXml />
   <SavedQueries />
   <RibbonDiffXml />
-  <CustomControlDefaultConfigs>
-    <CustomControlDefaultConfig>
-      <CustomControlDefaultConfigId>{0cfe2e51-2b56-4aa9-91fa-89bf94e41466}</CustomControlDefaultConfigId>
-      <ControlDescriptionXML>
-        <controlDescriptions />
-      </ControlDescriptionXML>
-      <IntroducedVersion>1.0</IntroducedVersion>
-    </CustomControlDefaultConfig>
-  </CustomControlDefaultConfigs>
 </Entity>

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <Name LocalizedName="Forms Pro survey invite" OriginalName="Survey invite">msfp_surveyinvite</Name>
+  <Name LocalizedName="Forms Pro survey invite" OriginalName="Forms Pro survey invite">msfp_surveyinvite</Name>
   <RibbonDiffXml />
 </Entity>

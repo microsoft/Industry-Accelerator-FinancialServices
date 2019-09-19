@@ -5,42 +5,37 @@
       <Titles>
         <Title LCID="1033" Title="Banking" />
       </Titles>
-      <Group Id="tempId_636946545449618624" IsProfile="false" Title="Customers" ToolTipResourseId="SitemapDesigner.Unknown">
+      <Group Id="NewGroup_d148d398" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
-          <Title LCID="1033" Title="Customers" />
+          <Title LCID="1033" Title="General" />
         </Titles>
-        <SubArea Id="tempId_636946551829985408" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" AvailableOffline="false" PassParams="false" />
-        <SubArea Id="tempId_636946553327817470" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_kyc" AvailableOffline="false" PassParams="false">
+        <SubArea Id="NewSubArea_6b90f719" Icon="/WebResources/msfsi_/icons/32_banking_sm" Entity="msfsi_bank" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1033" Title="Commercial Know Your Customer" />
+            <Title LCID="1033" Title="Bank" />
           </Titles>
         </SubArea>
-        <SubArea Id="tempId_636946551994348986" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" AvailableOffline="false" PassParams="false">
+        <SubArea Id="NewSubArea_60d9972b" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="msfsi_branch" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_c619d0c9" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_collateral" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
-            <Title LCID="1033" Title="People" />
-          </Titles>
-        </SubArea>
-        <SubArea Id="tempId_636946564532819457" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_kyc" AvailableOffline="false" PassParams="false">
-          <Titles>
-            <Title LCID="1033" Title="Retail KYC" />
+            <Title LCID="1033" Title="Collateral" />
           </Titles>
         </SubArea>
       </Group>
-      <Group Id="NewGroup_6e232ce4" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" Title="Financial Products" ToolTipResourseId="SitemapDesigner.Unknown">
+      <Group Id="NewGroup_6e232ce4" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
         <Titles>
           <Title LCID="1033" Title="Financial Products" />
         </Titles>
-        <SubArea Id="NewSubArea_49064fc7" Icon="/_imgs/imagestrips/transparent_spacer.gif" Title="Financial Products" Entity="msfsi_financialproduct" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="NewSubArea_49064fc7" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_financialproduct" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
           <Titles>
             <Title LCID="1033" Title="All Financial Products" />
           </Titles>
         </SubArea>
-        <SubArea Id="Commercial" Icon="/WebResources/msfsi_/icons/32_financial_product_2.png" Url="/_root/homepage.aspx?etn=msfsi_financialproduct&amp;viewid={dad8ddeb-5a6c-e911-a961-000d3a124c2c}" Entity="msfsi_financialproduct" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="Commercial" Icon="/WebResources/msfsi_/icons/32_financial_product_2" Url="/_root/homepage.aspx?etn=msfsi_financialproduct&amp;viewid={dad8ddeb-5a6c-e911-a961-000d3a124c2c}" Entity="msfsi_financialproduct" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Titles>
             <Title LCID="1033" Title="Commercial Loans" />
           </Titles>
         </SubArea>
-        <SubArea Id="Deposits" Icon="/WebResources/msfsi_/icons/32_financial_product_3.png" Url="/_root/homepage.aspx?etn=msfsi_financialproduct&amp;viewid={927c1df8-5a6c-e911-a961-000d3a124c2c}" Entity="msfsi_financialproduct" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
+        <SubArea Id="Deposits" Icon="/WebResources/msfsi_/icons/32_financial_product_3" Url="/_root/homepage.aspx?etn=msfsi_financialproduct&amp;viewid={927c1df8-5a6c-e911-a961-000d3a124c2c}" Entity="msfsi_financialproduct" Client="Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,Live,OnPremise,SPLA">
           <Titles>
             <Title LCID="1033" Title="Deposits" />
           </Titles>
@@ -63,6 +58,60 @@
         <SubArea Id="tempId_636947133219027799" Icon="/_imgs/imagestrips/transparent_spacer.gif" Title="Retail Products" Entity="product" AvailableOffline="false" PassParams="false">
           <Titles>
             <Title LCID="1033" Title="Retail Products" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="NewGroup_d9b346da" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Commercial" />
+        </Titles>
+        <SubArea Id="NewSubArea_4682d4e6" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_9021811d" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="msfsi_kyc" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Commercial KYCs" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_138e1954" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_requestedfacility" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Requested Facilities" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_8726cd6e" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="msfsi_syndicates" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+        <SubArea Id="NewSubArea_27d523c3" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="msfsi_limit" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA" />
+      </Group>
+      <Group Id="NewGroup_4a3bcfdd" ResourceId="SitemapDesigner.NewGroup" IsProfile="false" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Retail" />
+        </Titles>
+        <SubArea Id="NewSubArea_accb1441" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="People" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="NewSubArea_d2a3ff4f" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" Entity="msfsi_kyc" Client="All,Outlook,OutlookLaptopClient,OutlookWorkstationClient,Web" AvailableOffline="true" PassParams="false" Sku="All,OnPremise,Live,SPLA">
+          <Titles>
+            <Title LCID="1033" Title="Retail KYCs" />
+          </Titles>
+        </SubArea>
+      </Group>
+      <Group Id="tempId_636946545449618624" IsProfile="false" Title="Customers" ToolTipResourseId="SitemapDesigner.Unknown">
+        <Titles>
+          <Title LCID="1033" Title="Customers" />
+        </Titles>
+        <SubArea Id="tempId_636946551829985408" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="account" AvailableOffline="false" PassParams="false" />
+        <SubArea Id="tempId_636946553327817470" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_kyc" AvailableOffline="false" PassParams="false">
+          <Titles>
+            <Title LCID="1033" Title="Commercial Know Your Customer" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="tempId_636946551994348986" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="contact" AvailableOffline="false" PassParams="false">
+          <Titles>
+            <Title LCID="1033" Title="People" />
+          </Titles>
+        </SubArea>
+        <SubArea Id="tempId_636946564532819457" Icon="/_imgs/imagestrips/transparent_spacer.gif" Entity="msfsi_kyc" AvailableOffline="false" PassParams="false">
+          <Titles>
+            <Title LCID="1033" Title="Retail KYC" />
           </Titles>
         </SubArea>
       </Group>
@@ -94,14 +143,30 @@
     <Area Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" Icon="/_imgs/sales_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
       <Group Id="MyWork" ResourceId="Group_MyWork" DescriptionResourceId="My_Work_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="My_Work_ToolTip">
         <SubArea Id="nav_dashboards" ResourceId="Homepage_Dashboards" DescriptionResourceId="Dashboards_Description" Icon="/_imgs/area/18_home.gif" Url="/workplace/home_dashboards.aspx" DefaultDashboard="2701de60-8f2a-48a4-8262-4a35ca7441fa" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_personalwall" ResourceId="Whats_New_Label" DescriptionResourceId="Whats_New_Description" Icon="/WebResources/msdyn_/Images/Wall_16.png" Url="$webresource:msdyn_/PersonalWall.htm?data=HideUserProfile%3D0" IntroducedVersion="7.0.0.0" GetStartedPanePath="Dashboards_Web_User_Visor.html" GetStartedPanePathAdmin="Dashboards_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Dashboards_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Dashboards_Outlook_User_Visor.html" OutlookShortcutIcon="$webresource:msdyn_/Images/Wall_16.png" AvailableOffline="false" PassParams="false">
           <Privilege Entity="post" Privilege="Read" />
         </SubArea>
-        <SubArea Id="nav_activities" DescriptionResourceId="Activities_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" Url="/_root/homepage.aspx?etc=4200" IntroducedVersion="7.0.0.0" GetStartedPanePath="Activities_Web_User_Visor.html" GetStartedPanePathAdmin="Activities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Activities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Activities_Outlook_User_Visor.html" Entity="activitypointer" AvailableOffline="true" PassParams="false" />
       </Group>
       <Group Id="Customers" ResourceId="Group_Customers" DescriptionResourceId="Customers_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Customers_ToolTip">
         <SubArea Id="nav_accts" DescriptionResourceId="Account_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Accounts_Web_User_Visor.html" GetStartedPanePathAdmin="Accounts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Accounts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Accounts_Outlook_User_Visor.html" Entity="account" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_conts" DescriptionResourceId="Contact_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Contacts_Web_User_Visor.html" GetStartedPanePathAdmin="Contacts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Contacts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Contacts_Outlook_User_Visor.html" Entity="contact" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="Goals" ResourceId="Area_Goals" DescriptionResourceId="Area_Goals_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Area_Goals_ToolTip">
+        <SubArea Id="nav_goals" DescriptionResourceId="Goals_SubArea_Description" Icon="/_imgs/ico_18_9600.png" IntroducedVersion="7.0.0.0" Entity="goal" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_metric" DescriptionResourceId="Metrics_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="metric" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_goalrollupqueries" DescriptionResourceId="GoalQueries_SubArea_Description" Icon="/_imgs/ico_18_9602.png" IntroducedVersion="7.0.0.0" Entity="goalrollupquery" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
+        <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="report" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_traces" ResourceId="Homepage_Alerts" DescriptionResourceId="Alerts_SubArea_Description" Icon="/_imgs/area/18_alerts.png" Url="/_root/tracewall.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
+          <Privilege Entity="tracelog" Privilege="Read" />
+        </SubArea>
+        <SubArea Id="nav_calendar" ResourceId="Homepage_Calendar" Icon="/_imgs/area/18_calendar.gif" Url="/workplace/home_calendar.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false">
+          <Privilege Entity="activitypointer" Privilege="Read" />
+        </SubArea>
       </Group>
       <Group Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Sales_ToolTip">
         <SubArea Id="nav_leads" DescriptionResourceId="Lead_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Leads_Web_User_Visor.html" GetStartedPanePathAdmin="Leads_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Leads_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Leads_Outlook_User_Visor.html" Entity="lead" AvailableOffline="true" PassParams="false" />
@@ -121,22 +186,6 @@
           <Privilege Privilege="AllowQuickCampaign" />
         </SubArea>
       </Group>
-      <Group Id="Goals" ResourceId="Area_Goals" DescriptionResourceId="Area_Goals_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Area_Goals_ToolTip">
-        <SubArea Id="nav_goals" DescriptionResourceId="Goals_SubArea_Description" Icon="/_imgs/ico_18_9600.png" IntroducedVersion="7.0.0.0" Entity="goal" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_metric" DescriptionResourceId="Metrics_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="metric" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_goalrollupqueries" DescriptionResourceId="GoalQueries_SubArea_Description" Icon="/_imgs/ico_18_9602.png" IntroducedVersion="7.0.0.0" Entity="goalrollupquery" AvailableOffline="true" PassParams="false" />
-      </Group>
-      <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
-        <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
-          <Privilege Entity="report" Privilege="Read" />
-        </SubArea>
-        <SubArea Id="nav_traces" ResourceId="Homepage_Alerts" DescriptionResourceId="Alerts_SubArea_Description" Icon="/_imgs/area/18_alerts.png" Url="/_root/tracewall.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false">
-          <Privilege Entity="tracelog" Privilege="Read" />
-        </SubArea>
-        <SubArea Id="nav_calendar" ResourceId="Homepage_Calendar" Icon="/_imgs/area/18_calendar.gif" Url="/workplace/home_calendar.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false">
-          <Privilege Entity="activitypointer" Privilege="Read" />
-        </SubArea>
-      </Group>
       <Group Id="BusinessProcesses" ResourceId="Group_BusinessProcesses" DescriptionResourceId="BusinessProcesses_Description" IntroducedVersion="9.0.0.0" IsProfile="false" ToolTipResourseId="Group_BusinessProcesses_ToolTip">
         <SubArea Id="nav_leadtoopportunitysales" DescriptionResourceId="LeadToOpportunitySales_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="leadtoopportunitysalesprocess" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_opportunitysalesprocess" DescriptionResourceId="OpportunitySalesProcess_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="opportunitysalesprocess" AvailableOffline="true" PassParams="false" />
@@ -153,12 +202,12 @@
         <SubArea Id="nav_socialprofiles" DescriptionResourceId="SocialProfile_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="socialprofile" AvailableOffline="true" PassParams="false" />
       </Group>
       <Group Id="CS" ResourceId="Area_Service" DescriptionResourceId="Customer_Service_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Customer_Service_ToolTip">
-        <SubArea Id="nav_cases" DescriptionResourceId="Cases_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Cases_Web_User_Visor.html" GetStartedPanePathAdmin="Cases_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Cases_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Cases_Outlook_User_Visor.html" Entity="incident" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_apptbook" ResourceId="Homepage_AppointmentBook" DescriptionResourceId="AppointmentBook_SubArea_Description" Icon="/_imgs/ico_18_servicecal.gif" Url="/sm/home_apptbook.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
         <SubArea Id="nav_queues" ResourceId="Homepage_Queues" DescriptionResourceId="Queues_SubArea_Description" Icon="/_imgs/ico_18_2020.gif" Url="/_root/homepage.aspx?etc=2029" IntroducedVersion="7.0.0.0" GetStartedPanePath="Queues_Web_User_Visor.html" GetStartedPanePathAdmin="Queues_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Queues_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Queues_Outlook_User_Visor.html" Entity="queueitem" AvailableOffline="true" PassParams="false">
           <Privilege Entity="queue" Privilege="Read" />
         </SubArea>
         <SubArea Id="nav_KnowledgeArticles" DescriptionResourceId="KnowledgeArticles_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="8.0.0.0" Entity="knowledgearticle" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_cases" DescriptionResourceId="Cases_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Cases_Web_User_Visor.html" GetStartedPanePathAdmin="Cases_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Cases_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Cases_Outlook_User_Visor.html" Entity="incident" AvailableOffline="true" PassParams="false" />
       </Group>
       <Group Id="Collateral" ResourceId="Area_Collateral" DescriptionResourceId="Area_Collateral_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Area_Collateral_Service_ToolTip">
         <SubArea Id="nav_answers" DescriptionResourceId="Article_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="KB_Web_User_Visor.html" GetStartedPanePathAdmin="KB_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="KB_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="KB_Outlook_User_Visor.html" Entity="kbarticle" AvailableOffline="true" PassParams="false">
@@ -185,10 +234,10 @@
         </SubArea>
       </Group>
       <Group Id="BusinessProcesses" ResourceId="Group_BusinessProcesses" DescriptionResourceId="BusinessProcesses_Description" IntroducedVersion="9.0.0.0" IsProfile="false" ToolTipResourseId="Group_BusinessProcesses_ToolTip">
-        <SubArea Id="nav_phonetocaseprocess" DescriptionResourceId="PhoneToCaseProcess_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="phonetocaseprocess" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_newprocess" DescriptionResourceId="NewProcess_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="newprocess" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_expiredprocess" DescriptionResourceId="ExpiredProcess_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="expiredprocess" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_translationprocess" DescriptionResourceId="TranslationProcess_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="translationprocess" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_phonetocaseprocess" DescriptionResourceId="PhoneToCaseProcess_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="9.0.0.0" Entity="phonetocaseprocess" AvailableOffline="true" PassParams="false" />
       </Group>
     </Area>
     <Area Id="MA" ResourceId="Area_Marketing" DescriptionResourceId="Marketing_Description" Icon="/_imgs/marketing_24x24.gif" ShowGroups="true" IntroducedVersion="7.0.0.0">
@@ -200,16 +249,6 @@
         <SubArea Id="nav_accts" DescriptionResourceId="Account_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Accounts_Web_User_Visor.html" GetStartedPanePathAdmin="Accounts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Accounts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Accounts_Outlook_User_Visor.html" Entity="account" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_conts" DescriptionResourceId="Contact_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Contacts_Web_User_Visor.html" GetStartedPanePathAdmin="Contacts_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Contacts_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Contacts_Outlook_User_Visor.html" Entity="contact" AvailableOffline="true" PassParams="false" />
       </Group>
-      <Group Id="MA" ResourceId="Area_Marketing" DescriptionResourceId="Marketing_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Marketing_ToolTip">
-        <SubArea Id="nav_leads" DescriptionResourceId="Lead_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Leads_Web_User_Visor.html" GetStartedPanePathAdmin="Leads_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Leads_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Leads_Outlook_User_Visor.html" Entity="lead" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_lists" DescriptionResourceId="MarketingList_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Marketing-Lists_Web_User_Visor.html" GetStartedPanePathAdmin="Marketing-Lists_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Marketing-Lists_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Marketing-Lists_Outlook_User_Visor.html" Entity="list" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_campaigns" DescriptionResourceId="Campaign_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Campaigns_Web_User_Visor.html" GetStartedPanePathAdmin="Campaigns_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Campaigns_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Campaigns_Outlook_User_Visor.html" Entity="campaign" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_minicamps" DescriptionResourceId="Quick_Campaign_Description" Icon="/_imgs/ico_18_minicamps.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Quick-Campaigns_Web_User_Visor.html" GetStartedPanePathAdmin="Quick-Campaigns_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Quick-Campaigns_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Quick-Campaigns_Outlook_User_Visor.html" Entity="bulkoperation" AvailableOffline="true" PassParams="false" />
-      </Group>
-      <Group Id="Collateral" ResourceId="Area_Collateral" DescriptionResourceId="Area_Collateral_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Area_Collateral_Marketing_ToolTip">
-        <SubArea Id="nav_products" DescriptionResourceId="Product_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Products_Web_User_Visor.html" GetStartedPanePathAdmin="Products_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Products_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Products_Outlook_User_Visor.html" Entity="product" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_saleslit" DescriptionResourceId="SalesLit_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="salesliterature" AvailableOffline="true" PassParams="false" />
-      </Group>
       <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
         <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
           <Privilege Entity="report" Privilege="Read" />
@@ -220,6 +259,16 @@
         <SubArea Id="nav_calendar" ResourceId="Homepage_Calendar" Icon="/_imgs/area/18_calendar.gif" Url="/workplace/home_calendar.aspx" IntroducedVersion="7.0.0.0" Client="Web" AvailableOffline="true" PassParams="false">
           <Privilege Entity="activitypointer" Privilege="Read" />
         </SubArea>
+      </Group>
+      <Group Id="MA" ResourceId="Area_Marketing" DescriptionResourceId="Marketing_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Marketing_ToolTip">
+        <SubArea Id="nav_leads" DescriptionResourceId="Lead_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Leads_Web_User_Visor.html" GetStartedPanePathAdmin="Leads_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Leads_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Leads_Outlook_User_Visor.html" Entity="lead" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_lists" DescriptionResourceId="MarketingList_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Marketing-Lists_Web_User_Visor.html" GetStartedPanePathAdmin="Marketing-Lists_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Marketing-Lists_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Marketing-Lists_Outlook_User_Visor.html" Entity="list" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_campaigns" DescriptionResourceId="Campaign_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Campaigns_Web_User_Visor.html" GetStartedPanePathAdmin="Campaigns_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Campaigns_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Campaigns_Outlook_User_Visor.html" Entity="campaign" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_minicamps" DescriptionResourceId="Quick_Campaign_Description" Icon="/_imgs/ico_18_minicamps.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Quick-Campaigns_Web_User_Visor.html" GetStartedPanePathAdmin="Quick-Campaigns_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Quick-Campaigns_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Quick-Campaigns_Outlook_User_Visor.html" Entity="bulkoperation" AvailableOffline="true" PassParams="false" />
+      </Group>
+      <Group Id="Collateral" ResourceId="Area_Collateral" DescriptionResourceId="Area_Collateral_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Area_Collateral_Marketing_ToolTip">
+        <SubArea Id="nav_products" DescriptionResourceId="Product_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Products_Web_User_Visor.html" GetStartedPanePathAdmin="Products_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Products_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Products_Outlook_User_Visor.html" Entity="product" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_saleslit" DescriptionResourceId="SalesLit_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="salesliterature" AvailableOffline="true" PassParams="false" />
       </Group>
     </Area>
     <Area Id="HLP" ResourceId="Area_Help" DescriptionResourceId="Help_Area_Description" Icon="/_imgs/icn_help16.png" ShowGroups="true" IntroducedVersion="7.0.0.0">
@@ -274,7 +323,7 @@
           <Title LCID="3082" Title="Ruta de aprendizaje" />
           <Title LCID="3098" Title="Вођено учење" />
         </Titles>
-        <SubArea Id="nav_learning_path" Icon="$webresource:msdyn_LearningPath.png" Url="$webresource:msdyn_launchDesigner.html" IntroducedVersion="8.2.0.0" Client="Web" AvailableOffline="false" PassParams="false">
+        <SubArea Id="nav_learning_path" Url="$webresource:msdyn_launchDesigner.html" IntroducedVersion="8.2.0.0" Client="Web" AvailableOffline="false" PassParams="false">
           <Titles>
             <Title LCID="1033" Title="Content Library" />
             <Title LCID="1025" Title="Content Library" />
@@ -360,8 +409,6 @@
         </SubArea>
         <SubArea Id="nav_audit" ResourceId="Audit_SubArea_Title" DescriptionResourceId="Audit_SubArea_Description" Icon="/_imgs/area/16_audit.png" Url="/tools/audit/audit_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
         <SubArea Id="nav_social" ResourceId="Social_SubArea_Title" DescriptionResourceId="Social_SubArea_Description" Icon="/_imgs/area/16_social.png" Url="/tools/social/social_area.aspx" IntroducedVersion="7.0.0.0" AvailableOffline="false" PassParams="false" />
-        <SubArea Id="msdyn_postconfig" ResourceId="Activity_Feed_Configuration" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" IntroducedVersion="7.0.0.0" Entity="msdyn_postconfig" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="msdyn_postruleconfig" ResourceId="Activity_Feed_Rules_Configuration" Icon="/WebResources/msdyn_/Images/Subarea_Default_Icon.png" IntroducedVersion="7.0.0.0" Entity="msdyn_postruleconfig" AvailableOffline="true" PassParams="false" />
         <SubArea Id="crmapp_outlook" ResourceId="MailApp_SubArea_Title" DescriptionResourceId="MailApp_SubArea_Description" Icon="/_imgs/area/crm_apps_16x16.png" Url="/tools/appsforcrm/AppForOutlookAdminSettings.aspx" IntroducedVersion="8.0.0.0" AvailableOffline="false" PassParams="false" />
         <SubArea Id="nav_relationshipIntelligence" ResourceId="RelationshipIntelligence_SubArea_Title" DescriptionResourceId="RelationshipIntelligence_SubArea_Description" Icon="/_imgs/area/Relationship_Intelligence_16.png" Url="/_static/tools/RelationshipIntelligenceConfig/UnifiedConfig.html" IntroducedVersion="9.0.0.0" AvailableOffline="false" PassParams="false" />
       </Group>

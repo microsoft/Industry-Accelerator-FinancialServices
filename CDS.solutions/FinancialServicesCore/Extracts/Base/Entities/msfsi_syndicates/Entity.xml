@@ -981,18 +981,10 @@
       <ChangeTrackingEnabled>0</ChangeTrackingEnabled>
       <CanChangeTrackingBeEnabled>1</CanChangeTrackingBeEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
     </entity>
   </EntityInfo>
   <FormXml />
   <SavedQueries />
   <RibbonDiffXml />
-  <CustomControlDefaultConfigs>
-    <CustomControlDefaultConfig>
-      <CustomControlDefaultConfigId>{245fee48-3147-4e61-b4a4-ce1dfc630fae}</CustomControlDefaultConfigId>
-      <ControlDescriptionXML>
-        <controlDescriptions />
-      </ControlDescriptionXML>
-      <IntroducedVersion>1.0.0</IntroducedVersion>
-    </CustomControlDefaultConfig>
-  </CustomControlDefaultConfigs>
 </Entity>

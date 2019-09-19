@@ -39,7 +39,7 @@
     </fetchxml>
     <IntroducedVersion>1.1.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="Persons I Follow" languagecode="1033" />
+      <LocalizedName description="People I Follow" languagecode="1033" />
     </LocalizedNames>
     <Descriptions>
       <Description description="Contacts that you follow." languagecode="1033" />

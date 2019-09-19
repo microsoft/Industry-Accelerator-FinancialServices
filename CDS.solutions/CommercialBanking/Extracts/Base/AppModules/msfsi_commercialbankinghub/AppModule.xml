@@ -52,7 +52,17 @@
     <AppModuleComponent type="1" schemaName="salesorder" />
     <AppModuleComponent type="1" schemaName="contact" />
     <AppModuleComponent type="60" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" />
+    <AppModuleComponent type="60" id="{8b62eeb2-f6ef-4095-a475-381d1e39d983}" />
+    <AppModuleComponent type="60" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+    <AppModuleComponent type="60" id="{def552ad-4029-4879-be00-6dcb55d744ac}" />
+    <AppModuleComponent type="60" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
     <AppModuleComponent type="60" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+    <AppModuleComponent type="26" id="{00000000-0000-0000-00aa-000010001004}" />
+    <AppModuleComponent type="26" id="{1b9573ab-2b68-e911-a95c-000d3a12468b}" />
+    <AppModuleComponent type="26" id="{aff686ca-cb5a-e911-a958-000d3a124ef5}" />
+    <AppModuleComponent type="26" id="{a4c0e1e7-2b68-e911-a95c-000d3a12468b}" />
+    <AppModuleComponent type="26" id="{663ae4f9-2b68-e911-a95c-000d3a12468b}" />
+    <AppModuleComponent type="26" id="{2718e3ed-2b68-e911-a95c-000d3a12468b}" />
     <AppModuleComponent type="1" schemaName="phonecall" />
     <AppModuleComponent type="1" schemaName="phonetocaseprocess" />
     <AppModuleComponent type="1" schemaName="msdyn_postconfig" />

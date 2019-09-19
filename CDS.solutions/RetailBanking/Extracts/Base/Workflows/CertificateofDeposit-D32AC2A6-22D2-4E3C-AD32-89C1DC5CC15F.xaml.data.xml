@@ -19,7 +19,6 @@
   <UniqueName>msfsi_certificateofdeposit</UniqueName>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.1.0.0</IntroducedVersion>
-  <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>Contact</PrimaryEntity>
   <LocalizedNames>
@@ -41,6 +40,7 @@
     <steplabels id="{797986c2-0690-4ea5-95de-218a8f4eef82}">
       <label languagecode="1033" description="Purchase Timeframe" />
     </steplabels>
+    <steplabels id="{85d66569-ead4-4811-90b6-4e5b87f69c57}" />
     <steplabels id="{ce4e7154-7e1d-4827-b65e-9029c7498388}">
       <label languagecode="1033" description="Purchase Process" />
     </steplabels>

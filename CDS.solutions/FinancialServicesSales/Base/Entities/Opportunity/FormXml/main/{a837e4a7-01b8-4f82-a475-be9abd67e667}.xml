@@ -1504,6 +1504,7 @@
         <internalresources>
           <clientincludes>
             <internaljscriptfile src="$webresource:Sales/Opportunity/Opportunity_main_system_library.js" />
+            <internaljscriptfile src="$webresource:Forecasting/Opportunity/Opportunity_Forecast_MainSystemLibrary.js" />
           </clientincludes>
         </internalresources>
       </clientresources>

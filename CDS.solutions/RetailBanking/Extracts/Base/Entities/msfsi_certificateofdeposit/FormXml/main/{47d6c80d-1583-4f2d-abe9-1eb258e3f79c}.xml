@@ -7,14 +7,14 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{681f95fa-c0d4-46d3-aff6-5694e0d64011}" name="StageStep4" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{681f95fa-c0d4-46d3-aff6-5694e0d64011}" name="StageStep4" locklevel="0" expanded="true" visible="false">
           <labels>
             <label description="" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{680068cd-6ab7-49ed-ab96-51c28cbe357c}" name="StageStep4_section1">
+                <section showbar="false" columns="1" id="{0ba1982f-c9eb-4b03-a2b8-7e96e14023d0}" name="StageStep4_section1">
                   <labels>
                     <label description="" languagecode="1033" />
                   </labels>
@@ -41,14 +41,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{9705e700-3dca-4567-9fe1-e4ba91a8e283}" name="StageStep10" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{9705e700-3dca-4567-9fe1-e4ba91a8e283}" name="StageStep10" locklevel="0" expanded="true" visible="false">
           <labels>
             <label description="" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{8175de06-de6b-4428-82ae-916a2f6bfa6a}" name="StageStep10_section1">
+                <section showbar="false" columns="1" id="{20a59688-c873-471e-a739-3f810d2cb917}" name="StageStep10_section1">
                   <labels>
                     <label description="" languagecode="1033" />
                   </labels>
@@ -59,6 +59,14 @@
                           <label description="" languagecode="1033" />
                         </labels>
                         <control id="bpf_opportunity_msfsi_certificateofdeposit:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" relationship="bpf_opportunity_msfsi_certificateofdeposit" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{85d66569-ead4-4811-90b6-4e5b87f69c57}" showlabel="true" visible="true">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="bpf_opportunity_msfsi_certificateofdeposit:msfsi_jointholder" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_jointholder" relationship="bpf_opportunity_msfsi_certificateofdeposit" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -83,14 +91,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{0bc8fd07-54f5-4d2f-a72b-99667534b932}" name="StageStep18" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{0bc8fd07-54f5-4d2f-a72b-99667534b932}" name="StageStep20" locklevel="0" expanded="true" visible="false">
           <labels>
             <label description="" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{6c83898c-4203-4665-8946-040c1dbecc1f}" name="StageStep18_section1">
+                <section showbar="false" columns="1" id="{63df6e28-5774-4050-b292-ad9caa3a77c0}" name="StageStep20_section1">
                   <labels>
                     <label description="" languagecode="1033" />
                   </labels>
@@ -125,14 +133,14 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{feca2b52-6282-422b-8c24-06c5f56e6c4f}" name="StageStep26" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{feca2b52-6282-422b-8c24-06c5f56e6c4f}" name="StageStep28" locklevel="0" expanded="true" visible="false">
           <labels>
             <label description="" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{d9c4c4ff-02ae-497d-8775-f4686a5b2485}" name="StageStep26_section1">
+                <section showbar="false" columns="1" id="{ce00e1e3-e113-4cae-a968-57300c3b6e79}" name="StageStep28_section1">
                   <labels>
                     <label description="" languagecode="1033" />
                   </labels>
@@ -153,8 +161,6 @@
         </tab>
       </tabs>
     </form>
-    <IsCustomizable>1</IsCustomizable>
-    <CanBeDeleted>1</CanBeDeleted>
     <LocalizedNames>
       <LocalizedName description="Information" languagecode="1033" />
     </LocalizedNames>
