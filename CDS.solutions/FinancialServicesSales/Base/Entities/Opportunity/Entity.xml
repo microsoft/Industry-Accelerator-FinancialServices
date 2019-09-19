@@ -154,7 +154,7 @@
             <displayname description="Down Payment" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="The total down payment that customer has made against the car or property for which he is applying for the loan." languagecode="1033" />
+            <Description description="The total down payment that customer has made against the car or property for which the applicant is applying for the loan." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="msfsi_downpayment_Base">
@@ -625,6 +625,7 @@
       <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <IsEnabledForExternalChannels>0</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
       <HasRelatedNotes>True</HasRelatedNotes>
       <HasRelatedActivities>True</HasRelatedActivities>
     </entity>
@@ -635,7 +636,6 @@
   <RibbonDiffXml />
   <CustomControlDefaultConfigs>
     <CustomControlDefaultConfig>
-      <CustomControlDefaultConfigId>{7cdd24a6-c8c1-449a-8273-be2a574e4fea}</CustomControlDefaultConfigId>
       <ControlDescriptionXML>
         <controlDescriptions>
           <controlDescription>

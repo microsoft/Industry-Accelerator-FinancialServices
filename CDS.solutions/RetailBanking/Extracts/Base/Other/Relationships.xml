@@ -29,6 +29,13 @@
   <EntityRelationship Name="lk_new_bpf_a85fa8259e7f4db0ada6cdb235c69337_createdby" />
   <EntityRelationship Name="lk_new_bpf_a85fa8259e7f4db0ada6cdb235c69337_modifiedby" />
   <EntityRelationship Name="lk_new_bpf_a85fa8259e7f4db0ada6cdb235c69337_processid" />
+  <EntityRelationship Name="msfsi_account_contact_employerid" />
+  <EntityRelationship Name="msfsi_contact_msfsi_financialproduct" />
+  <EntityRelationship Name="msfsi_msfsi_branch_contact_enrollmentbranchid" />
+  <EntityRelationship Name="msfsi_msfsi_branch_contact_preferredbranchid" />
+  <EntityRelationship Name="msfsi_msfsi_financialproduct_contact" />
+  <EntityRelationship Name="msfsi_msfsi_financialproduct_contact_defaultchargeaccountid" />
+  <EntityRelationship Name="msfsi_Opportunity_JointHolder_Contact" />
   <EntityRelationship Name="organization_msfsi_certificateofdeposit" />
   <EntityRelationship Name="organization_msfsi_contactonboardingfromprospect" />
   <EntityRelationship Name="organization_msfsi_customer360person" />

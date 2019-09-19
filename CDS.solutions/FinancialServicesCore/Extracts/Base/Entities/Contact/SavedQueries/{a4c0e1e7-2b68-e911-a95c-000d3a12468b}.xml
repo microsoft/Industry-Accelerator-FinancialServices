@@ -36,7 +36,7 @@
     </fetchxml>
     <IntroducedVersion>1.1.0.0</IntroducedVersion>
     <LocalizedNames>
-      <LocalizedName description="My Active Persons" languagecode="1033" />
+      <LocalizedName description="My Active People" languagecode="1033" />
     </LocalizedNames>
   </savedquery>
 </savedqueries>

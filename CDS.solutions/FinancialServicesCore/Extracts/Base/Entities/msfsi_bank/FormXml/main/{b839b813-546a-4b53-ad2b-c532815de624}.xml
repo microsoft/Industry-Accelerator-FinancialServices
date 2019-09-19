@@ -66,11 +66,11 @@
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
-                      <cell id="{ee328db0-6b58-6be2-23e7-21e5a81bb68d}" showlabel="true" locklevel="0">
+                      <cell id="{64821be4-cb20-4968-300d-eba9204eac81}" showlabel="true" locklevel="0">
                         <labels>
-                          <label description="Telelphone No." languagecode="1033" />
+                          <label description="Telephone No." languagecode="1033" />
                         </labels>
-                        <control id="msfsi_telelphoneno" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_telelphoneno" disabled="false" />
+                        <control id="msfsi_telephoneno" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="msfsi_telephoneno" disabled="false" />
                       </cell>
                     </row>
                     <row>

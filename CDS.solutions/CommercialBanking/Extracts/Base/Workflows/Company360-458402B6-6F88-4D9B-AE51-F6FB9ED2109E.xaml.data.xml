@@ -19,7 +19,6 @@
   <UniqueName>msfsi_company360</UniqueName>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.1.0.0</IntroducedVersion>
-  <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>Account</PrimaryEntity>
   <LocalizedNames>

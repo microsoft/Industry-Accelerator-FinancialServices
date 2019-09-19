@@ -19,7 +19,6 @@
   <UniqueName>msfsi_businesscheckingaccount</UniqueName>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>0.0.0.1</IntroducedVersion>
-  <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>Account</PrimaryEntity>
   <LocalizedNames>

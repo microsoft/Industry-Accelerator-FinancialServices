@@ -19,7 +19,6 @@
   <UniqueName>new_bpf_a85fa8259e7f4db0ada6cdb235c69337</UniqueName>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0</IntroducedVersion>
-  <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>Contact</PrimaryEntity>
   <LocalizedNames>

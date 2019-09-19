@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{def552ad-4029-4879-be00-6dcb55d744ac}</formid>
+    <IntroducedVersion>1.1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{8065b6ea-c003-4bc6-b424-f00c27ac6e61}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{7a57b90f-9baf-47dd-a163-247ce1cf903f}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{70bd56d9-ea0b-a43c-4784-1ba74bb077ac}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Monthly Income" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_monthlyincome" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_monthlyincome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a968a72e-1952-9adc-a57c-83872d4a2063}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Monthly Liabilities" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_monthlyliabilities" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_monthlyliabilities" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="5">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Person's Monthly Income and Liabilities" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>

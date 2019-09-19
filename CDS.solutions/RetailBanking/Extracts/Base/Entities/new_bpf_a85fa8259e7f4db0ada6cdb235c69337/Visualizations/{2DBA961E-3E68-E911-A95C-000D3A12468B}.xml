@@ -48,7 +48,5 @@
   <LocalizedNames>
     <LocalizedName description="Msfsi_Financialproduct by Active Stage" languagecode="1033" />
   </LocalizedNames>
-  <IsCustomizable>1</IsCustomizable>
   <IntroducedVersion>1.1.0.0</IntroducedVersion>
-  <CanBeDeleted>1</CanBeDeleted>
 </visualization>

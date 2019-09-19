@@ -56,7 +56,11 @@
       </Group>
       <Group Id="SFA" ResourceId="Area_Sales" DescriptionResourceId="Sales_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Sales_ToolTip">
         <SubArea Id="nav_leads" DescriptionResourceId="Lead_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Leads_Web_User_Visor.html" GetStartedPanePathAdmin="Leads_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Leads_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Leads_Outlook_User_Visor.html" Entity="lead" AvailableOffline="true" PassParams="false" />
-        <SubArea Id="nav_oppts" DescriptionResourceId="Opportunity_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Opportunities_Web_User_Visor.html" GetStartedPanePathAdmin="Opportunities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Opportunities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Opportunities_Outlook_User_Visor.html" Entity="opportunity" AvailableOffline="true" PassParams="false" />
+        <SubArea Id="nav_oppts" DescriptionResourceId="Opportunity_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" GetStartedPanePath="Opportunities_Web_User_Visor.html" GetStartedPanePathAdmin="Opportunities_Web_Admin_Visor.html" GetStartedPanePathAdminOutlook="Opportunities_Outlook_Admin_Visor.html" GetStartedPanePathOutlook="Opportunities_Outlook_User_Visor.html" Entity="opportunity" AvailableOffline="true" PassParams="false">
+          <Titles>
+            <Title LCID="1033" Title="Deals" />
+          </Titles>
+        </SubArea>
         <SubArea Id="nav_comps" DescriptionResourceId="Competitor_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="competitor" AvailableOffline="true" PassParams="false" />
       </Group>
       <Group Id="Collateral" ResourceId="Area_Collateral" DescriptionResourceId="Area_Collateral_Description" IntroducedVersion="7.0.0.0" IsProfile="false" ToolTipResourseId="Area_Collateral_Sales_ToolTip">

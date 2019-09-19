@@ -29,6 +29,7 @@
   <EntityRelationship Name="msfsi_account_msfsi_kyc_Customer" />
   <EntityRelationship Name="msfsi_account_msfsi_limit_companyid" />
   <EntityRelationship Name="msfsi_account_msfsi_requestedfacility_companyid" />
+  <EntityRelationship Name="msfsi_contact_msfsi_financialproduct" />
   <EntityRelationship Name="msfsi_contact_msfsi_financialproduct_Customer" />
   <EntityRelationship Name="msfsi_contact_msfsi_kyc_Customer" />
   <EntityRelationship Name="msfsi_contact_msfsi_kyc_primarycontact" />
@@ -38,6 +39,7 @@
   <EntityRelationship Name="msfsi_msfsi_branch_contact_enrollmentbranchid" />
   <EntityRelationship Name="msfsi_msfsi_branch_contact_preferredbranchid" />
   <EntityRelationship Name="msfsi_msfsi_branch_msfsi_financialproduct_branchid" />
+  <EntityRelationship Name="msfsi_msfsi_financialproduct_contact" />
   <EntityRelationship Name="msfsi_msfsi_financialproduct_contact_defaultchargeaccountid" />
   <EntityRelationship Name="msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid" />
   <EntityRelationship Name="msfsi_msfsi_financialproduct_msfsi_syndicates_loanid" />

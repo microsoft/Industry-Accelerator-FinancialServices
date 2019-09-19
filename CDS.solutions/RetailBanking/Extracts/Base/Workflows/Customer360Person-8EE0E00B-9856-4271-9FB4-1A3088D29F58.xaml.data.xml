@@ -19,7 +19,6 @@
   <UniqueName>msfsi_customer360person</UniqueName>
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0.0</IntroducedVersion>
-  <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <PrimaryEntity>Contact</PrimaryEntity>
   <LocalizedNames>

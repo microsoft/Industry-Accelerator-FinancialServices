@@ -7,7 +7,7 @@
         <LocalizedName description="Person" languagecode="1033" />
       </LocalizedNames>
       <LocalizedCollectionNames>
-        <LocalizedCollectionName description="Persons" languagecode="1033" />
+        <LocalizedCollectionName description="People" languagecode="1033" />
       </LocalizedCollectionNames>
       <Descriptions>
         <Description description="Person with whom a business unit has a relationship, such as customer, supplier, and colleague." languagecode="1033" />
@@ -392,7 +392,7 @@
             <displayname description="Delinquency Score" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="The bucket number in which customer falls according to his total overdue amount and past due days." languagecode="1033" />
+            <Description description="The bucket number in which the customer falls according to one's total overdue amount and past due days." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="msfsi_delinquentamount">
@@ -429,7 +429,7 @@
             <displayname description="Delinquent Amount" languagecode="1033" />
           </displaynames>
           <Descriptions>
-            <Description description="Total amount of payments that is overdue against the person’s existing loans and credit cards, for which he has become delinquent." languagecode="1033" />
+            <Description description="Total amount of payments that is overdue against the person’s existing loans and credit cards, for which one has become delinquent." languagecode="1033" />
           </Descriptions>
         </attribute>
         <attribute PhysicalName="msfsi_delinquentamount_Base">
@@ -1369,6 +1369,7 @@
       <EntityHelpUrl></EntityHelpUrl>
       <ChangeTrackingEnabled>1</ChangeTrackingEnabled>
       <IsEnabledForExternalChannels>1</IsEnabledForExternalChannels>
+      <IsSolutionAware>0</IsSolutionAware>
       <HasRelatedNotes>True</HasRelatedNotes>
       <HasRelatedFeedback>True</HasRelatedFeedback>
       <HasRelatedActivities>True</HasRelatedActivities>

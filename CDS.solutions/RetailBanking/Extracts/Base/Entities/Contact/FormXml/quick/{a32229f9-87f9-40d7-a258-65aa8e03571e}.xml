@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform unmodified="1">
+    <formid>{a32229f9-87f9-40d7-a258-65aa8e03571e}</formid>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form maxWidth="400">
+      <tabs>
+        <tab id="{7bf77dcd-044e-4048-96cc-8f5cb355a32d}" name="tab_1" showlabel="false">
+          <labels>
+            <label description="Tab" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section id="{a28fdabc-f39e-4190-a496-e3c70e182138}" name="tab_1_column_1_section_1" columns="1" showlabel="false" showbar="false" IsUserDefined="0">
+                  <labels>
+                    <label description="section" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{68e0a995-2c2e-06e8-9d91-e1b810bb4b00}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Credit Score" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_creditscore" classid="{C6D124CA-7EDA-4a60-AEA9-7FB8D318B68F}" datafieldname="msfsi_creditscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3be018e4-ba7d-5e82-2704-301b10c02ecb}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Churn Score" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_churnscore" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_churnscore" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42b30b51-9676-8a54-7072-8a8b2760d6d5}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Monthly Income" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_monthlyincome" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_monthlyincome" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5ca8ee20-eb27-3517-b116-9b287887b13e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Monthly Liabilities" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_monthlyliabilities" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_monthlyliabilities" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{91a22478-3b3a-3369-a851-a4bde43acb4b}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Debt Burden Ratio" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_debtburdenratio" classid="{C3EFE0C3-0EC6-42be-8349-CBD9079DFD8E}" datafieldname="msfsi_debtburdenratio" disabled="false" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{e1abdd18-7153-09db-a4ec-974de6b79a9e}" showlabel="true" locklevel="0">
+                        <labels>
+                          <label description="Delinquent Amount" languagecode="1033" />
+                        </labels>
+                        <control id="msfsi_delinquentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_delinquentamount" disabled="false" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+      <DisplayConditions Order="3">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
+    </form>
+    <LocalizedNames>
+      <LocalizedName description="Opportunity Person Quick View" languagecode="1033" />
+    </LocalizedNames>
+  </systemform>
+</forms>
