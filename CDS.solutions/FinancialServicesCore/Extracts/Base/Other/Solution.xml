@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.8226" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.13535" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>FinancialServicesCommonAccelerator</UniqueName>
     <LocalizedNames>
@@ -91,7 +91,6 @@
       <RootComponent type="1" schemaName="msfsi_limit" behavior="0" />
       <RootComponent type="1" schemaName="msfsi_requestedfacility" behavior="0" />
       <RootComponent type="1" schemaName="msfsi_syndicates" behavior="0" />
-      <RootComponent type="1" schemaName="systemuser" behavior="0" />
       <RootComponent type="9" schemaName="msfsi_cardtype" behavior="0" />
       <RootComponent type="9" schemaName="msfsi_collateraltype" behavior="0" />
       <RootComponent type="9" schemaName="msfsi_collectionrisk" behavior="0" />
@@ -121,8 +120,6 @@
       <RootComponent type="9" schemaName="msfsi_transactionfrequency" behavior="0" />
       <RootComponent type="9" schemaName="msfsi_transactiontype" behavior="0" />
       <RootComponent type="9" schemaName="msfsi_type" behavior="0" />
-      <RootComponent type="29" id="{d8034e67-04d0-e911-a826-000d3a3b522c}" behavior="0" />
-      <RootComponent type="29" id="{dac1e3ce-3d0b-4ad2-b75e-45828fc9f13c}" behavior="0" />
       <RootComponent type="60" id="{03c15467-c52a-4701-940c-931b8bc01002}" behavior="0" />
       <RootComponent type="60" id="{079f453e-4f0a-40dc-a20b-ecbf1dc5b2f7}" behavior="0" />
       <RootComponent type="60" id="{09a56c39-75e5-4b61-8a82-def302495728}" behavior="0" />
@@ -137,8 +134,8 @@
       <RootComponent type="60" id="{50bf19eb-3668-4a10-af8b-5d6372a08bd0}" behavior="0" />
       <RootComponent type="60" id="{5a157b05-cc6a-41dd-b532-bec5c1fde329}" behavior="0" />
       <RootComponent type="60" id="{8b62eeb2-f6ef-4095-a475-381d1e39d983}" behavior="0" />
-      <RootComponent type="60" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" behavior="0" />
-      <RootComponent type="60" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" behavior="0" />
+      <RootComponent type="60" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
+      <RootComponent type="60" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
       <RootComponent type="60" id="{9c786fc1-ef6b-4fce-8764-d2e8005796b5}" behavior="0" />
       <RootComponent type="60" id="{9e6f9c66-85b8-42b0-94fd-976e9306b638}" behavior="0" />
       <RootComponent type="60" id="{a32229f9-87f9-40d7-a258-65aa8e03571e}" behavior="0" />
@@ -187,102 +184,80 @@
       <RootComponent type="61" schemaName="msfsi_/icons/UI_limit" behavior="0" />
       <RootComponent type="61" schemaName="msfsi_/icons/UI_syndicate" behavior="0" />
       <RootComponent type="62" schemaName="msfsi_basebankinghub" behavior="0" />
-      <RootComponent type="62" schemaName="msfsi_RetailBankingHub" behavior="0" />
-      <RootComponent type="62" behavior="0" />
       <RootComponent type="66" schemaName="HIPOCanadaCC.HierarchyControl" behavior="0" />
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.8)" />
-        <Dependent key="1" type="62" />
+        <Required key="0" type="60" displayName="account contact card" parentDisplayName="Person" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
+        <Dependent key="1" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.8)" />
-        <Dependent key="2" type="62" schemaName="msfsi_basebankinghub" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="3" type="60" displayName="Commercial KYC Quick Create" parentDisplayName="KYC" id="{03c15467-c52a-4701-940c-931b8bc01002}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="3" type="2" schemaName="territoryid" displayName="Territory" parentSchemaName="systemuser" parentDisplayName="User" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="4" type="60" displayName="Information" parentDisplayName="User" id="{c0d7d7dd-afd0-4675-85fe-1cc5a48be6df}" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="4" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="60" displayName="account contact card" parentDisplayName="Person" solution="msdynce_AppCommon (9.0.4.0066)" id="{29de27bc-a257-4f29-99cf-bab4a84e688f}" />
-        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="5" type="60" displayName="Retail KYC" parentDisplayName="KYC" id="{1a3883a8-5a2a-4b17-9a83-bf765646ff0b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="7" type="66" schemaName="MscrmControls.Knob.ArcKnobControl" displayName="MscrmControls.Knob.ArcKnobControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="6" type="60" displayName="Commercial KYC" parentDisplayName="KYC" id="{079f453e-4f0a-40dc-a20b-ecbf1dc5b2f7}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="8" type="66" schemaName="MscrmControls.Slider.LinearSliderControl" displayName="MscrmControls.Slider.LinearSliderControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="1" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="11" type="60" displayName="Retail KYC" parentDisplayName="KYC" id="{1a3883a8-5a2a-4b17-9a83-bf765646ff0b}" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="7" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+        <Required key="2" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="8" type="60" displayName="KYC Quick Create" parentDisplayName="KYC" id="{c968d387-328a-4a43-b03a-c08399ef91d3}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="12" type="60" displayName="Commercial KYC" parentDisplayName="KYC" id="{079f453e-4f0a-40dc-a20b-ecbf1dc5b2f7}" />
+        <Required key="9" type="66" schemaName="MscrmControls.Knob.ArcKnobControl" displayName="MscrmControls.Knob.ArcKnobControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="1" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="13" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+        <Required key="10" type="66" schemaName="MscrmControls.Slider.LinearSliderControl" displayName="MscrmControls.Slider.LinearSliderControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="4" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="14" type="60" displayName="Commercial KYC Quick Create" parentDisplayName="KYC" id="{03c15467-c52a-4701-940c-931b8bc01002}" />
+        <Required key="11" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="7" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="15" type="60" displayName="KYC Quick Create" parentDisplayName="KYC" id="{c968d387-328a-4a43-b03a-c08399ef91d3}" />
+        <Required key="11" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="12" type="60" displayName="Retail Onboarding" parentDisplayName="Person" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="10" type="66" schemaName="MscrmControls.OptionSet.OptionSetControl" displayName="MscrmControls.OptionSet.OptionSetControl" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
+        <Required key="11" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="1" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="17" type="60" displayName="Retail Onboarding" parentDisplayName="Person" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
+        <Required key="11" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="13" type="60" displayName="Base Bank Person" parentDisplayName="Person" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="13" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+        <Required key="11" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Dependent key="4" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="6" type="60" displayName="Customer 360" parentDisplayName="Company" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+        <Required key="14" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="12" type="60" displayName="Retail Onboarding" parentDisplayName="Person" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="18" type="60" displayName="Base Bank Person" parentDisplayName="Person" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" />
+        <Required key="14" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="4" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="66" schemaName="MscrmControls.CardFeedContainer.CardFeedContainer" displayName="MscrmControls.CardFeedContainer.CardFeedContainer" solution="CustomControlsCore (9.1.0000.8226)" />
-        <Dependent key="9" type="60" displayName="Retail Person 360" parentDisplayName="Person" id="{9b6b0509-59a9-4dad-9b33-62f433632fce}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="19" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="2" type="62" schemaName="msfsi_basebankinghub" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="19" type="61" schemaName="msdyn_appmanagementcontrol" displayName="msdyn_appmanagementcontrol" solution="AppModuleWebResources (2.5)" />
-        <Dependent key="1" type="62" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="20" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="18" type="60" displayName="Base Bank Person" parentDisplayName="Person" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="20" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="17" type="60" displayName="Retail Onboarding" parentDisplayName="Person" id="{93f8875a-1169-4de9-8be0-454b99cd495b}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="20" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
-        <Dependent key="13" type="60" displayName="Person for Interactive Experience" parentDisplayName="Person" id="{09a56c39-75e5-4b61-8a82-def302495728}" />
+        <Required key="14" type="61" schemaName="AppCommon/Contact/Contact_main_system_library.js" displayName="AppCommon/Contact/Contact_main_system_library.js" solution="msdynce_AppCommon (9.0.4.0066)" />
+        <Dependent key="13" type="60" displayName="Base Bank Person" parentDisplayName="Person" id="{bfce76a4-906b-4dda-b884-7bb41bb08e15}" />
       </MissingDependency>
     </MissingDependencies>
   </SolutionManifest>

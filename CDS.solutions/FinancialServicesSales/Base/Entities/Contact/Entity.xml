@@ -2,7 +2,7 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Person" OriginalName="">Contact</Name>
   <EntityInfo>
-    <entity Name="Contact" unmodified="1">
+    <entity Name="Contact">
       <attributes>
         <attribute PhysicalName="msfsi_billpay" unmodified="1">
           <Type>bit</Type>
@@ -23,6 +23,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <AppDefaultValue>0</AppDefaultValue>
           <optionset Name="msfsi_contact_msfsi_billpay">
             <OptionSetType>bit</OptionSetType>
@@ -72,6 +76,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <Format>date</Format>
           <Behavior>1</Behavior>
           <displaynames>
@@ -100,6 +108,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>0</MinValue>
           <MaxValue>100</MaxValue>
           <Accuracy>2</Accuracy>
@@ -129,6 +141,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <Format></Format>
           <MinValue>0</MinValue>
           <MaxValue>1000</MaxValue>
@@ -139,7 +155,7 @@
             <Description description="Latest Credit Score run against the customer" languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="msfsi_debtburdenratio" unmodified="1">
+        <attribute PhysicalName="msfsi_debtburdenratio">
           <Type>decimal</Type>
           <Name>msfsi_debtburdenratio</Name>
           <LogicalName>msfsi_debtburdenratio</LogicalName>
@@ -156,6 +172,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-100000000000</MinValue>
           <MaxValue>100000000000</MaxValue>
           <Accuracy>2</Accuracy>
@@ -165,621 +185,9 @@
           <Descriptions>
             <Description description="Debt Burden Ratio (%) of the person based on the person’s monthly income and liabilities." languagecode="1033" />
           </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/contact-msfsi_debtburdenratio.xaml</FormulaDefinitionFileName>
         </attribute>
-        <attribute PhysicalName="msfsi_defaultchargeaccountid" unmodified="1">
-          <Type>lookup</Type>
-          <Name>msfsi_defaultchargeaccountid</Name>
-          <LogicalName>msfsi_defaultchargeaccountid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Default Charge Account" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Default account of the customer to be charged for different transaction fees and service charges that apply to the person based on service requests and transactions requested and carried out in branch" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_delinquencyscore" unmodified="1">
-          <Type>int</Type>
-          <Name>msfsi_delinquencyscore</Name>
-          <LogicalName>msfsi_delinquencyscore</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format></Format>
-          <MinValue>0</MinValue>
-          <MaxValue>10</MaxValue>
-          <displaynames>
-            <displayname description="Delinquency Score" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The bucket number in which the customer falls according to one's total overdue amount and past due days." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_delinquentamount" unmodified="1">
-          <Type>money</Type>
-          <Name>msfsi_delinquentamount</Name>
-          <LogicalName>msfsi_delinquentamount</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>0</MinValue>
-          <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>0</AccuracySource>
-          <displaynames>
-            <displayname description="Delinquent Amount" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Total amount of payments that is overdue against the person’s existing loans and credit cards, for which one has become delinquent." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_delinquentamount_Base" unmodified="1">
-          <Type>money</Type>
-          <Name>msfsi_delinquentamount_base</Name>
-          <LogicalName>msfsi_delinquentamount_base</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>0</AccuracySource>
-          <CalculationOf>msfsi_delinquentamount</CalculationOf>
-          <displaynames>
-            <displayname description="Delinquent Amount (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Delinquent Amount in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_directdeposit" unmodified="1">
-          <Type>bit</Type>
-          <Name>msfsi_directdeposit</Name>
-          <LogicalName>msfsi_directdeposit</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="msfsi_contact_msfsi_directdeposit">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0</IntroducedVersion>
-            <displaynames>
-              <displayname description="Direct Deposit" languagecode="1033" />
-            </displaynames>
-            <Descriptions>
-              <Description description="Flag indicating whether the person’s salary is transferred to this bank or not." languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="0" Color="#0000ff">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                </labels>
-              </option>
-              <option value="1" Color="#0000ff">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Direct Deposit" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Flag indicating whether the person’s salary is transferred to this bank or not." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_employerid" unmodified="1">
-          <Type>lookup</Type>
-          <Name>msfsi_employerid</Name>
-          <LogicalName>msfsi_employerid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Employer" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The company at which the person works." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_employmentstatus" unmodified="1">
-          <Type>picklist</Type>
-          <Name>msfsi_employmentstatus</Name>
-          <LogicalName>msfsi_employmentstatus</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>msfsi_employmentstatus</OptionSetName>
-          <displaynames>
-            <displayname description="Employment Status" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The status of person’s employment such as salaried or self-employed." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_enrollmentbranchid" unmodified="1">
-          <Type>lookup</Type>
-          <Name>msfsi_enrollmentbranchid</Name>
-          <LogicalName>msfsi_enrollmentbranchid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Enrollment Branch" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The branch at which the customer was enrolled." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_idexpirydate" unmodified="1">
-          <Type>datetime</Type>
-          <Name>msfsi_idexpirydate</Name>
-          <LogicalName>msfsi_idexpirydate</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format>date</Format>
-          <Behavior>1</Behavior>
-          <displaynames>
-            <displayname description="ID Expiry Date" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The date of expiry of the identification document provided by the person." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_idtype" unmodified="1">
-          <Type>picklist</Type>
-          <Name>msfsi_idtype</Name>
-          <LogicalName>msfsi_idtype</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>msfsi_idtype</OptionSetName>
-          <displaynames>
-            <displayname description="ID Type" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The type of identification document that the prospect has provided to the bank such as passport or national ID card in case of Retail prospect, or the trade license or registration certificate, in cas" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_isminor" unmodified="1">
-          <Type>bit</Type>
-          <Name>msfsi_isminor</Name>
-          <LogicalName>msfsi_isminor</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="msfsi_contact_msfsi_isminor">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0</IntroducedVersion>
-            <displaynames>
-              <displayname description="Is Minor" languagecode="1033" />
-            </displaynames>
-            <Descriptions>
-              <Description description="Indication of whether the person is Minor." languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="0" Color="#0000ff">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                </labels>
-              </option>
-              <option value="1" Color="#0000ff">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Is Minor" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Indication of whether the person is Minor." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_monthlyincome" unmodified="1">
-          <Type>money</Type>
-          <Name>msfsi_monthlyincome</Name>
-          <LogicalName>msfsi_monthlyincome</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>0</MinValue>
-          <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>0</AccuracySource>
-          <displaynames>
-            <displayname description="Monthly Income" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The person’s  income per month." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_monthlyincome_Base" unmodified="1">
-          <Type>money</Type>
-          <Name>msfsi_monthlyincome_base</Name>
-          <LogicalName>msfsi_monthlyincome_base</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>1</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>0</AccuracySource>
-          <CalculationOf>msfsi_monthlyincome</CalculationOf>
-          <displaynames>
-            <displayname description="Monthly Income (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Monthly Income in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_monthlyliabilities" unmodified="1">
-          <Type>money</Type>
-          <Name>msfsi_monthlyliabilities</Name>
-          <LogicalName>msfsi_monthlyliabilities</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>0</MinValue>
-          <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>0</AccuracySource>
-          <displaynames>
-            <displayname description="Monthly Liabilities" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Monthly Liabilities of the customer including loan payments and other monthly liabilities." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_monthlyliabilities_Base" unmodified="1">
-          <Type>money</Type>
-          <Name>msfsi_monthlyliabilities_base</Name>
-          <LogicalName>msfsi_monthlyliabilities_base</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>disabled</ImeMode>
-          <ValidForReadApi>1</ValidForReadApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <MinValue>-922337203685477</MinValue>
-          <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
-          <AccuracySource>0</AccuracySource>
-          <CalculationOf>msfsi_monthlyliabilities</CalculationOf>
-          <displaynames>
-            <displayname description="Monthly Liabilities (Base)" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Value of the Monthly Liabilities in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_placeofbirth" unmodified="1">
-          <Type>nvarchar</Type>
-          <Name>msfsi_placeofbirth</Name>
-          <LogicalName>msfsi_placeofbirth</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format>text</Format>
-          <MaxLength>50</MaxLength>
-          <Length>100</Length>
-          <displaynames>
-            <displayname description="Place of birth" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The person’s place of birth as per the identification document." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_preferredbranchid" unmodified="1">
-          <Type>lookup</Type>
-          <Name>msfsi_preferredbranchid</Name>
-          <LogicalName>msfsi_preferredbranchid</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <LookupStyle>single</LookupStyle>
-          <LookupTypes />
-          <displaynames>
-            <displayname description="Preferred Branch" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The branch which the customer prefers to deal with." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_profittier" unmodified="1">
-          <Type>picklist</Type>
-          <Name>msfsi_profittier</Name>
-          <LogicalName>msfsi_profittier</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>msfsi_profittier</OptionSetName>
-          <displaynames>
-            <displayname description="Profit Tier" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Internal ranking of the retail customer based on profitability to the bank" languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_residencystatus" unmodified="1">
-          <Type>picklist</Type>
-          <Name>msfsi_residencystatus</Name>
-          <LogicalName>msfsi_residencystatus</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>-1</AppDefaultValue>
-          <OptionSetName>msfsi_residencystatus</OptionSetName>
-          <displaynames>
-            <displayname description="Residency Status" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The person’s status of residency in the country where he/she has a relationship with the bank." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_residentincountrysince" unmodified="1">
-          <Type>datetime</Type>
-          <Name>msfsi_residentincountrysince</Name>
-          <LogicalName>msfsi_residentincountrysince</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format>date</Format>
-          <Behavior>1</Behavior>
-          <displaynames>
-            <displayname description="Resident in Country Since" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Date from which the person has been resident of the country (if the person not a citizen and is a resident in the country where he/she has a relationship with the bank)." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_totaldeposits" unmodified="1">
+        <attribute PhysicalName="msfsi_totaldeposits">
           <Type>money</Type>
           <Name>msfsi_totaldeposits</Name>
           <LogicalName>msfsi_totaldeposits</LogicalName>
@@ -796,6 +204,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -806,8 +218,9 @@
           <Descriptions>
             <Description description="The total amount of Assets Under Management for the person with the bank as of now (total deposits and investments that the customer has with the bank)." languagecode="1033" />
           </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/contact-msfsi_totaldeposits.xaml</FormulaDefinitionFileName>
         </attribute>
-        <attribute PhysicalName="msfsi_totaldeposits_Base" unmodified="1">
+        <attribute PhysicalName="msfsi_totaldeposits_Base">
           <Type>money</Type>
           <Name>msfsi_totaldeposits_base</Name>
           <LogicalName>msfsi_totaldeposits_base</LogicalName>
@@ -824,6 +237,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -836,7 +253,7 @@
             <Description description="Value of the Total Deposits in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="msfsi_totalloans" unmodified="1">
+        <attribute PhysicalName="msfsi_totalloans">
           <Type>money</Type>
           <Name>msfsi_totalloans</Name>
           <LogicalName>msfsi_totalloans</LogicalName>
@@ -853,6 +270,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -863,8 +284,9 @@
           <Descriptions>
             <Description description="The total amount of Risks Under Management for the person with the bank as of now (total outstanding amount of loans and credit cards)." languagecode="1033" />
           </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/contact-msfsi_totalloans.xaml</FormulaDefinitionFileName>
         </attribute>
-        <attribute PhysicalName="msfsi_totalloans_Base" unmodified="1">
+        <attribute PhysicalName="msfsi_totalloans_Base">
           <Type>money</Type>
           <Name>msfsi_totalloans_base</Name>
           <LogicalName>msfsi_totalloans_base</LogicalName>
@@ -881,6 +303,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>4</Accuracy>
@@ -891,83 +317,6 @@
           </displaynames>
           <Descriptions>
             <Description description="Value of the Total Loans in base currency." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_visaexpiry" unmodified="1">
-          <Type>datetime</Type>
-          <Name>msfsi_visaexpiry</Name>
-          <LogicalName>msfsi_visaexpiry</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <Format>date</Format>
-          <Behavior>1</Behavior>
-          <displaynames>
-            <displayname description="Visa Expiry" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="The expiry date of the person’s residence permit in the country where he/she has a relationship with the bank." languagecode="1033" />
-          </Descriptions>
-        </attribute>
-        <attribute PhysicalName="msfsi_waivecharges" unmodified="1">
-          <Type>bit</Type>
-          <Name>msfsi_waivecharges</Name>
-          <LogicalName>msfsi_waivecharges</LogicalName>
-          <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
-          <ImeMode>auto</ImeMode>
-          <ValidForUpdateApi>1</ValidForUpdateApi>
-          <ValidForReadApi>1</ValidForReadApi>
-          <ValidForCreateApi>1</ValidForCreateApi>
-          <IsCustomField>1</IsCustomField>
-          <IsAuditEnabled>0</IsAuditEnabled>
-          <IsSecured>0</IsSecured>
-          <IntroducedVersion>1.0.0</IntroducedVersion>
-          <SourceType>0</SourceType>
-          <IsGlobalFilterEnabled>0</IsGlobalFilterEnabled>
-          <IsSortableEnabled>0</IsSortableEnabled>
-          <IsDataSourceSecret>0</IsDataSourceSecret>
-          <AutoNumberFormat></AutoNumberFormat>
-          <AppDefaultValue>0</AppDefaultValue>
-          <optionset Name="msfsi_contact_msfsi_waivecharges">
-            <OptionSetType>bit</OptionSetType>
-            <IntroducedVersion>1.0.0</IntroducedVersion>
-            <displaynames>
-              <displayname description="Waive Charges" languagecode="1033" />
-            </displaynames>
-            <Descriptions>
-              <Description description="Indication of whether the charges against different services and transactions must be waived for the customer. Charge waiver flag would be set to Yes for specific customers by the bank based on custom" languagecode="1033" />
-            </Descriptions>
-            <options>
-              <option value="0" Color="#0000ff">
-                <labels>
-                  <label description="No" languagecode="1033" />
-                </labels>
-              </option>
-              <option value="1" Color="#0000ff">
-                <labels>
-                  <label description="Yes" languagecode="1033" />
-                </labels>
-              </option>
-            </options>
-          </optionset>
-          <displaynames>
-            <displayname description="Waive Charges" languagecode="1033" />
-          </displaynames>
-          <Descriptions>
-            <Description description="Indication of whether the charges against different services and transactions must be waived for the customer. Charge waiver flag would be set to Yes for specific customers by the bank based on custom" languagecode="1033" />
           </Descriptions>
         </attribute>
       </attributes>

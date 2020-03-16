@@ -7,40 +7,40 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{5da1fdc3-1481-411e-a069-d9d5cd641c9c}" name="StageStep4" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{5da1fdc3-1481-411e-a069-d9d5cd641c9c}" name="StageStep4" locklevel="0" expanded="true" visible="false" labelid="{f5d8b1d5-f249-4c13-a612-9ed72e4db4ae}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Validate Company Information" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{2c0a1976-ddc6-4048-9e7d-9270eb39ef1d}" name="StageStep4_section1">
+                <section showbar="false" columns="1" id="{5da1fdc3-1481-411e-a069-d9d5cd641c9c}" name="StageStep4_section1" labelid="{b58301fa-ca02-417a-b910-7b6eda63e3ef}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Validate Company Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{40ad8bc2-5cbe-46e4-b254-52907616f36d}" showlabel="true" visible="true">
+                      <cell id="{40ad8bc2-5cbe-46e4-b254-52907616f36d}" showlabel="true" visible="true" labelid="{4610088f-2d38-4da6-835b-2c4c99c65d7e}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Company Name" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_commercialdeposit:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_account_msfsi_commercialdeposit:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{1f10fb06-129b-4bcb-938e-f391298670f0}" showlabel="true" visible="true">
+                      <cell id="{1f10fb06-129b-4bcb-938e-f391298670f0}" showlabel="true" visible="true" labelid="{2011c595-be64-4712-a5b4-7568a0584c0e}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Main Phone" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_commercialdeposit:telephone1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="telephone1" relationship="bpf_account_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_account_msfsi_commercialdeposit:telephone1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="telephone1" relationship="bpf_account_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6e4bcf40-e197-4fc6-82db-f5538a50fdc2}" showlabel="true" visible="true">
+                      <cell id="{6e4bcf40-e197-4fc6-82db-f5538a50fdc2}" showlabel="true" visible="true" labelid="{4a0e762b-4683-42e8-a5bd-50dfd805a577}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Primary Contact" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_commercialdeposit:primarycontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="primarycontactid" relationship="bpf_account_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_account_msfsi_commercialdeposit:primarycontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="primarycontactid" relationship="bpf_account_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -49,56 +49,56 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{5b31f4ba-af4a-4954-b8ef-c5098d3a55c0}" name="StageStep12" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{5b31f4ba-af4a-4954-b8ef-c5098d3a55c0}" name="StageStep12" locklevel="0" expanded="true" visible="false" labelid="{d232c3bd-5ff5-4951-bed3-78bfde101fa0}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Start Application" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{a20af72f-459d-4fe7-a174-023eb6eb3786}" name="StageStep12_section1">
+                <section showbar="false" columns="1" id="{5b31f4ba-af4a-4954-b8ef-c5098d3a55c0}" name="StageStep12_section1" labelid="{6d7b46d5-43b7-4623-a1f8-25626c0e1f50}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Start Application" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{7f2cdd91-e1f8-47e1-a85f-d555e545f119}" showlabel="true" visible="true">
+                      <cell id="{7f2cdd91-e1f8-47e1-a85f-d555e545f119}" showlabel="true" visible="true" labelid="{bd36073b-f0e9-427e-8c90-4dc6f6acf7b4}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Product" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:msfsi_productid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_productid" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:msfsi_productid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_productid" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3adbccbc-1e6f-4647-b876-6c5134b82d4f}" showlabel="true" visible="true">
+                      <cell id="{3adbccbc-1e6f-4647-b876-6c5134b82d4f}" showlabel="true" visible="true" labelid="{e66e4de6-fa08-4ddc-a73c-8c93018d027d}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Purchase Timeframe" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:purchasetimeframe" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchasetimeframe" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4e0aad53-8169-40e5-bad2-ee970fb8675a}" showlabel="true" visible="true">
+                      <cell id="{4e0aad53-8169-40e5-bad2-ee970fb8675a}" showlabel="true" visible="true" labelid="{4399c22d-b66a-4aa5-a061-a17d4712ec01}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Budget Amount" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:budgetamount" classid="{533b9e00-756b-4312-95a0-dc888637ac78}" datafieldname="budgetamount" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{ed00e010-b608-4c82-93dd-de2ba556529c}" showlabel="true" visible="true">
+                      <cell id="{ed00e010-b608-4c82-93dd-de2ba556529c}" showlabel="true" visible="true" labelid="{d5f82b44-1e20-4a3f-a9cc-7dcb574d4533}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Purchase Process" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:purchaseprocess" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchaseprocess" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:purchaseprocess" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="purchaseprocess" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{53a3de65-2790-4dc2-bedb-02103a7ac77c}" showlabel="true" visible="true">
+                      <cell id="{53a3de65-2790-4dc2-bedb-02103a7ac77c}" showlabel="true" visible="true" labelid="{7cb22484-d9d7-4841-a8fa-53b368463934}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Description" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:description" classid="{e0dece4b-6fc8-4a8f-a065-082708572369}" datafieldname="description" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -107,24 +107,24 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{3c76d60a-41f9-417e-a2ee-dcaf976eff3b}" name="StageStep24" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{3c76d60a-41f9-417e-a2ee-dcaf976eff3b}" name="StageStep24" locklevel="0" expanded="true" visible="false" labelid="{182d253c-7bbd-4f1f-b9af-f47f8fc54da6}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Gather Documents" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{4189aca2-236c-417f-9481-1e76160ae62d}" name="StageStep24_section1">
+                <section showbar="false" columns="1" id="{3c76d60a-41f9-417e-a2ee-dcaf976eff3b}" name="StageStep24_section1" labelid="{05f558a6-d821-4a14-b250-1aeb63804dfb}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Gather Documents" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{ef23ace0-0cd2-4a52-9f69-01f0e2c752eb}" showlabel="true" visible="true">
+                      <cell id="{ef23ace0-0cd2-4a52-9f69-01f0e2c752eb}" showlabel="true" visible="true" labelid="{84ed4b23-ada8-4a20-8f0a-abdcaae23ef0}">
                         <labels>
                           <label description="Status Reason" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -133,24 +133,24 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{b37459cd-7684-40f0-a77b-ff146100e77b}" name="StageStep28" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{b37459cd-7684-40f0-a77b-ff146100e77b}" name="StageStep28" locklevel="0" expanded="true" visible="false" labelid="{957f9929-c0e2-488b-882e-c7972ce6758d}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Close" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{841804bb-2163-443d-aaf7-d2dbe2224878}" name="StageStep28_section1">
+                <section showbar="false" columns="1" id="{b37459cd-7684-40f0-a77b-ff146100e77b}" name="StageStep28_section1" labelid="{3d01d55b-90d2-4930-9b59-41a8077e7770}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Close" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{5e58fa5d-5193-4b69-a705-814b19af2016}" showlabel="true" visible="true">
+                      <cell id="{5e58fa5d-5193-4b69-a705-814b19af2016}" showlabel="true" visible="true" labelid="{c9b43f90-8bbd-48f7-8e3b-6d07c639faad}">
                         <labels>
                           <label description="Status Reason" languagecode="1033" />
                         </labels>
-                        <control id="bpf_opportunity_msfsi_commercialdeposit:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_msfsi_commercialdeposit" disabled="false" />
+                        <control id="bpf_opportunity_msfsi_commercialdeposit:statuscode" classid="{5d68b988-0661-4db2-bc3e-17598ad3be6c}" datafieldname="statuscode" relationship="bpf_opportunity_msfsi_commercialdeposit" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>

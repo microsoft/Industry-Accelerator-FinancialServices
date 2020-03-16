@@ -7,16 +7,16 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{0271061d-a728-4b2b-be95-a1a006167a34}" name="StageStep4" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{0271061d-a728-4b2b-be95-a1a006167a34}" name="StageStep4" locklevel="0" expanded="true" visible="false">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Validate Company Information" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{91bad793-aa3a-48a9-8628-c16cc815f253}" name="StageStep4_section1">
+                <section showbar="false" columns="1" id="{0271061d-a728-4b2b-be95-a1a006167a34}" name="StageStep4_section1">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Validate Company Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -49,16 +49,16 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{4b436821-f5be-4e8d-9445-65db7aae4502}" name="StageStep12" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{4b436821-f5be-4e8d-9445-65db7aae4502}" name="StageStep12" locklevel="0" expanded="true" visible="false">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Start Application" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{fa88e912-6267-4cd4-b651-1cb7ec554098}" name="StageStep12_section1">
+                <section showbar="false" columns="1" id="{4b436821-f5be-4e8d-9445-65db7aae4502}" name="StageStep12_section1">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Start Application" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -107,16 +107,16 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{495483cb-a20c-47d6-814d-b8e2a916e9d3}" name="StageStep24" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{495483cb-a20c-47d6-814d-b8e2a916e9d3}" name="StageStep24" locklevel="0" expanded="true" visible="false">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Gather Documents" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{0bd9ac79-aa76-4475-8dbb-90fbeddc1ab1}" name="StageStep24_section1">
+                <section showbar="false" columns="1" id="{495483cb-a20c-47d6-814d-b8e2a916e9d3}" name="StageStep24_section1">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Gather Documents" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -133,16 +133,16 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{b45b18b1-5e12-4e24-8e54-54d37b98d6ef}" name="StageStep28" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{b45b18b1-5e12-4e24-8e54-54d37b98d6ef}" name="StageStep28" locklevel="0" expanded="true" visible="false">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Close" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{644f85b7-6c84-44ca-9768-46c290f81b18}" name="StageStep28_section1">
+                <section showbar="false" columns="1" id="{b45b18b1-5e12-4e24-8e54-54d37b98d6ef}" name="StageStep28_section1">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Close" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>

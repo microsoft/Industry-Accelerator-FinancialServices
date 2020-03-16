@@ -128,5 +128,4 @@
       <label languagecode="1033" description="Existing Contact?" />
     </steplabels>
   </labels>
-  <ProcessTriggers />
 </Workflow>

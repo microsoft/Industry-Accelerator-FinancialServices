@@ -32,5 +32,4 @@
       <label languagecode="1033" description="Company Name" />
     </steplabels>
   </labels>
-  <ProcessTriggers />
 </Workflow>

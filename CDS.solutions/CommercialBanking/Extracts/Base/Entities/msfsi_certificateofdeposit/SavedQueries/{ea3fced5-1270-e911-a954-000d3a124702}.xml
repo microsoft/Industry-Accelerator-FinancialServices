@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{ea3fced5-1270-e911-a954-000d3a124702}</savedqueryid>
+    <querytype>8192</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical" output-format="xml-platform">
+        <entity name="msfsi_certificateofdeposit">
+          <attribute name="businessprocessflowinstanceid" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Certificate of Deposit" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="All active Certificate of Deposit" languagecode="1033" />
+    </Descriptions>
+  </savedquery>
+</savedqueries>

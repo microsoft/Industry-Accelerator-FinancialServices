@@ -157,7 +157,23 @@
         </tab>
       </tabs>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_branch_contact_enrollmentbranchid" Sequence="1000" Area="Sales" Id="nav_msfsi_msfsi_branch_contact_enrollmentbranchid">
+            <Titles>
+              <Title LCID="1033" Text="Enrollment Branches" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_branch_contact_preferredbranchid" Sequence="1001" Area="Sales" Id="nav_msfsi_msfsi_branch_contact_preferredbranchid">
+            <Titles>
+              <Title LCID="1033" Text="Preferred Branches" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_branch_msfsi_financialproduct_branchid" Sequence="1002" Area="Service" Id="nav_msfsi_msfsi_branch_msfsi_financialproduct_branchid">
+            <Titles>
+              <Title LCID="1033" Text="Financial Products" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

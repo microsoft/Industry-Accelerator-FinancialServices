@@ -3,11 +3,14 @@
   <UniqueName>msfsi_commercialbankinghub</UniqueName>
   <IntroducedVersion>1.0.0</IntroducedVersion>
   <WebResourceId>3e82552d-238d-e911-a81a-000d3a3b53c4</WebResourceId>
+  <OptimizedFor></OptimizedFor>
+  <WelcomePageId>58ac2e1b-bfe6-e911-a972-000d3a1f77e8</WelcomePageId>
   <FormFactor>1</FormFactor>
   <ClientType>4</ClientType>
   <NavigationType>0</NavigationType>
   <AppModuleComponents>
     <AppModuleComponent type="62" schemaName="msfsi_commercialbankinghub" />
+    <AppModuleComponent type="29" id="{919e14d1-6489-4852-abd0-a63a6ecaac5d}" />
     <AppModuleComponent type="60" id="{385e797b-fb64-e911-a956-000d3a124001}" />
     <AppModuleComponent type="60" id="{fd291d22-2768-e911-a95c-000d3a12468b}" />
     <AppModuleComponent type="60" id="{423c938b-5968-e911-a95c-000d3a12468b}" />
@@ -17,6 +20,7 @@
     <AppModuleComponent type="1" schemaName="kbarticle" />
     <AppModuleComponent type="1" schemaName="msfsi_bank" />
     <AppModuleComponent type="1" schemaName="msfsi_branch" />
+    <AppModuleComponent type="1" schemaName="msfsi_businesscheckingaccount" />
     <AppModuleComponent type="1" schemaName="campaign" />
     <AppModuleComponent type="1" schemaName="incident" />
     <AppModuleComponent type="1" schemaName="msfsi_collateral" />
@@ -91,8 +95,9 @@
     <AppModuleComponent type="1" schemaName="msdyn_upgraderun" />
   </AppModuleComponents>
   <AppModuleRoleMaps>
-    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
     <Role id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+    <Role id="{627090ff-40a3-4053-8790-584edc5be201}" />
+    <Role id="{94efdfbc-5c5d-ea11-a811-000d3a579c39}" />
   </AppModuleRoleMaps>
   <LocalizedNames>
     <LocalizedName description="Commercial Banking" languagecode="1033" />

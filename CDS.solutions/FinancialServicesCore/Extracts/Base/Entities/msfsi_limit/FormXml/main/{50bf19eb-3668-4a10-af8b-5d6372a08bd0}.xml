@@ -158,7 +158,13 @@
         </tab>
       </tabs>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_limit_msfsi_financialproduct_limitid" Sequence="1000" Area="Service" Id="nav_msfsi_msfsi_limit_msfsi_financialproduct_limitid">
+            <Titles>
+              <Title LCID="1033" Text="Financial Products" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

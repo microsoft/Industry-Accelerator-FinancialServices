@@ -617,7 +617,7 @@
                     <row>
                       <cell id="{7e87ab43-7321-21c7-5704-24c5c38000c6}" showlabel="false" rowspan="23" auto="false" colspan="1" labelid="{b5f44d2f-9321-474c-b64e-5c47a6b35be1}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Notes Properties" languagecode="1033" />
                         </labels>
                         <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" />
                       </cell>

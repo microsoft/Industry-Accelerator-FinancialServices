@@ -426,7 +426,23 @@
         </tab>
       </tabs>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_msfsi_syndicates_loanid" Sequence="10001" Area="Info" Id="nav_msfsi_msfsi_financialproduct_msfsi_syndicates_loanid">
+            <Titles>
+              <Title LCID="1033" Text="Syndicates" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact_defaultchargeaccountid" Sequence="10003" Area="Sales" Id="nav_msfsi_msfsi_financialproduct_contact_defaultchargeaccountid">
+            <Titles>
+              <Title LCID="1033" Text="Charge Accounts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid" Sequence="10004" Area="Sales" Id="nav_msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid">
+            <Titles>
+              <Title LCID="1033" Text="Collaterals" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

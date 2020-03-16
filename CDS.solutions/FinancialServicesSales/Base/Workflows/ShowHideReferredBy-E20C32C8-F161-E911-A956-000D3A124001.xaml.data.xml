@@ -18,6 +18,7 @@
   <IntroducedVersion>1.1.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>Lead</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Show/Hide Referred By" />
@@ -25,54 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="This business rule is used to show and hide the appropriate Referred By when a Lead Source is chosen" />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{ef7f4170-a86f-e911-a95c-000d3a12468b}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>leadsourcecode</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Lead</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{f07f4170-a86f-e911-a95c-000d3a12468b}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Lead</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{f17f4170-a86f-e911-a95c-000d3a12468b}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>leadsourcecode</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Lead</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{f27f4170-a86f-e911-a95c-000d3a12468b}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Lead</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{f37f4170-a86f-e911-a95c-000d3a12468b}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>leadsourcecode</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Lead</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{f47f4170-a86f-e911-a95c-000d3a12468b}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Lead</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

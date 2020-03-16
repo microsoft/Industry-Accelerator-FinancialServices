@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebResource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <WebResourceId>{8d151fc2-c2e6-e911-a972-000d3a1f77e8}</WebResourceId>
+  <Name>msfsi_/welcomeScreen/bankingretailhubwelcomepage.html</Name>
+  <DisplayName>bankingretailhubwelcomepage.html</DisplayName>
+  <Description>The landing page for the Banking Accelerator's Retail model driven app.</Description>
+  <WebResourceType>1</WebResourceType>
+  <IntroducedVersion>1.0.3.2</IntroducedVersion>
+  <IsEnabledForMobileClient>0</IsEnabledForMobileClient>
+  <IsAvailableForMobileOffline>0</IsAvailableForMobileOffline>
+  <DependencyXml>&lt;Dependencies&gt;&lt;Dependency componentType="WebResource"/&gt;&lt;/Dependencies&gt;</DependencyXml>
+  <IsCustomizable>1</IsCustomizable>
+  <CanBeDeleted>1</CanBeDeleted>
+  <IsHidden>0</IsHidden>
+  <FileName>/WebResources/msfsi_welcomeScreenbankingretailhubwelcomepagehtml8D151FC2-C2E6-E911-A972-000D3A1F77E8</FileName>
+</WebResource>

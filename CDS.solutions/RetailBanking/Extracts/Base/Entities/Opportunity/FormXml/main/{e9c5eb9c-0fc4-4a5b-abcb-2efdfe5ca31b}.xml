@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform>
+  <systemform unmodified="1">
     <formid>{e9c5eb9c-0fc4-4a5b-abcb-2efdfe5ca31b}</formid>
     <IntroducedVersion>1.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
     <FormActivationState>1</FormActivationState>
-    <form headerdensity="Low">
+    <form>
       <ancestor id="{a837e4a7-01b8-4f82-a475-be9abd67e667}" />
       <hiddencontrols>
         <data id="pricelevelid" datafieldname="pricelevelid" classid="{5546E6CD-394C-4bee-94A8-4425E17EF6C6}" />
@@ -38,14 +38,6 @@
                           <label description="Contact" languagecode="1033" />
                         </labels>
                         <control id="parentcontactid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentcontactid" />
-                      </cell>
-                    </row>
-                    <row>
-                      <cell id="{ea7dd2cb-5ff7-4bc7-b9a7-fe727a8392fd}" showlabel="true" locklevel="0">
-                        <labels>
-                          <label description="Joint Holder" languagecode="1033" />
-                        </labels>
-                        <control id="msfsi_jointholder" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="msfsi_jointholder" disabled="false" />
                       </cell>
                     </row>
                     <row>
@@ -1016,6 +1008,31 @@
               <Title LCID="1028" Text="對話方塊工作階段" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_businesscheckingaccount" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_businesscheckingaccount" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Business Checking Account" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_certificateofdeposit" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_certificateofdeposit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Certificate of Deposit" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_commercialdeposit" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_commercialdeposit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Commercial Deposit" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_commercialloan" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_commercialloan" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Commercial Loan" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Mortgage Application" />
+            </Titles>
+          </NavBarByRelationshipItem>
         </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
@@ -1391,9 +1408,6 @@
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
-      <footer id="{f5c47643-f7d7-48a7-b9c6-2aa76856323a}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
-        <rows></rows>
-      </footer>
     </form>
     <LocalizedNames>
       <LocalizedName description="Retail Opportunity" languagecode="1033" />

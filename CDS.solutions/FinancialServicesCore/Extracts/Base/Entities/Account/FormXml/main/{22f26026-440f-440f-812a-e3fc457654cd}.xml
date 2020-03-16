@@ -294,9 +294,9 @@
                       </cell>
                       <cell id="{40aa22e6-911e-5d30-2201-0c19a57e36e6}" showlabel="true" colspan="1" auto="false" rowspan="9">
                         <labels>
-                          <label description="Connections (Connected From)" languagecode="1033" />
+                          <label description="RELATED RECORDS" languagecode="1033" />
                         </labels>
-                        <control id="connections_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{426163bb-e501-6be7-4639-47be0ac03519}">
+                        <control id="related_records" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{426163bb-e501-6be7-4639-47be0ac03519}">
                           <parameters>
                             <ViewId>{7C0E0725-CCD9-4525-9313-665FD075652F}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -514,7 +514,7 @@
                         <labels>
                           <label description="KYCs (Customer)" languagecode="1033" />
                         </labels>
-                        <control id="kyc_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
+                        <control id="kyc_subgrid" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{96269b59-732b-cbc3-77c3-718ab9b2dd3e}">
                           <parameters>
                             <ViewId>{B1D65308-2968-E911-A95C-000D3A12468B}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -615,11 +615,31 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{7e87ab43-7321-21c7-5704-24c5c38000c6}" showlabel="false" rowspan="23" auto="false" colspan="1" labelid="{b5f44d2f-9321-474c-b64e-5c47a6b35be1}">
+                      <cell id="{7e87ab43-7321-21c7-5704-24c5c38000c6}" showlabel="false" rowspan="23" auto="false" colspan="1" labelid="{b5f44d2f-9321-474c-b64e-5c47a6b35be1}" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Notes Properties" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" />
+                        <control id="notescontrol" classid="{06375649-c143-495e-a496-c962e5b4488e}" disabled="false" uniqueid="{5986b279-13be-1bcb-3555-a56a132a180b}">
+                          <parameters>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>false</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row />
@@ -887,6 +907,41 @@
               <Title LCID="2052" Text="市场活动" />
               <Title LCID="3076" Text="行銷活動" />
               <Title LCID="1028" Text="行銷活動" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_account_msfsi_kyc_Customer" Sequence="1000" Area="Sales" Id="nav_msfsi_account_msfsi_kyc_Customer">
+            <Titles>
+              <Title LCID="1033" Text="KYC Customers" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_account_contact_employerid" Sequence="1002" Area="Sales" Id="nav_msfsi_account_contact_employerid">
+            <Titles>
+              <Title LCID="1033" Text="Employees" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Account_SharepointDocument" Sequence="1003" Area="Service" Id="navSPDocuments">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="contact_customer_accounts" Sequence="1003" Area="Sales" Id="navContacts">
+            <Titles>
+              <Title LCID="1033" Text="Customers" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_account_msfsi_requestedfacility_companyid" Sequence="1004" Area="Service" Id="nav_msfsi_account_msfsi_requestedfacility_companyid">
+            <Titles>
+              <Title LCID="1033" Text="Requested Facilities" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="1004" Area="Service" Id="navDocument">
+            <Titles>
+              <Title LCID="1033" Text="Documents" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_account_msfsi_financialproduct_Customer" Sequence="1005" Area="Service" Id="nav_msfsi_account_msfsi_financialproduct_Customer">
+            <Titles>
+              <Title LCID="1033" Text="Financial Products" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">

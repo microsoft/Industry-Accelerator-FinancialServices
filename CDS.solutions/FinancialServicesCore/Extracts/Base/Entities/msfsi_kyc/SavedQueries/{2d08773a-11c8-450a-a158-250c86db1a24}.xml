@@ -8,7 +8,7 @@
     <isdefault>1</isdefault>
     <savedqueryid>{2d08773a-11c8-450a-a158-250c86db1a24}</savedqueryid>
     <layoutxml>
-      <grid name="" jump="msfsi_name" select="1" icon="1" preview="1">
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="1">
         <row name="msfsi_kyc" id="msfsi_kycid">
           <cell name="msfsi_customerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
           <cell name="msfsi_primarycontact" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
@@ -28,10 +28,10 @@
           <attribute name="msfsi_risklevel" />
           <attribute name="msfsi_customerid" />
           <attribute name="msfsi_kycpreparedon" />
-          <attribute name="msfsi_kycid" />
           <attribute name="msfsi_primarycontact" />
           <attribute name="msfsi_reviewfrequency" />
           <order attribute="msfsi_customerid" descending="false" />
+          <attribute name="msfsi_kycid" />
         </entity>
       </fetch>
     </fetchxml>

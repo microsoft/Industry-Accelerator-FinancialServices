@@ -834,7 +834,18 @@
         </tab>
       </tabs>
       <Navigation>
-        <NavBar></NavBar>
+        <NavBar>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact_defaultchargeaccountid" Sequence="1000" Area="Sales" Id="nav_msfsi_msfsi_financialproduct_contact_defaultchargeaccountid">
+            <Titles>
+              <Title LCID="1033" Text="Charge Accounts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid" Sequence="1001" Area="Sales" Id="nav_msfsi_msfsi_financialproduct_msfsi_collateral_financialproductid">
+            <Titles>
+              <Title LCID="1033" Text="Collaterals" />
+            </Titles>
+          </NavBarByRelationshipItem>
+        </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

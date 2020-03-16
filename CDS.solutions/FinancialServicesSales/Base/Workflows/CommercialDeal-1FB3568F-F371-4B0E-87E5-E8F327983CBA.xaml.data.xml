@@ -75,5 +75,4 @@
       <label languagecode="1033" description="Status Reason" />
     </steplabels>
   </labels>
-  <ProcessTriggers />
 </Workflow>

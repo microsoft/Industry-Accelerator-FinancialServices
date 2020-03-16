@@ -18,6 +18,7 @@
   <IntroducedVersion>1.0.3.1</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <ProcessTriggerScope>1</ProcessTriggerScope>
   <PrimaryEntity>Opportunity</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" />
@@ -25,38 +26,4 @@
   <Descriptions>
     <Description languagecode="1033" description="This business rule checks if the contact and the joint holder is the same person. If they are the same person then the joint holder clears out." />
   </Descriptions>
-  <ProcessTriggers>
-    <ProcessTrigger processtriggerid="{60980bd8-2eda-e911-a96f-000d3a1f77e8}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>msfsi_jointholder</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Opportunity</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{61980bd8-2eda-e911-a96f-000d3a1f77e8}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Opportunity</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{62980bd8-2eda-e911-a96f-000d3a1f77e8}">
-      <controltype>1</controltype>
-      <scope>1</scope>
-      <controlname>parentcontactid</controlname>
-      <event>change</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Opportunity</primaryentitytypecode>
-    </ProcessTrigger>
-    <ProcessTrigger processtriggerid="{63980bd8-2eda-e911-a96f-000d3a1f77e8}">
-      <scope>1</scope>
-      <event>load</event>
-      <pipelinestage>0</pipelinestage>
-      <iscustomizable>1</iscustomizable>
-      <primaryentitytypecode>Opportunity</primaryentitytypecode>
-    </ProcessTrigger>
-  </ProcessTriggers>
 </Workflow>

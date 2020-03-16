@@ -6,7 +6,7 @@
       <name>Lead Source</name>
       <category>4</category>
       <IsCustomizable>1</IsCustomizable>
-      <IntroducedVersion>1.0.0.0</IntroducedVersion>
+      <IntroducedVersion>1.0.3.2</IntroducedVersion>
       <ConnectionRoleObjectTypeCodes>
         <ConnectionRoleObjectTypeCode>
           <connectionroleobjecttypecodeid>{6567cedd-e95a-e911-a958-000d3a124ef5}</connectionroleobjecttypecodeid>

@@ -2,7 +2,7 @@
 <Entity xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name LocalizedName="Company" OriginalName="">Account</Name>
   <EntityInfo>
-    <entity Name="Account" unmodified="1">
+    <entity Name="Account">
       <attributes>
         <attribute PhysicalName="msfsi_annualreviewdate" unmodified="1">
           <Type>datetime</Type>
@@ -23,6 +23,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <Format>date</Format>
           <Behavior>1</Behavior>
           <displaynames>
@@ -32,7 +36,7 @@
             <Description description="The date on which the company’s relationship with the bank needs to be reviewed (i.e. account planning to be done)." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="msfsi_availablelimit" unmodified="1">
+        <attribute PhysicalName="msfsi_availablelimit">
           <Type>money</Type>
           <Name>msfsi_availablelimit</Name>
           <LogicalName>msfsi_availablelimit</LogicalName>
@@ -49,6 +53,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>2</Accuracy>
@@ -59,8 +67,9 @@
           <Descriptions>
             <Description description="Total amount remaining from the credit line/limit implemented against the client." languagecode="1033" />
           </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/account-msfsi_availablelimit.xaml</FormulaDefinitionFileName>
         </attribute>
-        <attribute PhysicalName="msfsi_availablelimit_Base" unmodified="1">
+        <attribute PhysicalName="msfsi_availablelimit_Base">
           <Type>money</Type>
           <Name>msfsi_availablelimit_base</Name>
           <LogicalName>msfsi_availablelimit_base</LogicalName>
@@ -77,6 +86,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>2</Accuracy>
@@ -89,7 +102,7 @@
             <Description description="Value of the Available Limit in base currency." languagecode="1033" />
           </Descriptions>
         </attribute>
-        <attribute PhysicalName="msfsi_implementedlimit" unmodified="1">
+        <attribute PhysicalName="msfsi_implementedlimit">
           <Type>money</Type>
           <Name>msfsi_implementedlimit</Name>
           <LogicalName>msfsi_implementedlimit</LogicalName>
@@ -106,6 +119,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>2</Accuracy>
@@ -116,8 +133,9 @@
           <Descriptions>
             <Description description="Total credit line/limit implemented in the core banking system or Limit Management System for the client to utilize." languagecode="1033" />
           </Descriptions>
+          <FormulaDefinitionFileName>/Formulas/account-msfsi_implementedlimit.xaml</FormulaDefinitionFileName>
         </attribute>
-        <attribute PhysicalName="msfsi_implementedlimit_Base" unmodified="1">
+        <attribute PhysicalName="msfsi_implementedlimit_Base">
           <Type>money</Type>
           <Name>msfsi_implementedlimit_base</Name>
           <LogicalName>msfsi_implementedlimit_base</LogicalName>
@@ -134,6 +152,10 @@
           <IsSortableEnabled>0</IsSortableEnabled>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
           <Accuracy>2</Accuracy>
