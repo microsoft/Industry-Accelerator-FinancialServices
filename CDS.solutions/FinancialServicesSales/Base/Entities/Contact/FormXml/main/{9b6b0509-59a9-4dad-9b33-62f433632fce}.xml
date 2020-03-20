@@ -853,6 +853,21 @@
               <Title LCID="1033" Text="" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_Customer" Sequence="1002" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_Customer">
+            <Titles>
+              <Title LCID="1033" Text="KYCs Customer" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_primarycontact" Sequence="10002" Area="Info" Id="nav_msfsi_contact_msfsi_kyc_primarycontact">
+            <Titles>
+              <Title LCID="1033" Text="KYCs Pirmary Contact" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct_Customer" Sequence="1001" Area="Sales" Id="nav_msfsi_contact_msfsi_financialproduct_Customer">
+            <Titles>
+              <Title LCID="1033" Text="Financial Products Customer" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
             <Titles>
               <Title LCID="1033" Text="Workflows" />
@@ -951,11 +966,6 @@
               <Title LCID="1028" Text="對話方塊工作階段" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_primarycontact" Sequence="10002" Area="Info" Id="nav_msfsi_contact_msfsi_kyc_primarycontact">
-            <Titles>
-              <Title LCID="1033" Text="KYCs Pirmary Contact" />
-            </Titles>
-          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct" Id="nav_msfsi_contact_msfsi_financialproduct" Show="false" Sequence="10005" Area="Sales">
             <Titles>
               <Title LCID="1033" Text="Financial Products" />
@@ -964,16 +974,6 @@
           <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact" Id="nav_msfsi_msfsi_financialproduct_contact" Show="true" Sequence="10006" Area="Service">
             <Titles>
               <Title LCID="1033" Text="Financial Products" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct_Customer" Sequence="1001" Area="Sales" Id="nav_msfsi_contact_msfsi_financialproduct_Customer">
-            <Titles>
-              <Title LCID="1033" Text="Financial Products Customer" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_Customer" Sequence="1002" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_Customer">
-            <Titles>
-              <Title LCID="1033" Text="KYCs Customer" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>
@@ -1371,13 +1371,13 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
+      <footer id="{995832ee-2003-4d9b-bf7a-4de2f1b3b4ce}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
+        <rows></rows>
+      </footer>
       <DisplayConditions FallbackForm="true" Order="6">
         <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
         <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
-      <footer id="{995832ee-2003-4d9b-bf7a-4de2f1b3b4ce}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
-        <rows></rows>
-      </footer>
       <formLibraries>
         <Library name="msdyn_talkingpointsloader.js" libraryUniqueId="{30d6d0a4-d097-b9be-cc6e-5722727be490}" />
       </formLibraries>

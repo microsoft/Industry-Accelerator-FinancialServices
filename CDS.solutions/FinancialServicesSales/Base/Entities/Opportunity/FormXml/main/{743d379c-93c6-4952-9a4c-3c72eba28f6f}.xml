@@ -1039,6 +1039,31 @@
               <Title LCID="1028" Text="對話方塊工作階段" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_businesscheckingaccount" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_businesscheckingaccount" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Business Checking Account" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_certificateofdeposit" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_certificateofdeposit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Certificate of Deposit" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_commercialdeposit" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_commercialdeposit" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Commercial Deposit" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_commercialloan" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_commercialloan" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Commercial Loan" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" Show="false">
+            <Titles>
+              <Title LCID="1033" Text="Mortgage Application" />
+            </Titles>
+          </NavBarByRelationshipItem>
         </NavBar>
         <NavBarAreas>
           <NavBarArea Id="Info">

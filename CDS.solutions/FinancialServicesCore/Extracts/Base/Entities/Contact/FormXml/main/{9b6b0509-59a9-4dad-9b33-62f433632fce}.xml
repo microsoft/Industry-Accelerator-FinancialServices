@@ -445,13 +445,13 @@
             </column>
             <column width="50%">
               <sections>
-                <section name="tab_7_section_3" showlabel="false" showbar="false" locklevel="0" id="{b1e66e1e-ece8-b78a-9106-3d41127ded04}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
+                <section name="related_records" showlabel="true" showbar="false" locklevel="0" id="{b1e66e1e-ece8-b78a-9106-3d41127ded04}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="Section" languagecode="1033" />
+                    <label description="Related Records" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{2d18d216-591d-b12a-c635-7b0c94587198}" showlabel="true" colspan="1" auto="false" rowspan="7">
+                      <cell id="{2d18d216-591d-b12a-c635-7b0c94587198}" showlabel="false" colspan="1" auto="false" rowspan="6">
                         <labels>
                           <label description="Connections" languagecode="1033" />
                         </labels>
@@ -481,7 +481,6 @@
                     <row />
                     <row />
                     <row />
-                    <row />
                   </rows>
                 </section>
               </sections>
@@ -501,35 +500,35 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{0b8ace49-cbc6-4e8c-9913-ca5c2e7e3ff2}">
+                      <cell id="{0b8ace49-cbc6-4e8c-9913-ca5c2e7e3ff2}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{dccdcac6-981e-4cc4-b6ee-8df622c7273e}">
+                      <cell id="{dccdcac6-981e-4cc4-b6ee-8df622c7273e}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{21e152aa-eb4d-4a51-9922-947ec6ff7b68}">
+                      <cell id="{21e152aa-eb4d-4a51-9922-947ec6ff7b68}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9fced0dc-ebc1-41d3-a52e-fada77046d9d}">
+                      <cell id="{9fced0dc-ebc1-41d3-a52e-fada77046d9d}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
                       </cell>
                     </row>
                     <row>
-                      <cell id="{35f54a4d-2fc0-4862-9f68-6f96c6a70dce}">
+                      <cell id="{35f54a4d-2fc0-4862-9f68-6f96c6a70dce}" showlabel="false">
                         <labels>
                           <label description="" languagecode="1033" />
                         </labels>
@@ -611,9 +610,9 @@
                         <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" uniqueid="{c5b6a68a-0d64-25e2-965a-e3517c3e6989}">
                           <parameters>
                             <UClientUniqueName>Timeline</UClientUniqueName>
-                            <UClientModules>Activities,Notes,Posts</UClientModules>
+                            <UClientModules>Activities,Notes</UClientModules>
                             <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
-                            <UClientShowFilterPane>true</UClientShowFilterPane>
+                            <UClientShowFilterPane>false</UClientShowFilterPane>
                             <UClientExpandFilterPane>false</UClientExpandFilterPane>
                             <UClientOrderBy>descending</UClientOrderBy>
                             <UClientRecordPerPage>10</UClientRecordPerPage>
@@ -849,6 +848,26 @@
               <Title LCID="1033" Text="" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Socialprofile_customer_contacts" Sequence="1002" Area="Sales" Id="navSocialprofile">
+            <Titles>
+              <Title LCID="1033" Text="Social Profiles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_Customer" Sequence="1003" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_Customer">
+            <Titles>
+              <Title LCID="1033" Text="KYCs Customers" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_primarycontact" Sequence="1004" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_primarycontact">
+            <Titles>
+              <Title LCID="1033" Text="KYCs Primary Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct_Customer" Sequence="1005" Area="Sales" Id="nav_msfsi_contact_msfsi_financialproduct_Customer">
+            <Titles>
+              <Title LCID="1033" Text="Financial Products Customers" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
             <Titles>
               <Title LCID="1033" Text="Workflows" />
@@ -947,29 +966,19 @@
               <Title LCID="1028" Text="對話方塊工作階段" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_primarycontact" Sequence="10002" Area="Info" Id="nav_msfsi_contact_msfsi_kyc_primarycontact">
-            <Titles>
-              <Title LCID="1033" Text="KYCs Pirmary Contact" />
-            </Titles>
-          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct" Id="nav_msfsi_contact_msfsi_financialproduct" Show="false" Sequence="10005" Area="Sales">
             <Titles>
               <Title LCID="1033" Text="Financial Products" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact" Id="nav_msfsi_msfsi_financialproduct_contact" Show="true" Sequence="10006" Area="Service">
+          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact" Id="nav_msfsi_msfsi_financialproduct_contact" Show="true" Sequence="10007" Area="Service">
             <Titles>
               <Title LCID="1033" Text="Financial Products" />
             </Titles>
           </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct_Customer" Sequence="1001" Area="Sales" Id="nav_msfsi_contact_msfsi_financialproduct_Customer">
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFeedback" Sequence="10008" Area="Service" Id="navFeedback">
             <Titles>
-              <Title LCID="1033" Text="Financial Products Customer" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_Customer" Sequence="1002" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_Customer">
-            <Titles>
-              <Title LCID="1033" Text="KYCs Customer" />
+              <Title LCID="1033" Text="Feedback" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>
@@ -1345,10 +1354,6 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
-      <DisplayConditions FallbackForm="true" Order="6">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
-      </DisplayConditions>
       <footer id="{995832ee-2003-4d9b-bf7a-4de2f1b3b4ce}" celllabelposition="Top" columns="111" labelwidth="115" celllabelalignment="Left">
         <rows>
           <row>
@@ -1370,6 +1375,10 @@
           </row>
         </rows>
       </footer>
+      <DisplayConditions FallbackForm="true" Order="6">
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
+      </DisplayConditions>
     </form>
     <IsCustomizable>1</IsCustomizable>
     <CanBeDeleted>1</CanBeDeleted>

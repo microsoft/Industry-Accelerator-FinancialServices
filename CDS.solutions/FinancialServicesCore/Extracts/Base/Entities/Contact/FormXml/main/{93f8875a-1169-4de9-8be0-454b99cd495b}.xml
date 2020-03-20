@@ -261,11 +261,31 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{db701364-1d99-369c-c409-11d17878e513}" showlabel="false" rowspan="23" auto="false" colspan="1" labelid="{83e7299e-4acb-4ca9-9beb-2bc9faaa795a}">
+                      <cell id="{db701364-1d99-369c-c409-11d17878e513}" showlabel="false" rowspan="23" auto="false" colspan="1" labelid="{83e7299e-4acb-4ca9-9beb-2bc9faaa795a}" locklevel="0">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Notes Properties" languagecode="1033" />
                         </labels>
-                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" />
+                        <control id="notescontrol" classid="{06375649-C143-495E-A496-C962E5B4488E}" disabled="false" uniqueid="{766489d9-d323-e9cc-7246-bb6cd2d5b78d}">
+                          <parameters>
+                            <UClientUniqueName>Timeline</UClientUniqueName>
+                            <UClientModules>Activities,Notes</UClientModules>
+                            <UClientDefaultModuleForCreateExperience>Notes</UClientDefaultModuleForCreateExperience>
+                            <UClientShowFilterPane>false</UClientShowFilterPane>
+                            <UClientExpandFilterPane>false</UClientExpandFilterPane>
+                            <UClientOrderBy>descending</UClientOrderBy>
+                            <UClientRecordPerPage>10</UClientRecordPerPage>
+                            <UClientSortActivitiesByValue>modifiedon</UClientSortActivitiesByValue>
+                            <UClientDisplayActivityHeaderUsing>defaultformat</UClientDisplayActivityHeaderUsing>
+                            <UClientCreateActivityUsing>quickcreateform</UClientCreateActivityUsing>
+                            <UClientDisplayActivityUsing>defaultfields</UClientDisplayActivityUsing>
+                            <DefaultTabId>ActivitiesTab</DefaultTabId>
+                            <OrderByActivityWall>descending</OrderByActivityWall>
+                            <SortActivityWall>modifiedon</SortActivityWall>
+                            <EmailConversationView>true</EmailConversationView>
+                            <ShowArticleTab>false</ShowArticleTab>
+                            <SelectDefaultLanguage>00000000-0000-0000-0000-000000000000</SelectDefaultLanguage>
+                          </parameters>
+                        </control>
                       </cell>
                     </row>
                     <row />
@@ -568,6 +588,31 @@
               <Title LCID="1033" Text="" />
             </Titles>
           </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="Socialprofile_customer_contacts" Sequence="1000" Area="Sales" Id="navSocialprofile">
+            <Titles>
+              <Title LCID="1033" Text="Social Profiles" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_Customer" Sequence="1001" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_Customer">
+            <Titles>
+              <Title LCID="1033" Text="KYC Customers" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_primarycontact" Sequence="1002" Area="Sales" Id="nav_msfsi_contact_msfsi_kyc_primarycontact">
+            <Titles>
+              <Title LCID="1033" Text="KYC Primary Contacts" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct" Id="nav_msfsi_contact_msfsi_financialproduct" Show="true" Sequence="1003" Area="Service">
+            <Titles>
+              <Title LCID="1033" Text="Financial Products" />
+            </Titles>
+          </NavBarByRelationshipItem>
+          <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFeedback" Sequence="1003" Area="Service" Id="navFeedback">
+            <Titles>
+              <Title LCID="1033" Text="Feedback" />
+            </Titles>
+          </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
             <Titles>
               <Title LCID="1033" Text="Workflows" />
@@ -669,21 +714,6 @@
           <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct_Customer" Sequence="10000" Area="Info" Id="nav_msfsi_contact_msfsi_financialproduct_Customer" Show="false">
             <Titles>
               <Title LCID="1033" Text="Financial Products" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_financialproduct" Id="nav_msfsi_contact_msfsi_financialproduct" Show="true" Sequence="10001" Area="Info">
-            <Titles>
-              <Title LCID="1033" Text="Financial Products" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_Customer" Sequence="10002" Area="Info" Id="nav_msfsi_contact_msfsi_kyc_Customer">
-            <Titles>
-              <Title LCID="1033" Text="KYCs" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_contact_msfsi_kyc_primarycontact" Sequence="10003" Area="Info" Id="nav_msfsi_contact_msfsi_kyc_primarycontact">
-            <Titles>
-              <Title LCID="1033" Text="KYCs" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>

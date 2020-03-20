@@ -80,5 +80,4 @@
       <label languagecode="1033" description="Employment Status" />
     </steplabels>
   </labels>
-  <ProcessTriggers />
 </Workflow>

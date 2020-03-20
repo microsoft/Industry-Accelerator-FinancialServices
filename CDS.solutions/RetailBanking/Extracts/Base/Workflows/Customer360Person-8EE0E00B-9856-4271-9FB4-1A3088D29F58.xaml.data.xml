@@ -50,5 +50,4 @@
       <label languagecode="1033" description="Relationship Type" />
     </steplabels>
   </labels>
-  <ProcessTriggers />
 </Workflow>

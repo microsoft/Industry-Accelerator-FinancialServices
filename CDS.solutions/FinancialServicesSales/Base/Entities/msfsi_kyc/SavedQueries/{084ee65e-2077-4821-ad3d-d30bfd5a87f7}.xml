@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{084ee65e-2077-4821-ad3d-d30bfd5a87f7}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="msfsi_name" select="1" icon="1" preview="0">
+        <row name="msfsi_kyc" id="msfsi_kycid">
+          <cell name="msfsi_name" width="100" />
+          <cell name="msfsi_primarycontact" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_kycpreparedon" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_risklevel" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_reviewfrequency" width="125" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="msfsi_customerid" width="150" imageproviderfunctionname="" imageproviderwebresource="$webresource:" />
+          <cell name="createdon" width="125" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>64</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="msfsi_kyc">
+          <attribute name="msfsi_kycid" />
+          <attribute name="createdon" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <order attribute="msfsi_customerid" descending="false" />
+          <attribute name="msfsi_risklevel" />
+          <attribute name="msfsi_reviewfrequency" />
+          <attribute name="msfsi_primarycontact" />
+          <attribute name="msfsi_kycpreparedon" />
+          <attribute name="msfsi_customerid" />
+          <attribute name="msfsi_name" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="KYC Lookup View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -3,6 +3,15 @@
   <Name LocalizedName="Opportunity" OriginalName="Opportunity">Opportunity</Name>
   <EntityInfo>
     <entity Name="Opportunity">
+      <LocalizedNames>
+        <LocalizedName description="Opportunity" languagecode="1033" />
+      </LocalizedNames>
+      <LocalizedCollectionNames>
+        <LocalizedCollectionName description="Opportunities" languagecode="1033" />
+      </LocalizedCollectionNames>
+      <Descriptions>
+        <Description description="Potential revenue-generating event, or sale to an account, which needs to be tracked through a sales process to completion." languagecode="1033" />
+      </Descriptions>
       <attributes>
         <attribute PhysicalName="msfsi_JointHolder">
           <Type>lookup</Type>
@@ -10,6 +19,7 @@
           <LogicalName>msfsi_jointholder</LogicalName>
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
+          <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
           <ValidForCreateApi>1</ValidForCreateApi>
@@ -29,6 +39,10 @@
           <CanModifyIsSortableSettings>1</CanModifyIsSortableSettings>
           <IsDataSourceSecret>0</IsDataSourceSecret>
           <AutoNumberFormat></AutoNumberFormat>
+          <IsSearchable>0</IsSearchable>
+          <IsFilterable>0</IsFilterable>
+          <IsRetrievable>0</IsRetrievable>
+          <IsLocalizable>0</IsLocalizable>
           <LookupStyle>single</LookupStyle>
           <LookupTypes />
           <displaynames>
@@ -96,4 +110,36 @@
   </EntityInfo>
   <FormXml />
   <RibbonDiffXml />
+  <CustomControlDefaultConfigs>
+    <CustomControlDefaultConfig>
+      <ControlDescriptionXML>
+        <controlDescriptions>
+          <controlDescription>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="0">
+              <parameters />
+            </customControl>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="1">
+              <parameters />
+            </customControl>
+            <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" formFactor="2">
+              <parameters />
+            </customControl>
+            <customControl name="MscrmControls.Calendar.CalendarControl" formFactor="-1">
+              <parameters>
+                <data-set name="Calendar">
+                  <StartDate>estimatedclosedate</StartDate>
+                  <Description>name</Description>
+                  <EndDate>estimatedclosedate</EndDate>
+                </data-set>
+                <DisplayMode static="true" type="Enum">anchoredwithhoursofthedaytimeline</DisplayMode>
+                <MinimumDuration static="true" type="Whole.Duration">30</MinimumDuration>
+                <ColorFallbackBehavior static="true" type="Enum">colorfromentity</ColorFallbackBehavior>
+              </parameters>
+            </customControl>
+          </controlDescription>
+        </controlDescriptions>
+      </ControlDescriptionXML>
+      <IntroducedVersion>8.0.0000.1088</IntroducedVersion>
+    </CustomControlDefaultConfig>
+  </CustomControlDefaultConfigs>
 </Entity>

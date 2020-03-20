@@ -7,56 +7,56 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{a9af5e04-596f-40e5-8d2e-b417e8b49ef0}" name="StageStep5" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{a9af5e04-596f-40e5-8d2e-b417e8b49ef0}" name="StageStep5" locklevel="0" expanded="true" visible="false" labelid="{26419d29-da38-436f-a2a6-3d39f160295f}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Prospect Information" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{889de33b-d7aa-46f3-872b-ac4133cdc338}" name="StageStep5_section1">
+                <section showbar="false" columns="1" id="{a9af5e04-596f-40e5-8d2e-b417e8b49ef0}" name="StageStep5_section1" labelid="{b5757b6c-7fe9-40c6-b768-c6e741b63c60}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Prospect Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{960bd92e-c174-46d7-983f-9a38f762e240}" showlabel="true" visible="true">
+                      <cell id="{960bd92e-c174-46d7-983f-9a38f762e240}" showlabel="true" visible="true" labelid="{19abfc12-b3f0-4ef8-b41d-dd7e315fcfc1}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Topic" languagecode="1033" />
                         </labels>
-                        <control id="bpf_lead_msfsi_companyonboarding:subject" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="subject" relationship="bpf_lead_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_lead_msfsi_companyonboarding:subject" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="subject" relationship="bpf_lead_msfsi_companyonboarding" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{c8c82294-6308-48e6-b192-e7ad6f9ca368}" showlabel="true" visible="true">
+                      <cell id="{c8c82294-6308-48e6-b192-e7ad6f9ca368}" showlabel="true" visible="true" labelid="{20e959c4-576a-4003-8e2b-7c9a18dda10a}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Prospect Type" languagecode="1033" />
                         </labels>
-                        <control id="bpf_lead_msfsi_companyonboarding:msfsi_prospecttype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msfsi_prospecttype" relationship="bpf_lead_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_lead_msfsi_companyonboarding:msfsi_prospecttype" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msfsi_prospecttype" relationship="bpf_lead_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{85377f61-e574-4dc7-aa90-812129cd1ba1}" showlabel="true" visible="true">
+                      <cell id="{85377f61-e574-4dc7-aa90-812129cd1ba1}" showlabel="true" visible="true" labelid="{80d70bbf-7f67-4f7a-85fe-b2ac570c75b9}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Interested Product" languagecode="1033" />
                         </labels>
-                        <control id="bpf_lead_msfsi_companyonboarding:msfsi_interestedproductid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_interestedproductid" relationship="bpf_lead_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_lead_msfsi_companyonboarding:msfsi_interestedproductid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_interestedproductid" relationship="bpf_lead_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5286f962-a299-4de0-b6e3-b5ac574874f8}" showlabel="true" visible="true">
+                      <cell id="{5286f962-a299-4de0-b6e3-b5ac574874f8}" showlabel="true" visible="true" labelid="{121e3eba-d5d0-4353-83ef-37a15b1e0caa}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="First Name" languagecode="1033" />
                         </labels>
-                        <control id="bpf_lead_msfsi_companyonboarding:firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="firstname" relationship="bpf_lead_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_lead_msfsi_companyonboarding:firstname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="firstname" relationship="bpf_lead_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{d9c7a7d0-13e5-4f0f-8e0f-0712f2c08dc1}" showlabel="true" visible="true">
+                      <cell id="{d9c7a7d0-13e5-4f0f-8e0f-0712f2c08dc1}" showlabel="true" visible="true" labelid="{1a60cab3-46dd-42d2-a05c-a30be76472a0}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Last Name" languagecode="1033" />
                         </labels>
-                        <control id="bpf_lead_msfsi_companyonboarding:lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="lastname" relationship="bpf_lead_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_lead_msfsi_companyonboarding:lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="lastname" relationship="bpf_lead_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -65,40 +65,40 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{1e95588a-e3a4-4db8-82d7-e75e37d802f4}" name="StageStep17" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{1e95588a-e3a4-4db8-82d7-e75e37d802f4}" name="StageStep17" locklevel="0" expanded="true" visible="false" labelid="{f2a7c580-22ea-483c-95fb-d748cad08246}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Onboarding" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{343b9f57-9fee-4573-a948-0fdcd7f65694}" name="StageStep17_section1">
+                <section showbar="false" columns="1" id="{1e95588a-e3a4-4db8-82d7-e75e37d802f4}" name="StageStep17_section1" labelid="{8b682948-e24d-444c-b603-6e24c09f3a06}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Onboarding" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{c72196da-d72e-4c90-a25b-ed86d8539719}" showlabel="true" visible="true">
+                      <cell id="{c72196da-d72e-4c90-a25b-ed86d8539719}" showlabel="true" visible="true" labelid="{1fb339fb-a48c-4d6b-9775-332b49f62a9e}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Account Name" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_companyonboarding" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{3993f982-d155-4819-ad9b-3707790d210d}" showlabel="true" visible="true">
+                      <cell id="{3993f982-d155-4819-ad9b-3707790d210d}" showlabel="true" visible="true" labelid="{ce20070a-49d0-495e-b9d9-3a79b8c88aa0}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Main Phone" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:telephone1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="telephone1" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:telephone1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="telephone1" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{592332dd-ae02-4d8e-b394-0eac057c64df}" showlabel="true" visible="true">
+                      <cell id="{592332dd-ae02-4d8e-b394-0eac057c64df}" showlabel="true" visible="true" labelid="{92c844dd-7371-4d8e-8b97-1a262dd9be05}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Primary Contact" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:primarycontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="primarycontactid" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:primarycontactid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="primarycontactid" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -107,72 +107,72 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{b79b910d-7e7b-4de7-b59f-34549e081e18}" name="StageStep25" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{b79b910d-7e7b-4de7-b59f-34549e081e18}" name="StageStep25" locklevel="0" expanded="true" visible="false" labelid="{97399eab-f065-41de-81dd-464b7240dbf0}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Address Information" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{aa98aff8-bd84-45c9-a745-4f60ef228827}" name="StageStep25_section1">
+                <section showbar="false" columns="1" id="{b79b910d-7e7b-4de7-b59f-34549e081e18}" name="StageStep25_section1" labelid="{714ec8cf-436e-41d4-b83d-5377bfa02aa7}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Address Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{3dff2a76-48b7-401b-9352-c54705f39a32}" showlabel="true" visible="true">
+                      <cell id="{3dff2a76-48b7-401b-9352-c54705f39a32}" showlabel="true" visible="true" labelid="{f95a0b93-9843-4de3-b9d6-7e19d6a85b1d}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: Street 1" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_line1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_line1" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_line1" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_line1" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{816ae05e-df91-4e28-8791-f240f4110363}" showlabel="true" visible="true">
+                      <cell id="{816ae05e-df91-4e28-8791-f240f4110363}" showlabel="true" visible="true" labelid="{f84c4ea3-41ee-4704-b39e-adb8652b86c5}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: Street 2" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_line2" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_line2" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_line2" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_line2" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{5f5dca77-6ea7-438a-9491-2b2f92d5f357}" showlabel="true" visible="true">
+                      <cell id="{5f5dca77-6ea7-438a-9491-2b2f92d5f357}" showlabel="true" visible="true" labelid="{2f94e3e5-a37d-48af-896f-b421816a85f3}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: Street 3" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_line3" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_line3" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_line3" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_line3" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{6db65067-2da2-4c43-ab00-cb6008af5997}" showlabel="true" visible="true">
+                      <cell id="{6db65067-2da2-4c43-ab00-cb6008af5997}" showlabel="true" visible="true" labelid="{b3cd4b68-1f94-48fd-a2db-5a422f9cf388}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: City" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_city" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_city" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_city" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_city" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{04fec609-216d-4771-b66e-d519c2a8863b}" showlabel="true" visible="true">
+                      <cell id="{04fec609-216d-4771-b66e-d519c2a8863b}" showlabel="true" visible="true" labelid="{3ea3960c-9e5f-4d3c-a5e7-4ca9732ce83c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: State/Province" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_stateorprovince" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_stateorprovince" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_stateorprovince" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_stateorprovince" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{aa2e0cbc-3212-43a6-931b-9ce89105940a}" showlabel="true" visible="true">
+                      <cell id="{aa2e0cbc-3212-43a6-931b-9ce89105940a}" showlabel="true" visible="true" labelid="{2ce96649-e7dc-423a-a0be-4ee6351b5fdf}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: ZIP/Postal Code" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_postalcode" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_postalcode" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_postalcode" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_postalcode" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{4a4a2fa3-fec7-441e-95de-910c93f03df2}" showlabel="true" visible="true">
+                      <cell id="{4a4a2fa3-fec7-441e-95de-910c93f03df2}" showlabel="true" visible="true" labelid="{c39d8405-94a2-4ad2-85a8-71ed69cb0fdf}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Address 1: Country/Region" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_companyonboarding:address1_country" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_country" relationship="bpf_account_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_account_msfsi_companyonboarding:address1_country" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="address1_country" relationship="bpf_account_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -181,48 +181,48 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{7baa2eb7-50c5-433c-af6d-a6d196967c3c}" name="StageStep41" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{7baa2eb7-50c5-433c-af6d-a6d196967c3c}" name="StageStep41" locklevel="0" expanded="true" visible="false" labelid="{527150fb-8bb4-4256-b9af-cb0d580260a0}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Begin KYC" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{59150e4e-a07b-45ea-95d5-558a90401cfc}" name="StageStep41_section1">
+                <section showbar="false" columns="1" id="{7baa2eb7-50c5-433c-af6d-a6d196967c3c}" name="StageStep41_section1" labelid="{370c5015-4c2f-4eef-aa01-45f66194d1f4}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Begin KYC" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{083bc041-a4d6-40bf-8d47-f273b6706f2b}" showlabel="true" visible="true">
+                      <cell id="{083bc041-a4d6-40bf-8d47-f273b6706f2b}" showlabel="true" visible="true" labelid="{8df0c9bb-cf31-44ab-92ab-e66517194cfd}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Name" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_name" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_name" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{39d3486a-c74e-4507-8caf-6bebee921296}" showlabel="true" visible="true">
+                      <cell id="{39d3486a-c74e-4507-8caf-6bebee921296}" showlabel="true" visible="true" labelid="{fa2c6200-4434-411d-a140-36f0f1959a19}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Primary Contact" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_primarycontact" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_primarycontact" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_primarycontact" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="msfsi_primarycontact" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{81adee7c-1502-43a6-9cdb-41e519daf2f0}" showlabel="true" visible="true">
+                      <cell id="{81adee7c-1502-43a6-9cdb-41e519daf2f0}" showlabel="true" visible="true" labelid="{54fbea79-77d2-46d0-a07e-f9b79b2f2004}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Phone Number" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_phonenumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_phonenumber" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_phonenumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_phonenumber" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{9438f623-9af2-43d1-ade7-d2476902f6f0}" showlabel="true" visible="true">
+                      <cell id="{9438f623-9af2-43d1-ade7-d2476902f6f0}" showlabel="true" visible="true" labelid="{f961f602-51be-42a9-826f-7b1b4c1189ba}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Nature of Business" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_natureofbusiness" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_natureofbusiness" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_natureofbusiness" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_natureofbusiness" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -231,32 +231,32 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{f545e280-6afd-4231-b312-d69f0118c93d}" name="StageStep51" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{f545e280-6afd-4231-b312-d69f0118c93d}" name="StageStep51" locklevel="0" expanded="true" visible="false" labelid="{e327e771-ee89-49be-9729-4b01a0f37391}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="License Information" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{df5c1499-592c-41af-ae34-f91b41d00a35}" name="StageStep51_section1">
+                <section showbar="false" columns="1" id="{f545e280-6afd-4231-b312-d69f0118c93d}" name="StageStep51_section1" labelid="{7631ecf1-3596-4376-a781-d6d83816512e}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="License Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{62aec87a-76e5-40bd-8ea2-4a5c25efbc6b}" showlabel="true" visible="true">
+                      <cell id="{62aec87a-76e5-40bd-8ea2-4a5c25efbc6b}" showlabel="true" visible="true" labelid="{61ca7ad8-00d9-49e3-b62e-58fb91db8091}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Business License Number" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_businesslicensenumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_businesslicensenumber" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_businesslicensenumber" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_businesslicensenumber" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{e91eb59b-e399-4381-bbf9-b35e2b60368c}" showlabel="true" visible="true">
+                      <cell id="{e91eb59b-e399-4381-bbf9-b35e2b60368c}" showlabel="true" visible="true" labelid="{56bcd12c-64b4-4864-a3fd-d6a1f979f5cc}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Business License Expiry Date" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_businesslicenseexpirydate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="msfsi_businesslicenseexpirydate" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_businesslicenseexpirydate" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="msfsi_businesslicenseexpirydate" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -265,32 +265,32 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{ef1a8d8c-11d6-45de-bda8-0adf41dbf574}" name="StageStep57" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{ef1a8d8c-11d6-45de-bda8-0adf41dbf574}" name="StageStep57" locklevel="0" expanded="true" visible="false" labelid="{090840a8-41e5-4da5-a827-94ea5e4e204f}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Nationality And Residence" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{05b239b1-e6ba-4538-8bbb-f5b3f8c63c97}" name="StageStep57_section1">
+                <section showbar="false" columns="1" id="{ef1a8d8c-11d6-45de-bda8-0adf41dbf574}" name="StageStep57_section1" labelid="{5ad58209-e5f3-484a-a688-c9a4244f09a5}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Nationality And Residence" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{35a5ecb0-bcbb-4d6d-92b4-416d3a664378}" showlabel="true" visible="true">
+                      <cell id="{35a5ecb0-bcbb-4d6d-92b4-416d3a664378}" showlabel="true" visible="true" labelid="{12f162f4-7434-4e4a-8da4-d24577143c93}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="KYC Country" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_kyccountry" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_kyccountry" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_kyccountry" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_kyccountry" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{54c65bc8-0386-4866-ac75-a55883f8e22d}" showlabel="true" visible="true">
+                      <cell id="{54c65bc8-0386-4866-ac75-a55883f8e22d}" showlabel="true" visible="true" labelid="{76b6bb41-b69a-4a6a-ae8b-8348c5383dd2}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Country of Residence" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_countryofresidence" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_countryofresidence" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_countryofresidence" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="msfsi_countryofresidence" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -299,40 +299,40 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{1035a6f4-5be5-4b39-8abf-192adeb0ce83}" name="StageStep63" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{1035a6f4-5be5-4b39-8abf-192adeb0ce83}" name="StageStep63" locklevel="0" expanded="true" visible="false" labelid="{82e87ba8-7dc3-433d-9081-e69d212f06d0}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Frequency And Prepared On Date" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{897d43ac-d5d3-4132-9fbd-d9a29f34419e}" name="StageStep63_section1">
+                <section showbar="false" columns="1" id="{1035a6f4-5be5-4b39-8abf-192adeb0ce83}" name="StageStep63_section1" labelid="{3c02227f-8ba8-4a72-bf1f-bdc143d3b661}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Frequency And Prepared On Date" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{f78747ef-da9c-4987-aa20-4f301ce740fd}" showlabel="true" visible="true">
+                      <cell id="{f78747ef-da9c-4987-aa20-4f301ce740fd}" showlabel="true" visible="true" labelid="{e397d36b-03bf-4bd0-a114-ffaaf6219212}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Risk Level" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_risklevel" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msfsi_risklevel" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_risklevel" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msfsi_risklevel" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{82f120ea-3bf4-4592-a5d1-92858655495c}" showlabel="true" visible="true">
+                      <cell id="{82f120ea-3bf4-4592-a5d1-92858655495c}" showlabel="true" visible="true" labelid="{19cae666-3d18-40ba-91cf-66fe3bdec5db}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Review Frequency" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_reviewfrequency" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msfsi_reviewfrequency" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_reviewfrequency" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="msfsi_reviewfrequency" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                     <row>
-                      <cell id="{aa2a45b2-882d-4fa3-82b3-22751c2e1105}" showlabel="true" visible="true">
+                      <cell id="{aa2a45b2-882d-4fa3-82b3-22751c2e1105}" showlabel="true" visible="true" labelid="{2a8603d5-a293-42d2-9f18-94166340479b}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="KYC Prepared On" languagecode="1033" />
                         </labels>
-                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_kycpreparedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="msfsi_kycpreparedon" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_msfsi_kyc_msfsi_companyonboarding:msfsi_kycpreparedon" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="msfsi_kycpreparedon" relationship="bpf_msfsi_kyc_msfsi_companyonboarding" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
@@ -341,24 +341,24 @@
             </column>
           </columns>
         </tab>
-        <tab verticallayout="true" id="{daad5cf2-a021-4707-9036-cf602d746d74}" name="StageStep71" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{daad5cf2-a021-4707-9036-cf602d746d74}" name="StageStep71" locklevel="0" expanded="true" visible="false" labelid="{7fb47419-9c54-4534-8104-bd8fde30421e}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Qualify Prospect" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{f210e2ee-06c8-4c9d-81b8-ddd24d12495c}" name="StageStep71_section1">
+                <section showbar="false" columns="1" id="{daad5cf2-a021-4707-9036-cf602d746d74}" name="StageStep71_section1" labelid="{eee4c6bf-9902-4d65-a9a0-e6e40c02342e}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Qualify Prospect" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{458de780-e5e9-4f2f-bf08-774e4e04a8a6}" showlabel="true" visible="true">
+                      <cell id="{458de780-e5e9-4f2f-bf08-774e4e04a8a6}" showlabel="true" visible="true" labelid="{670cdf56-746f-4707-88b6-f75ac27765d1}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Existing Account?" languagecode="1033" />
                         </labels>
-                        <control id="bpf_lead_msfsi_companyonboarding:parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" relationship="bpf_lead_msfsi_companyonboarding" disabled="false" />
+                        <control id="bpf_lead_msfsi_companyonboarding:parentaccountid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="parentaccountid" relationship="bpf_lead_msfsi_companyonboarding" isrequired="true" disabled="false" />
                       </cell>
                     </row>
                   </rows>

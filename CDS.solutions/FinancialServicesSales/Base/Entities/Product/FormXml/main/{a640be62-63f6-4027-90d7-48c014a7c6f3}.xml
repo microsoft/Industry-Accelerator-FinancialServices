@@ -15,14 +15,14 @@
       <tabs>
         <tab name="product_details" verticallayout="true" id="{176BD68C-CE4F-42A3-8793-42400D385DC0}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true">
           <labels>
-            <label description="SUMMARY" languagecode="1033" />
+            <label description="Summary" languagecode="1033" />
           </labels>
           <columns>
             <column width="50%">
               <sections>
                 <section name="product information" showlabel="false" showbar="false" id="{47e8791d-5260-4e72-ae16-9f4f3cd91480}" IsUserDefined="0" columns="11" locklevel="0" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="PRODUCT PROPERTIES" languagecode="1033" />
+                    <label description="Product Properties" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -200,7 +200,7 @@
         </tab>
         <tab name="productassocaition_items" id="{8DB660CF-C5F5-4188-827D-75233475153F}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
           <labels>
-            <label description="BUNDLE PRODUCTS" languagecode="1033" />
+            <label description="Bundle Products" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
@@ -213,7 +213,7 @@
                     <row>
                       <cell id="{C71CBDB3-D624-44F2-A0D0-B284A05E1CC8}" showlabel="false" auto="false" rowspan="7" colspan="2">
                         <labels>
-                          <label description="BUNDLE PRODUCTS" languagecode="1033" />
+                          <label description="Bundle Products" languagecode="1033" />
                         </labels>
                         <control id="productassocaition_items" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -269,7 +269,7 @@
         </tab>
         <tab name="product_dynamic_properties" id="{6223E6F7-BC9A-4B9E-B61F-725218D62D57}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="true">
           <labels>
-            <label description="PRODUCT PROPERTIES" languagecode="1033" />
+            <label description="Product Properties" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
@@ -280,11 +280,42 @@
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{1a7e38b5-986d-45ff-9f7d-352b121f927e}" showlabel="false" auto="false" rowspan="7" colspan="2">
+                      <cell id="{1a7e38b5-986d-45ff-9f7d-352b121f927e}" showlabel="false" auto="false" rowspan="7" colspan="2" visible="true">
                         <labels>
-                          <label description="PRODUCT PROPERTIES" languagecode="1033" />
+                          <label description="Product Properties" languagecode="1033" />
                         </labels>
                         <control id="product_dynamic_properties" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+                          <parameters>
+                            <ViewId>{63ABC191-F333-47E1-9F3F-EF1CBF8DF1C0}</ViewId>
+                            <IsUserView>false</IsUserView>
+                            <RelationshipName>Product_DynamicProperty</RelationshipName>
+                            <TargetEntityType>dynamicproperty</TargetEntityType>
+                            <AutoExpand>Fixed</AutoExpand>
+                            <EnableQuickFind>false</EnableQuickFind>
+                            <EnableViewPicker>false</EnableViewPicker>
+                            <EnableJumpBar>false</EnableJumpBar>
+                            <ChartGridMode>Grid</ChartGridMode>
+                            <VisualizationId />
+                            <IsUserChart>false</IsUserChart>
+                            <EnableChartPicker>false</EnableChartPicker>
+                            <RecordsPerPage>5</RecordsPerPage>
+                            <!--<EnableContextualActions>true</EnableContextualActions>-->
+                          </parameters>
+                        </control>
+                      </cell>
+                    </row>
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row />
+                    <row>
+                      <cell id="{2a7e38b5-986d-45ff-9f7d-352b121f927e}" showlabel="false" auto="false" rowspan="7" colspan="2" visible="false">
+                        <labels>
+                          <label description="Product Properties" languagecode="1033" />
+                        </labels>
+                        <control id="product_dynamic_properties_offline" classid="{E7A81278-8635-4D9E-8D4D-59480B391C5B}" indicationOfSubgrid="true" uniqueid="{9C9B234E-930E-4FEA-9B33-09F2742DAD47}">
                           <parameters>
                             <ViewId>{63ABC191-F333-47E1-9F3F-EF1CBF8DF1C0}</ViewId>
                             <IsUserView>false</IsUserView>
@@ -318,7 +349,7 @@
         </tab>
         <tab name="price_list_items" id="{2F0F5E7B-A6F7-478F-803F-20F71275A27E}" IsUserDefined="0" locklevel="0" showlabel="true" expanded="true" visible="false">
           <labels>
-            <label description="ADDITIONAL DETAILS" languagecode="1033" />
+            <label description="Additional Details" languagecode="1033" />
           </labels>
           <columns>
             <column width="50%">
@@ -331,7 +362,7 @@
                     <row>
                       <cell id="{a7b12d5a-c513-2722-0a08-7ac83e4ec82c}" showlabel="true" auto="false" rowspan="7" colspan="2">
                         <labels>
-                          <label description="PRICE LIST ITEMS" languagecode="1033" />
+                          <label description="Price List Items" languagecode="1033" />
                         </labels>
                         <control id="Price_List_Items" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -373,7 +404,7 @@
                     <row>
                       <cell id="{3f1f3f13-a1e7-4977-9a7f-ea678cb49b19}" showlabel="true" auto="false" rowspan="7" colspan="2">
                         <labels>
-                          <label description="PRODUCT RELATIONSHIPS" languagecode="1033" />
+                          <label description="Product Relationships" languagecode="1033" />
                         </labels>
                         <control id="productsubstitute_items" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -985,6 +1016,69 @@
       <DisplayConditions FallbackForm="true" Order="2">
         <Everyone />
       </DisplayConditions>
+      <controlDescriptions>
+        <controlDescription forControl="{9C9B234E-930E-4FEA-9B33-09F2742DAD47}">
+          <customControl id="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
+            <parameters>
+              <ViewId>{63ABC191-F333-47E1-9F3F-EF1CBF8DF1C0}</ViewId>
+              <IsUserView>false</IsUserView>
+              <RelationshipName>Product_DynamicProperty</RelationshipName>
+              <TargetEntityType>dynamicproperty</TargetEntityType>
+              <AutoExpand>Fixed</AutoExpand>
+              <EnableQuickFind>false</EnableQuickFind>
+              <EnableViewPicker>false</EnableViewPicker>
+              <EnableJumpBar>false</EnableJumpBar>
+              <ChartGridMode>Grid</ChartGridMode>
+              <VisualizationId />
+              <IsUserChart>false</IsUserChart>
+              <EnableChartPicker>false</EnableChartPicker>
+              <RecordsPerPage>5</RecordsPerPage>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.RetrieveProperties.RetrievePropertiesControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{63ABC191-F333-47E1-9F3F-EF1CBF8DF1C0}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>Product_DynamicProperty</RelationshipName>
+                <TargetEntityType>dynamicproperty</TargetEntityType>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.RetrieveProperties.RetrievePropertiesControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{63ABC191-F333-47E1-9F3F-EF1CBF8DF1C0}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>Product_DynamicProperty</RelationshipName>
+                <TargetEntityType>dynamicproperty</TargetEntityType>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.RetrieveProperties.RetrievePropertiesControl">
+            <parameters>
+              <data-set name="Grid">
+                <ViewId>{63ABC191-F333-47E1-9F3F-EF1CBF8DF1C0}</ViewId>
+                <IsUserView>false</IsUserView>
+                <RelationshipName>Product_DynamicProperty</RelationshipName>
+                <TargetEntityType>dynamicproperty</TargetEntityType>
+              </data-set>
+              <EnableGroupBy static="true" type="Enum">no</EnableGroupBy>
+              <EnableEditing static="true" type="Enum">no</EnableEditing>
+              <ReflowBehavior static="true" type="Enum">Reflow</ReflowBehavior>
+              <EnableFiltering static="true" type="Enum">no</EnableFiltering>
+            </parameters>
+          </customControl>
+        </controlDescription>
+      </controlDescriptions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Product" languagecode="1033" />

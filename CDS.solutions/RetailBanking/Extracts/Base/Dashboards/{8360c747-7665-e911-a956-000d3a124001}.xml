@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Dashboard xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <LocalizedNames>
-    <LocalizedName description="Daily Dash" languagecode="1033" />
+    <LocalizedName description="Retail Daily Dash" languagecode="1033" />
   </LocalizedNames>
   <FormId>{8360c747-7665-e911-a956-000d3a124001}</FormId>
   <IsCustomizable>1</IsCustomizable>

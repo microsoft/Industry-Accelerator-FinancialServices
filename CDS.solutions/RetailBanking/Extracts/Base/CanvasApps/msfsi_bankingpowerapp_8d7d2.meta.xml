@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>msfsi_bankingpowerapp_8d7d2</Name>
+  <AppVersion>2020-03-04T16:09:39Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.19091.18.0</CreatedByClientVersion>
+  <MinClientVersion>3.19091.18.0</MinClientVersion>
+  <Tags>{"minimumRequiredApiVersion":"2.2.0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>rgba(0, 99, 177, 1)</BackgroundColor>
+  <DisplayName>Banking PowerApp</DisplayName>
+  <Description>Manage your referrals, appointments, and contacts right from your phone</Description>
+  <CommitMessage></CommitMessage>
+  <Publisher></Publisher>
+  <AuthorizationReferences xsi:nil="true"></AuthorizationReferences>
+  <ConnectionReferences>{"0ace168f-ff0d-494e-ae5c-49a092789bc3":{"id":"/providers/microsoft.powerapps/apis/shared_commondataservice","displayName":"Common Data Service","iconUri":"https://connectoricons-prod.azureedge.net/commondataservice/icon_1.0.1308.1893.png","dataSources":["Persons","Companies","Appointments"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"default.cds":{"dataSources":{"Persons":{"tableName":"contacts"},"Companies":{"tableName":"accounts"},"Appointments":{"tableName":"appointments"}}}},"apiTier":"Premium"},"e918820b-4113-466a-bf01-6a025e4a7360":{"id":"/providers/microsoft.powerapps/apis/shared_commondataservice","displayName":"Common Data Service","iconUri":"https://connectoricons-prod.azureedge.net/commondataservice/icon_1.0.1308.1893.png","dataSources":["Prospects","Notes"],"dependencies":[],"dependents":[],"parameterHints":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{"default.cds":{"dataSources":{"Prospects":{"tableName":"leads"},"Notes":{"tableName":"annotations"}}}},"apiTier":"Premium"}}</ConnectionReferences>
+  <DatabaseReferences>{}</DatabaseReferences>
+  <BypassConsent>0</BypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies xsi:nil="true"></CdsDependencies>
+  <BackgroundImageUri>/CanvasApps/msfsi_bankingpowerapp_8d7d2_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/msfsi_bankingpowerapp_8d7d2_DocumentUri.msapp</DocumentUri>
+</CanvasApp>

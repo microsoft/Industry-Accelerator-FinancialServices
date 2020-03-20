@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <systemform>
+  <systemform unmodified="1">
     <formid>{d20ec223-3bfd-453e-84e6-064258c12869}</formid>
     <IntroducedVersion>1.1.0.0</IntroducedVersion>
     <FormPresentation>1</FormPresentation>
@@ -110,44 +110,11 @@
             </column>
             <column width="50%">
               <sections>
-                <section name="holders" showlabel="true" showbar="false" locklevel="0" id="{00305e5c-9818-dece-922a-693d3369a030}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{648e704d-b9ed-447d-81a1-2df327e0ed9e}" celllabelalignment="Left" celllabelposition="Left">
+                <section name="{73c4f8d4-a952-4bed-869f-d535749c933a}_section_4" showlabel="false" showbar="false" locklevel="0" id="{00305e5c-9818-dece-922a-693d3369a030}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" labelid="{648e704d-b9ed-447d-81a1-2df327e0ed9e}">
                   <labels>
-                    <label description="Holders" languagecode="1033" />
+                    <label description="Section" languagecode="1033" />
                   </labels>
-                  <rows>
-                    <row>
-                      <cell id="{b91a733e-600a-5dad-ad57-9571501eacd0}" showlabel="false" colspan="1" auto="false" rowspan="6">
-                        <labels>
-                          <label description="People" languagecode="1033" />
-                        </labels>
-                        <control id="people" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}" indicationOfSubgrid="true">
-                          <parameters>
-                            <ViewId>{00000000-0000-0000-00AA-000010001004}</ViewId>
-                            <IsUserView>false</IsUserView>
-                            <RelationshipName>msfsi_msfsi_financialproduct_contact</RelationshipName>
-                            <TargetEntityType>contact</TargetEntityType>
-                            <AutoExpand>Fixed</AutoExpand>
-                            <EnableQuickFind>false</EnableQuickFind>
-                            <EnableViewPicker>false</EnableViewPicker>
-                            <ViewIds>{00000000-0000-0000-00AA-000010001004},{00000000-0000-0000-00AA-000010001003}</ViewIds>
-                            <EnableJumpBar>false</EnableJumpBar>
-                            <ChartGridMode>All</ChartGridMode>
-                            <VisualizationId>{E365462F-1DB9-46A8-928D-BEAB1A7A2375}</VisualizationId>
-                            <IsUserChart>false</IsUserChart>
-                            <EnableChartPicker>true</EnableChartPicker>
-                            <RecordsPerPage>4</RecordsPerPage>
-                            <HeaderColorCode>#F3F3F3</HeaderColorCode>
-                            <RelationshipRoleOrdinal>1</RelationshipRoleOrdinal>
-                          </parameters>
-                        </control>
-                      </cell>
-                    </row>
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                    <row />
-                  </rows>
+                  <rows></rows>
                 </section>
               </sections>
             </column>
@@ -488,23 +455,7 @@
         </tab>
       </tabs>
       <Navigation>
-        <NavBar>
-          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact_defaultchargeaccountid" Sequence="9601" Area="Info" Id="nav_msfsi_msfsi_financialproduct_contact_defaultchargeaccountid" Show="false">
-            <Titles>
-              <Title LCID="1033" Text="People" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_msfsi_syndicates_loanid" Sequence="10001" Area="Info" Id="nav_msfsi_msfsi_financialproduct_msfsi_syndicates_loanid">
-            <Titles>
-              <Title LCID="1033" Text="Syndicates" />
-            </Titles>
-          </NavBarByRelationshipItem>
-          <NavBarByRelationshipItem RelationshipName="msfsi_msfsi_financialproduct_contact" Id="nav_msfsi_msfsi_financialproduct_contact" Show="true" Sequence="10002" Area="Info">
-            <Titles>
-              <Title LCID="1033" Text="People" />
-            </Titles>
-          </NavBarByRelationshipItem>
-        </NavBar>
+        <NavBar />
         <NavBarAreas>
           <NavBarArea Id="Info">
             <Titles>

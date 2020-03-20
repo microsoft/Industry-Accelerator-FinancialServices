@@ -7,24 +7,24 @@
     <FormActivationState>1</FormActivationState>
     <form>
       <tabs>
-        <tab verticallayout="true" id="{69ac3882-45ba-4c5b-a15e-c83d037cbbad}" name="StageStep3" locklevel="0" expanded="true">
+        <tab verticallayout="true" id="{69ac3882-45ba-4c5b-a15e-c83d037cbbad}" name="StageStep3" locklevel="0" expanded="true" visible="false" labelid="{e3123b27-7654-4e89-ba8d-2146be720ac2}">
           <labels>
-            <label description="" languagecode="1033" />
+            <label description="Customer 360" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
-                <section showbar="false" columns="1" id="{9bd25b62-fc91-4302-91dc-70811333c69d}" name="StageStep3_section1">
+                <section showbar="false" columns="1" id="{69ac3882-45ba-4c5b-a15e-c83d037cbbad}" name="StageStep3_section1" labelid="{7b44a6ff-1118-4185-b612-3d3190b27c2c}">
                   <labels>
-                    <label description="" languagecode="1033" />
+                    <label description="Customer 360" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
-                      <cell id="{1909c31f-abf5-4081-b565-646d4547b876}" showlabel="true" visible="true">
+                      <cell id="{1909c31f-abf5-4081-b565-646d4547b876}" showlabel="true" visible="true" labelid="{5a5dfd96-ec27-4ae5-bfd1-ce1cb3ad974c}">
                         <labels>
-                          <label description="" languagecode="1033" />
+                          <label description="Company Name" languagecode="1033" />
                         </labels>
-                        <control id="bpf_account_msfsi_company360:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_company360" disabled="false" />
+                        <control id="bpf_account_msfsi_company360:name" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="name" relationship="bpf_account_msfsi_company360" isrequired="false" disabled="false" />
                       </cell>
                     </row>
                   </rows>
