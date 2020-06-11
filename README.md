@@ -38,7 +38,7 @@ Engage with experts and peers, read blog articles, and find local events within 
 
 Join the [Industry Accelerator conversation](https://community.dynamics.com/365/industry-accelerators/).
 
-Join the [Automotive conversation](https://community.dynamics.com/365/industry-accelerators/f/automotive-accelerator-forum).
+Join the [Financial Services conversation](https://community.dynamics.com/365/industry-accelerators/f/financial-services-accelerator-forum).
 
 ## Contributing
 
