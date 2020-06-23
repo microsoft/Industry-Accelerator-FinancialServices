@@ -392,6 +392,37 @@
                     <row />
                   </rows>
                 </section>
+                <section name="msdynsales_pricing_information" showlabel="true" showbar="false" id="{8162fa18-931e-4475-88c4-69fa7ff7335e}" IsUserDefined="0" columns="11" locklevel="0" celllabelalignment="Left" celllabelposition="Left" visible="false">
+                  <labels>
+                    <label description="Pricing" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{7ce5335e-7c56-4818-b0f5-bd0495acc811}" colspan="2">
+                        <labels>
+                          <label description="Current Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdynsales_currentcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="currentcost" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9e93d979-71d8-4500-be8d-b91d3c0611f0}" colspan="2">
+                        <labels>
+                          <label description="Standard Cost" languagecode="1033" />
+                        </labels>
+                        <control id="msdynsales_standardcost" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="standardcost" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{decff7b9-b96f-4815-b187-6569543ea33f}" colspan="2">
+                        <labels>
+                          <label description="List Price" languagecode="1033" />
+                        </labels>
+                        <control id="msdynsales_price" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="price"></control>
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
               </sections>
             </column>
             <column width="50%">

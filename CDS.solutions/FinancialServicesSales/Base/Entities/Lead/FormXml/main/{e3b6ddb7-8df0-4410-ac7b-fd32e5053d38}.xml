@@ -245,7 +245,7 @@
                     <row>
                       <cell id="{37fbde00-50a4-45f1-ac65-34a89185746c}" showlabel="true" colspan="1" rowspan="6">
                         <labels>
-                          <label description="COMPETITORS" languagecode="1033" />
+                          <label description="Competitors" languagecode="1033" />
                         </labels>
                         <control id="Competitors" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -602,6 +602,8 @@
               <Title LCID="2052" Text="活动" />
               <Title LCID="3076" Text="活動" />
               <Title LCID="1028" Text="活動" />
+              <Title LCID="3098" Text="Активности" />
+              <Title LCID="2074" Text="Aktivnosti" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navCampaignsInSFA" Sequence="20" Area="Marketing" Id="navCampaignsInSFA" Show="false">
@@ -651,6 +653,8 @@
               <Title LCID="2052" Text="市场活动" />
               <Title LCID="3076" Text="行銷活動" />
               <Title LCID="1028" Text="行銷活動" />
+              <Title LCID="3098" Text="Кампање" />
+              <Title LCID="2074" Text="Kampanje" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Id="navConnections" Sequence="9000" Area="Info">
@@ -700,6 +704,8 @@
               <Title LCID="2052" Text="连接" />
               <Title LCID="3076" Text="人脈" />
               <Title LCID="1028" Text="人脈" />
+              <Title LCID="3098" Text="Везе" />
+              <Title LCID="2074" Text="Veze" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Area="Info" Id="navDocument" Sequence="9001">
@@ -749,6 +755,8 @@
               <Title LCID="2052" Text="文档" />
               <Title LCID="3076" Text="文件" />
               <Title LCID="1028" Text="文件" />
+              <Title LCID="3098" Text="Документи" />
+              <Title LCID="2074" Text="Dokumenti" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
@@ -798,6 +806,8 @@
               <Title LCID="2052" Text="工作流" />
               <Title LCID="3076" Text="工作流程" />
               <Title LCID="1028" Text="工作流程" />
+              <Title LCID="3098" Text="Токови посла" />
+              <Title LCID="2074" Text="Tokovi posla" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit">
@@ -847,6 +857,8 @@
               <Title LCID="2052" Text="审核历史记录" />
               <Title LCID="3076" Text="稽核歷程記錄" />
               <Title LCID="1028" Text="稽核歷程記錄" />
+              <Title LCID="3098" Text="Историја надгледања" />
+              <Title LCID="2074" Text="Istorija nadgledanja" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
@@ -896,6 +908,8 @@
               <Title LCID="2052" Text="对话会话" />
               <Title LCID="3076" Text="對話方塊工作階段" />
               <Title LCID="1028" Text="對話方塊工作階段" />
+              <Title LCID="3098" Text="Сесије дијалога" />
+              <Title LCID="2074" Text="Sesije dijaloga" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="leadcompetitors_association" Id="navLeadCompetitor" Area="Sales" Icon="/_imgs/ico_18_123.gif" Sequence="40" Show="false">
@@ -999,6 +1013,8 @@
               <Title LCID="2052" Text="销售" />
               <Title LCID="3076" Text="銷售" />
               <Title LCID="1028" Text="銷售" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Service">
@@ -1048,6 +1064,8 @@
               <Title LCID="2052" Text="服务" />
               <Title LCID="3076" Text="服務" />
               <Title LCID="1028" Text="服務" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Marketing">
@@ -1097,6 +1115,8 @@
               <Title LCID="2052" Text="市场营销" />
               <Title LCID="3076" Text="行銷" />
               <Title LCID="1028" Text="行銷" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="ProcessCenter">
@@ -1146,6 +1166,8 @@
               <Title LCID="2052" Text="流程" />
               <Title LCID="3076" Text="程序" />
               <Title LCID="1028" Text="程序" />
+              <Title LCID="3098" Text="Процеси" />
+              <Title LCID="2074" Text="Procesi" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Info">
@@ -1195,6 +1217,8 @@
               <Title LCID="2052" Text="公共" />
               <Title LCID="3076" Text="一般" />
               <Title LCID="1028" Text="一般" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
             </Titles>
           </NavBarArea>
         </NavBarAreas>
@@ -1241,6 +1265,116 @@
               <EntityTypeCode static="true" type="Decimal">4</EntityTypeCode>
               <Location static="true" type="Decimal">1</Location>
               <msinternal.isvisibleinmocaonly static="true">true</msinternal.isvisibleinmocaonly>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{e5ade895-e7a3-6d31-d320-a46a084011d9}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>donotemail</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotemail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotemail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotemail</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{abaa7c46-49a8-6a26-1b72-9ba7ca1ded89}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>followemail</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>followemail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>followemail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>followemail</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{ec27ead4-0e38-18dd-86b7-ad1de590745b}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>donotbulkemail</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotbulkemail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotbulkemail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotbulkemail</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{5814d5ec-1c83-55d0-be55-69c66b3a0a53}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>donotphone</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotphone</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotphone</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotphone</value>
+            </parameters>
+          </customControl>
+        </controlDescription>
+        <controlDescription forControl="{957b3ec0-72a0-1b92-d528-e6e5ed211571}">
+          <customControl id="{67FAC785-CD58-4f9f-ABB3-4B7DDC6ED5ED}">
+            <parameters>
+              <datafieldname>donotpostalmail</datafieldname>
+            </parameters>
+          </customControl>
+          <customControl formFactor="0" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotpostalmail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="1" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotpostalmail</value>
+            </parameters>
+          </customControl>
+          <customControl formFactor="2" name="MscrmControls.FlipSwitch.FlipSwitchControl">
+            <parameters>
+              <value>donotpostalmail</value>
             </parameters>
           </customControl>
         </controlDescription>

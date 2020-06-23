@@ -389,6 +389,8 @@
               <Title LCID="2052" Text="团队" />
               <Title LCID="3076" Text="團隊" />
               <Title LCID="1028" Text="團隊" />
+              <Title LCID="3098" Text="Тимови" />
+              <Title LCID="2074" Text="Timovi" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navRoles" Sequence="0" Area="Info" Id="navRoles" Show="false">
@@ -438,6 +440,8 @@
               <Title LCID="2052" Text="安全角色" />
               <Title LCID="3076" Text="資訊安全角色" />
               <Title LCID="1028" Text="資訊安全角色" />
+              <Title LCID="3098" Text="Безбедносне улоге" />
+              <Title LCID="2074" Text="Bezbednosne uloge" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navFieldSecurityProfiles" Sequence="0" Area="Info" Id="navFieldSecurityProfiles" Show="false">
@@ -487,6 +491,8 @@
               <Title LCID="2052" Text="字段安全配置文件" />
               <Title LCID="3076" Text="欄位安全性設定檔" />
               <Title LCID="1028" Text="欄位安全性設定檔" />
+              <Title LCID="3098" Text="Безбедносни профили поља" />
+              <Title LCID="2074" Text="Bezbednosni profili polja" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navServices" Sequence="0" Area="Service" Id="navServices" Show="false">
@@ -536,6 +542,8 @@
               <Title LCID="2052" Text="服务" />
               <Title LCID="3076" Text="服務" />
               <Title LCID="1028" Text="服務" />
+              <Title LCID="3098" Text="Услуге" />
+              <Title LCID="2074" Text="Usluge" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navResourceGroups" Sequence="0" Area="Service" Id="navResourceGroups" Show="false">
@@ -585,6 +593,8 @@
               <Title LCID="2052" Text="资源组" />
               <Title LCID="3076" Text="資源群組" />
               <Title LCID="1028" Text="資源群組" />
+              <Title LCID="3098" Text="Групе ресурса" />
+              <Title LCID="2074" Text="Grupe resursa" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navMonthlyCalendar" Sequence="0" Area="Info" Id="navMonthlyCalendar" Show="false">
@@ -634,6 +644,8 @@
               <Title LCID="2052" Text="工作时间" />
               <Title LCID="3076" Text="工作時數" />
               <Title LCID="1028" Text="工作時數" />
+              <Title LCID="3098" Text="Радни часови" />
+              <Title LCID="2074" Text="Radni časovi" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Sequence="8500" Area="Info" Id="navConnections" Show="false">
@@ -683,6 +695,8 @@
               <Title LCID="2052" Text="连接" />
               <Title LCID="3076" Text="人脈" />
               <Title LCID="1028" Text="人脈" />
+              <Title LCID="3098" Text="Везе" />
+              <Title LCID="2074" Text="Veze" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
@@ -732,6 +746,8 @@
               <Title LCID="2052" Text="后台处理" />
               <Title LCID="3076" Text="背景程序" />
               <Title LCID="1028" Text="背景程序" />
+              <Title LCID="3098" Text="Процеси у позадини" />
+              <Title LCID="2074" Text="Procesi u pozadini" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Sequence="9600" Area="Info" Id="navAudit" Show="false">
@@ -781,6 +797,8 @@
               <Title LCID="2052" Text="审核历史记录" />
               <Title LCID="3076" Text="稽核歷程記錄" />
               <Title LCID="1028" Text="稽核歷程記錄" />
+              <Title LCID="3098" Text="Историја надгледања" />
+              <Title LCID="2074" Text="Istorija nadgledanja" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
@@ -830,6 +848,8 @@
               <Title LCID="2052" Text="流程会话" />
               <Title LCID="3076" Text="程序工作階段" />
               <Title LCID="1028" Text="程序工作階段" />
+              <Title LCID="3098" Text="Сесије процеса" />
+              <Title LCID="2074" Text="Sesije procesa" />
             </Titles>
           </NavBarByRelationshipItem>
         </NavBar>
@@ -881,6 +901,8 @@
               <Title LCID="2052" Text="通用" />
               <Title LCID="3076" Text="一般" />
               <Title LCID="1028" Text="一般" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Sales">
@@ -930,6 +952,8 @@
               <Title LCID="2052" Text="销售" />
               <Title LCID="3076" Text="銷售" />
               <Title LCID="1028" Text="銷售" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Service">
@@ -979,6 +1003,8 @@
               <Title LCID="2052" Text="服务" />
               <Title LCID="3076" Text="服務" />
               <Title LCID="1028" Text="服務" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Marketing">
@@ -1028,6 +1054,8 @@
               <Title LCID="2052" Text="市场营销" />
               <Title LCID="3076" Text="行銷" />
               <Title LCID="1028" Text="行銷" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="ProcessCenter">
@@ -1077,6 +1105,8 @@
               <Title LCID="2052" Text="流程" />
               <Title LCID="3076" Text="程序" />
               <Title LCID="1028" Text="程序" />
+              <Title LCID="3098" Text="Процеси" />
+              <Title LCID="2074" Text="Procesi" />
             </Titles>
           </NavBarArea>
         </NavBarAreas>
@@ -1101,12 +1131,12 @@
       </events>
       <controlDescriptions />
       <DisplayConditions FallbackForm="true" Order="7">
-        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
-        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
         <Role Id="{E00ED7FA-5192-4A55-AC69-1F6611F4C301}" />
         <Role Id="{F8C3A948-C7AF-E611-80C3-02155DC6FE07}" />
         <Role Id="{F7D10F1B-C9FA-3103-AF8A-1874D79503FA}" />
         <Role Id="{DC738938-C7AF-E611-80C3-02155DC6FE07}" />
+        <Role Id="{627090ff-40a3-4053-8790-584edc5be201}" />
+        <Role Id="{119f245c-3cc8-4b62-b31c-d1a046ced15d}" />
       </DisplayConditions>
     </form>
     <LocalizedNames>

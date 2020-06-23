@@ -21,6 +21,7 @@
   <IntroducedVersion>1.1.0.0</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>Account</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Company 360" />

@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ImportExportXml version="9.1.0.13535" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<ImportExportXml version="9.1.0.18046" SolutionPackageVersion="9.1" languagecode="1033" generatedBy="CrmLive" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <SolutionManifest>
     <UniqueName>RetailBankingAccelerator</UniqueName>
     <LocalizedNames>
@@ -8,7 +8,7 @@
     <Descriptions>
       <Description description="Microsoft Dynamics 365 Retail Banking Accelerator" languagecode="1033" />
     </Descriptions>
-    <Version>1.0.3.2</Version>
+    <Version>1.0.3.3</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>financialservicesaccelerator</UniqueName>
@@ -123,15 +123,15 @@
     </RootComponents>
     <MissingDependencies>
       <MissingDependency>
-        <Required key="0" type="1" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337" displayName="Mortgage Application" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="0" type="1" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337" displayName="Mortgage Application" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="0" type="1" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337" displayName="Mortgage Application" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="1" type="1" schemaName="msfsi_certificateofdeposit" displayName="Certificate of Deposit" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="1" type="1" schemaName="msfsi_certificateofdeposit" displayName="Certificate of Deposit" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="1" type="1" schemaName="msfsi_certificateofdeposit" displayName="Certificate of Deposit" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" />
       </MissingDependency>
       <MissingDependency>
@@ -139,24 +139,24 @@
         <Dependent key="3" type="1" schemaName="opportunity" displayName="Opportunity" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="4" type="1" schemaName="msfsi_customer360person" displayName="Customer 360 Person" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="4" type="1" schemaName="msfsi_customer360person" displayName="Customer 360 Person" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="4" type="1" schemaName="msfsi_customer360person" displayName="Customer 360 Person" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="5" type="1" schemaName="msfsi_customerjourney" displayName="Customer Journey" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="5" type="1" schemaName="msfsi_customerjourney" displayName="Customer Journey" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="5" type="1" schemaName="msfsi_customerjourney" displayName="Customer Journey" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="6" type="1" schemaName="msfsi_contactonboardingfromprospect" displayName="Contact Onboarding from Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="6" type="1" schemaName="msfsi_contactonboardingfromprospect" displayName="Contact Onboarding from Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="6" type="1" schemaName="msfsi_contactonboardingfromprospect" displayName="Contact Onboarding from Prospect" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="7" type="62" schemaName="msfsi_retailbanking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="8" type="62" schemaName="msfsi_retailbanking" />
+        <Required key="2" type="1" schemaName="msfsi_financialproduct" displayName="Financial Product" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="9" type="1" schemaName="lead" displayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
@@ -167,7 +167,7 @@
         <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
@@ -176,91 +176,91 @@
       </MissingDependency>
       <MissingDependency>
         <Required key="14" type="1" schemaName="salesorder" displayName="Order" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="15" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="15" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="16" type="1" schemaName="msfsi_collateral" displayName="Collateral" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="16" type="1" schemaName="contract" displayName="Contract" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="17" type="1" schemaName="campaign" displayName="Campaign" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="17" type="1" schemaName="msfsi_collateral" displayName="Collateral" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="18" type="1" schemaName="list" displayName="Marketing List" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="19" type="1" schemaName="msfsi_branch" displayName="Branch" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="19" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="20" type="1" schemaName="phonetocaseprocess" displayName="Phone To Case Process" solution="msdynce_Service (9.0.5.56)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="20" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="21" type="1" schemaName="bulkoperation" displayName="Quick Campaign" solution="msdynce_Marketing (9.0.4.37)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="21" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.12)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="22" type="1" schemaName="msdyn_solutionhistory" displayName="Solution History" solution="SolutionHistoryAPIs (9.1.0.10)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="22" type="1" schemaName="msdyn_upgraderun" displayName="Upgrade Run" solution="SolutionUpgradeInfrastructure (2.6.0.0)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="23" type="1" schemaName="msdyn_upgraderun" displayName="Upgrade Run" solution="SolutionUpgradeInfrastructure (2.6.0.0)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="23" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="24" type="1" schemaName="msdyn_postruleconfig" displayName="Post Rule Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="24" type="1" schemaName="msfsi_branch" displayName="Branch" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="25" type="1" schemaName="msfsi_limit" displayName="Limit" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="25" type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="27" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="26" type="1" schemaName="product" displayName="Product" solution="msdynce_ProductManagement (9.0.4.0066)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="9" type="1" schemaName="lead" displayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="28" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="27" type="1" schemaName="msdyn_postconfig" displayName="Post Configuration" solution="ActivityFeedsCore (9.0.0.0)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="29" type="1" schemaName="msfsi_requestedfacility" displayName="Requested Facility" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="28" type="1" schemaName="msfsi_requestedfacility" displayName="Requested Facility" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="19" type="1" schemaName="msfsi_branch" displayName="Branch" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="8" type="62" schemaName="msfsi_retailbanking" />
+        <Required key="29" type="1" schemaName="msfsi_limit" displayName="Limit" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="24" type="1" schemaName="msfsi_branch" displayName="Branch" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="7" type="62" schemaName="msfsi_retailbanking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="9" type="1" schemaName="lead" displayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
-        <Dependent key="8" type="62" schemaName="msfsi_retailbanking" />
+        <Dependent key="7" type="62" schemaName="msfsi_retailbanking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="25" type="1" schemaName="msfsi_limit" displayName="Limit" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="8" type="62" schemaName="msfsi_retailbanking" />
+        <Required key="29" type="1" schemaName="msfsi_limit" displayName="Limit" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="7" type="62" schemaName="msfsi_retailbanking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="26" type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="8" type="62" schemaName="msfsi_retailbanking" />
+        <Required key="25" type="1" schemaName="msfsi_bank" displayName="Bank" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="7" type="62" schemaName="msfsi_retailbanking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="9" type="1" schemaName="lead" displayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
@@ -271,103 +271,103 @@
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="12" type="1" schemaName="msfsi_kyc" displayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="32" type="10" schemaName="bpf_msfsi_kyc_msfsi_contactonboardingfromprospect" displayName="bpf_msfsi_kyc_msfsi_contactonboardingfromprospect" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="2" schemaName="leadid" displayName="Lead" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="33" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="34" type="10" schemaName="bpf_opportunity_msfsi_certificateofdeposit" displayName="bpf_opportunity_msfsi_certificateofdeposit" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="leadid" displayName="Lead" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
         <Dependent key="10" type="10" schemaName="bpf_lead_msfsi_contactonboardingfromprospect" displayName="bpf_lead_msfsi_contactonboardingfromprospect" parentSchemaName="lead" parentDisplayName="Prospect" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="35" type="10" schemaName="bpf_opportunity_msfsi_certificateofdeposit" displayName="bpf_opportunity_msfsi_certificateofdeposit" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="36" type="2" schemaName="msfsi_idnumber" displayName="ID Number" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="36" type="2" schemaName="msfsi_reviewfrequency" displayName="Review Frequency" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="2" schemaName="fullname" displayName="Name" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="37" type="2" schemaName="msfsi_mobilenumber" displayName="Mobile Number" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="38" type="2" schemaName="msfsi_reviewfrequency" displayName="Review Frequency" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="38" type="2" schemaName="msfsi_idnumber" displayName="ID Number" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="39" type="2" schemaName="msfsi_mobilenumber" displayName="Mobile Number" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="39" type="2" schemaName="fullname" displayName="Name" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="40" type="2" schemaName="msfsi_interestedproductid" displayName="Interested Product" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="40" type="2" schemaName="msfsi_risklevel" displayName="Risk Level" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="41" type="2" schemaName="subject" displayName="Topic" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="41" type="2" schemaName="msfsi_idexpirydate" displayName="ID Expiry Date" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="33" type="2" schemaName="leadid" displayName="Lead" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="42" type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="42" type="2" schemaName="lastname" displayName="Last Name" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="43" type="2" schemaName="msfsi_kycid" displayName="KYC" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="43" type="2" schemaName="msfsi_kycpreparedon" displayName="KYC Prepared On" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="44" type="2" schemaName="msfsi_placeofbirth" displayName="Place of Birth" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="44" type="2" schemaName="msfsi_kyccountry" displayName="KYC Country" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="45" type="2" schemaName="msfsi_countryofbirth" displayName="Country of Birth" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="45" type="2" schemaName="msfsi_prospecttype" displayName="Prospect Type" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="46" type="2" schemaName="msfsi_interestedproductid" displayName="Interested Product" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="46" type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="47" type="2" schemaName="subject" displayName="Topic" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="35" type="2" schemaName="leadid" displayName="Lead" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="48" type="2" schemaName="lastname" displayName="Last Name" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="49" type="2" schemaName="msfsi_kycpreparedon" displayName="KYC Prepared On" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="50" type="2" schemaName="msfsi_kyccountry" displayName="KYC Country" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="51" type="2" schemaName="msfsi_prospecttype" displayName="Prospect Type" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="42" type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="32" type="10" schemaName="bpf_msfsi_kyc_msfsi_contactonboardingfromprospect" displayName="bpf_msfsi_kyc_msfsi_contactonboardingfromprospect" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="47" type="2" schemaName="msfsi_risklevel" displayName="Risk Level" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="52" type="2" schemaName="msfsi_isminor" displayName="Is Minor" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="48" type="2" schemaName="msfsi_idexpirydate" displayName="ID Expiry Date" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="53" type="2" schemaName="msfsi_email" displayName="Email" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="46" type="2" schemaName="msfsi_name" displayName="Name" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="49" type="2" schemaName="msfsi_kycid" displayName="KYC" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="50" type="2" schemaName="msfsi_placeofbirth" displayName="Place of Birth" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="51" type="2" schemaName="msfsi_countryofbirth" displayName="Country of Birth" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="52" type="2" schemaName="msfsi_isminor" displayName="Is Minor" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="53" type="2" schemaName="msfsi_email" displayName="Email" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="54" type="2" schemaName="msfsi_idtype" displayName="ID Type" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="54" type="2" schemaName="msfsi_idtype" displayName="ID Type" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
@@ -375,171 +375,171 @@
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="56" type="2" schemaName="msfsi_nationality" displayName="Nationality" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="56" type="2" schemaName="msfsi_nationality" displayName="Nationality" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="57" type="2" schemaName="msfsi_requestedamount" displayName="Requested Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="59" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="60" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="61" type="2" schemaName="msfsi_countryofresidence" displayName="Country of Residence" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="57" type="2" schemaName="msfsi_countryofresidence" displayName="Country of Residence" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="62" type="2" schemaName="msfsi_idtype" displayName="ID Type" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="58" type="2" schemaName="msfsi_idtype" displayName="ID Type" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="63" type="2" schemaName="msfsi_additionalnationality" displayName="Additional Nationality" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="59" type="2" schemaName="msfsi_additionalnationality" displayName="Additional Nationality" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="64" type="2" schemaName="msfsi_dateofbirth" displayName="Date of Birth" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="60" type="2" schemaName="msfsi_dateofbirth" displayName="Date of Birth" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="37" type="2" schemaName="fullname" displayName="Name" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
+        <Required key="61" type="2" schemaName="msfsi_requestedamount" displayName="Requested Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="63" type="2" schemaName="msfsi_interestrate" displayName="Interest Rate" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="64" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="65" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="66" type="2" schemaName="msfsi_productid" displayName="Product" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="33" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="68" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="69" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="70" type="2" schemaName="msfsi_monthlyincome" displayName="Monthly Income" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="72" type="2" schemaName="msfsi_enrollmentbranchid" displayName="Enrollment Branch" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="67" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="34" type="10" schemaName="bpf_opportunity_msfsi_certificateofdeposit" displayName="bpf_opportunity_msfsi_certificateofdeposit" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="73" type="2" schemaName="msfsi_directdeposit" displayName="Direct Deposit" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="74" type="2" schemaName="msfsi_preferredbranchid" displayName="Preferred Branch" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="75" type="2" schemaName="msfsi_churnscore" displayName="Churn Score" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="76" type="2" schemaName="msfsi_residencystatus" displayName="Residency Status" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="77" type="2" schemaName="msfsi_residentincountrysince" displayName="Resident in Country Since" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="78" type="2" schemaName="msfsi_employerid" displayName="Employer" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="39" type="2" schemaName="fullname" displayName="Name" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" />
         <Dependent key="10" type="10" schemaName="bpf_lead_msfsi_contactonboardingfromprospect" displayName="bpf_lead_msfsi_contactonboardingfromprospect" parentSchemaName="lead" parentDisplayName="Prospect" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="65" type="2" schemaName="msfsi_employmentstatus" displayName="Employment Status" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="79" type="2" schemaName="msfsi_employmentstatus" displayName="Employment Status" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="67" type="2" schemaName="msfsi_monthlyincome" displayName="Monthly Income" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="33" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="68" type="2" schemaName="msfsi_enrollmentbranchid" displayName="Enrollment Branch" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="81" type="2" schemaName="budgetamount" displayName="Budget Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="69" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="35" type="10" schemaName="bpf_opportunity_msfsi_certificateofdeposit" displayName="bpf_opportunity_msfsi_certificateofdeposit" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
+        <Required key="67" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="82" type="29" displayName="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" id="{f6c6fbd1-2eda-e911-a96f-000d3a1f77e8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="70" type="2" schemaName="msfsi_interestrate" displayName="Interest Rate" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="33" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="82" type="29" displayName="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" id="{f6c6fbd1-2eda-e911-a96f-000d3a1f77e8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="71" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="83" type="2" schemaName="parentcontactid" displayName="Contact" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="82" type="29" displayName="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" id="{f6c6fbd1-2eda-e911-a96f-000d3a1f77e8}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="72" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="61" type="2" schemaName="msfsi_requestedamount" displayName="Requested Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="73" type="2" schemaName="msfsi_productid" displayName="Product" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="69" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="65" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="69" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="64" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="74" type="2" schemaName="msfsi_directdeposit" displayName="Direct Deposit" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="66" type="2" schemaName="msfsi_productid" displayName="Product" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="75" type="2" schemaName="msfsi_preferredbranchid" displayName="Preferred Branch" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="84" type="2" schemaName="msfsi_termofloan" displayName="Term of Loan" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="76" type="2" schemaName="msfsi_churnscore" displayName="Churn Score" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="68" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="77" type="2" schemaName="msfsi_residencystatus" displayName="Residency Status" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="67" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="78" type="2" schemaName="msfsi_residentincountrysince" displayName="Resident in Country Since" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="85" type="2" schemaName="msfsi_costofproperty" displayName="Cost of Property" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="79" type="2" schemaName="msfsi_employerid" displayName="Employer" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="63" type="2" schemaName="msfsi_interestrate" displayName="Interest Rate" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="69" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="80" type="29" displayName="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" id="{f6c6fbd1-2eda-e911-a96f-000d3a1f77e8}" />
+        <Required key="86" type="2" schemaName="msfsi_downpayment" displayName="Down Payment" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="34" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="80" type="29" displayName="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" id="{f6c6fbd1-2eda-e911-a96f-000d3a1f77e8}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="81" type="2" schemaName="parentcontactid" displayName="Contact" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="80" type="29" displayName="OPPORTUNTIY 01. Check if Joint Holder is the same as Contact" id="{f6c6fbd1-2eda-e911-a96f-000d3a1f77e8}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="34" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="83" type="2" schemaName="budgetamount" displayName="Budget Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="57" type="2" schemaName="msfsi_requestedamount" displayName="Requested Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="60" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="72" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="71" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="73" type="2" schemaName="msfsi_productid" displayName="Product" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="84" type="2" schemaName="msfsi_termofloan" displayName="Term of Loan" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="59" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="69" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="85" type="2" schemaName="msfsi_costofproperty" displayName="Cost of Property" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="70" type="2" schemaName="msfsi_interestrate" displayName="Interest Rate" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="86" type="2" schemaName="msfsi_downpayment" displayName="Down Payment" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="34" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Required key="33" type="2" schemaName="name" displayName="Topic" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent key="87" type="10" schemaName="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" displayName="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
       </MissingDependency>
       <MissingDependency>
@@ -547,103 +547,103 @@
         <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="49" type="2" schemaName="msfsi_kycid" displayName="KYC" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="43" type="2" schemaName="msfsi_kycid" displayName="KYC" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="32" type="10" schemaName="bpf_msfsi_kyc_msfsi_contactonboardingfromprospect" displayName="bpf_msfsi_kyc_msfsi_contactonboardingfromprospect" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="69" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Required key="67" type="2" schemaName="opportunityid" displayName="Opportunity" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent key="87" type="10" schemaName="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" displayName="bpf_opportunity_new_bpf_a85fa8259e7f4db0ada6cdb235c69337" parentSchemaName="opportunity" parentDisplayName="Opportunity" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="60" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Required key="69" type="2" schemaName="purchaseprocess" displayName="Purchase Process" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="71" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Required key="64" type="2" schemaName="statuscode" displayName="Status Reason" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="70" type="2" schemaName="msfsi_interestrate" displayName="Interest Rate" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="63" type="2" schemaName="msfsi_interestrate" displayName="Interest Rate" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="72" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Required key="65" type="2" schemaName="purchasetimeframe" displayName="Purchase Timeframe" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="57" type="2" schemaName="msfsi_requestedamount" displayName="Requested Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="61" type="2" schemaName="msfsi_requestedamount" displayName="Requested Amount" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="73" type="2" schemaName="msfsi_productid" displayName="Product" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="66" type="2" schemaName="msfsi_productid" displayName="Product" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="59" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
+        <Required key="68" type="2" schemaName="description" displayName="Description" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" />
         <Dependent key="89" type="60" displayName="Information" parentDisplayName="Certificate of Deposit" id="{47d6c80d-1583-4f2d-abe9-1eb258e3f79c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="90" type="2" schemaName="msfsi_customerid" displayName="Customer" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="90" type="2" schemaName="msfsi_customerid" displayName="Customer" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="91" type="9" schemaName="msfsi_certificateofdeposit_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="91" type="9" schemaName="msfsi_certificateofdeposit_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="91" type="9" schemaName="msfsi_certificateofdeposit_statuscode" displayName="Status Reason" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="92" type="9" schemaName="msfsi_contactonboardingfromprospect_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="92" type="9" schemaName="msfsi_contactonboardingfromprospect_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="92" type="9" schemaName="msfsi_contactonboardingfromprospect_statuscode" displayName="Status Reason" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="93" type="9" schemaName="msfsi_customerjourney_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="93" type="9" schemaName="msfsi_customerjourney_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="93" type="9" schemaName="msfsi_customerjourney_statuscode" displayName="Status Reason" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="94" type="9" schemaName="msfsi_reviewfrequency" displayName="Review Frequency" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="94" type="9" schemaName="msfsi_reviewfrequency" displayName="Review Frequency" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="94" type="9" schemaName="msfsi_reviewfrequency" displayName="Review Frequency" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="95" type="9" schemaName="msfsi_customer360person_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="95" type="9" schemaName="msfsi_customer360person_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="95" type="9" schemaName="msfsi_customer360person_statecode" displayName="Status" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="96" type="9" schemaName="msfsi_contactonboardingfromprospect_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="96" type="9" schemaName="msfsi_contactonboardingfromprospect_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="96" type="9" schemaName="msfsi_contactonboardingfromprospect_statecode" displayName="Status" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="97" type="9" schemaName="msfsi_customer360person_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="97" type="9" schemaName="msfsi_customer360person_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="97" type="9" schemaName="msfsi_customer360person_statuscode" displayName="Status Reason" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="98" type="9" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="98" type="9" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="98" type="9" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337_statecode" displayName="Status" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="99" type="9" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="99" type="9" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337_statuscode" displayName="Status Reason" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="99" type="9" schemaName="new_bpf_a85fa8259e7f4db0ada6cdb235c69337_statuscode" displayName="Status Reason" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="100" type="9" schemaName="msfsi_customerjourney_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="100" type="9" schemaName="msfsi_customerjourney_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="100" type="9" schemaName="msfsi_customerjourney_statecode" displayName="Status" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="101" type="9" schemaName="msfsi_risklevel" displayName="Risk Level" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="101" type="9" schemaName="msfsi_risklevel" displayName="Risk Level" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="101" type="9" schemaName="msfsi_risklevel" displayName="Risk Level" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="102" type="9" schemaName="msfsi_certificateofdeposit_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" />
+        <Required key="102" type="9" schemaName="msfsi_certificateofdeposit_statecode" displayName="Status" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" />
         <Dependent key="102" type="9" schemaName="msfsi_certificateofdeposit_statecode" displayName="Status" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="103" type="9" schemaName="msfsi_idtype" displayName="ID Type" solution="FinancialServicesCommonAccelerator (1.0.3.1)" />
+        <Required key="103" type="9" schemaName="msfsi_idtype" displayName="ID Type" solution="FinancialServicesCommonAccelerator (1.0.3.3)" />
         <Dependent key="103" type="9" schemaName="msfsi_idtype" displayName="ID Type" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="104" type="20" displayName="Banking Accelerator Core" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{94efdfbc-5c5d-ea11-a811-000d3a579c39}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="104" type="20" displayName="Banking Accelerator Core" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{94efdfbc-5c5d-ea11-a811-000d3a579c39}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="105" type="26" schemaName="Active KYCs" displayName="Active KYCs" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{a37eb877-8eff-4f70-9fa5-ff44df7c4ffd}" />
+        <Required key="105" type="26" schemaName="Open Prospects &amp; Referrals" displayName="Open Prospects &amp; Referrals" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{785f09c5-be65-e911-a956-000d3a124001}" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
@@ -651,195 +651,195 @@
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="107" type="26" schemaName="Active Commercial KYCs" displayName="Active Commercial KYCs" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{b1d65308-2968-e911-a95c-000d3a12468b}" />
+        <Required key="107" type="26" schemaName="Active Retail KYCs" displayName="Active Retail KYCs" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{ae88a20e-016d-e911-a95c-000d3a12468b}" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="108" type="26" schemaName="Open Prospects &amp; Referrals" displayName="Open Prospects &amp; Referrals" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{785f09c5-be65-e911-a956-000d3a124001}" />
+        <Required key="108" type="26" schemaName="My Open Retail Opportunities Closing this week" displayName="My Open Retail Opportunities Closing this week" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{3055d938-6f6b-e911-a95c-000d3a12468b}" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="109" type="26" schemaName="Active Retail KYCs" displayName="Active Retail KYCs" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{ae88a20e-016d-e911-a95c-000d3a12468b}" />
-        <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="110" type="26" schemaName="My Open Retail Opportunities Closing this week" displayName="My Open Retail Opportunities Closing this week" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{3055d938-6f6b-e911-a95c-000d3a12468b}" />
-        <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="111" type="26" schemaName="My Open Referrals" displayName="My Open Referrals" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{21d066a5-335d-e911-a956-000d3a124001}" />
+        <Required key="109" type="26" schemaName="My Open Referrals" displayName="My Open Referrals" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{21d066a5-335d-e911-a956-000d3a124001}" />
         <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="112" type="26" schemaName="All Leads" displayName="All Leads" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}" />
+        <Required key="110" type="26" schemaName="All Leads" displayName="All Leads" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" id="{5a926b99-3a5f-df11-ae90-00155d2e3002}" />
         <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="113" type="26" schemaName="Open Leads" displayName="Open Leads" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" id="{00000000-0000-0000-00aa-000010001006}" />
-        <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
+        <Required key="111" type="26" schemaName="Active KYCs" displayName="Active KYCs" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{a37eb877-8eff-4f70-9fa5-ff44df7c4ffd}" />
+        <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="114" type="26" schemaName="Companies I Follow" displayName="Companies I Follow" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{01deb814-2b68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="112" type="26" schemaName="Active Commercial KYCs" displayName="Active Commercial KYCs" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{b1d65308-2968-e911-a95c-000d3a12468b}" />
+        <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="113" type="26" schemaName="Companies I Follow" displayName="Companies I Follow" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{01deb814-2b68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="114" type="26" schemaName="Opportunity Associated View" displayName="Opportunity Associated View" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010001203}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="115" type="26" schemaName="Opportunity Lookup View" displayName="Opportunity Lookup View" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{9eb361b4-67ac-4830-8abf-2d29efbaee2c}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="116" type="26" schemaName="My Open Retail Opportunities" displayName="My Open Retail Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{0e535f54-4e68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="116" type="26" schemaName="Companies Being Followed" displayName="Companies Being Followed" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{03ffaa02-2b68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="117" type="26" schemaName="Opportunity Associated View" displayName="Opportunity Associated View" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010001203}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="117" type="26" schemaName="My Active People" displayName="My Active People" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{a4c0e1e7-2b68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="118" type="26" schemaName="People I Follow" displayName="People I Follow" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{2718e3ed-2b68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="118" type="26" schemaName="Household Members" displayName="Household Members" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{aff686ca-cb5a-e911-a958-000d3a124ef5}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="119" type="26" schemaName="My Open Retail Opportunities" displayName="My Open Retail Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{0e535f54-4e68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="120" type="26" schemaName="Opportunity Advanced Find View" displayName="Opportunity Advanced Find View" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000000666800}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="121" type="26" schemaName="Inactive Companies" displayName="Inactive Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{6e7c1c2c-2e61-e911-a956-000d3a124001}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="122" type="26" schemaName="People I Follow" displayName="People I Follow" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{2718e3ed-2b68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="123" type="26" schemaName="Open Leads" displayName="Open Leads" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" id="{00000000-0000-0000-00aa-000010001006}" />
+        <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
         <Required key="106" type="26" schemaName="My Open Opportunities" displayName="My Open Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000010003000}" />
         <Dependent key="30" type="60" displayName="Relationship Manager Dash" id="{f7172d9f-3768-e911-a95c-000d3a12468b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="119" type="26" schemaName="Active People" displayName="Active People" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{1b9573ab-2b68-e911-a95c-000d3a12468b}" />
+        <Required key="124" type="26" schemaName="Active People" displayName="Active People" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{1b9573ab-2b68-e911-a95c-000d3a12468b}" />
         <Dependent key="30" type="60" displayName="Relationship Manager Dash" id="{f7172d9f-3768-e911-a95c-000d3a12468b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="120" type="26" schemaName="My Active Companies w/&lt;$100,000.00" displayName="My Active Companies w/&lt;$100,000.00" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{725bc256-2e61-e911-a956-000d3a124001}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="109" type="26" schemaName="My Open Referrals" displayName="My Open Referrals" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{21d066a5-335d-e911-a956-000d3a124001}" />
+        <Dependent key="30" type="60" displayName="Relationship Manager Dash" id="{f7172d9f-3768-e911-a95c-000d3a12468b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="121" type="26" schemaName="My Active Companies" displayName="My Active Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{58390126-2e61-e911-a956-000d3a124001}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="125" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Person" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
+        <Dependent key="126" type="60" displayName="Contacts Dashboard" parentDisplayName="Person" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="119" type="26" schemaName="Active People" displayName="Active People" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{1b9573ab-2b68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="127" type="26" schemaName="My Active Companies" displayName="My Active Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{58390126-2e61-e911-a956-000d3a124001}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="122" type="26" schemaName="People Being Followed" displayName="People Being Followed" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{663ae4f9-2b68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="124" type="26" schemaName="Active People" displayName="Active People" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{1b9573ab-2b68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="123" type="26" schemaName="Won Opportunities" displayName="Won Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{f73a5bef-a782-de11-9ff3-00155da3b012}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="124" type="26" schemaName="Active Companies" displayName="Active Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{d7985a3e-2e61-e911-a956-000d3a124001}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="125" type="26" schemaName="All Companies" displayName="All Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{3ef13638-2e61-e911-a956-000d3a124001}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="126" type="26" schemaName="Companies Being Followed" displayName="Companies Being Followed" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{03ffaa02-2b68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="127" type="26" schemaName="My Active People" displayName="My Active People" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{a4c0e1e7-2b68-e911-a95c-000d3a12468b}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="128" type="26" schemaName="Household Members" displayName="Household Members" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{aff686ca-cb5a-e911-a958-000d3a124ef5}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="128" type="26" schemaName="My Active Companies w/&lt;$100,000.00" displayName="My Active Companies w/&lt;$100,000.00" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{725bc256-2e61-e911-a956-000d3a124001}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
         <Required key="129" type="26" schemaName="All Opportunities" displayName="All Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{c6f6fc1b-1b3e-e711-80e1-00155d871bb4}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="130" type="26" schemaName="Opportunity Advanced Find View" displayName="Opportunity Advanced Find View" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{00000000-0000-0000-00aa-000000666800}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="130" type="26" schemaName="People Being Followed" displayName="People Being Followed" parentSchemaName="contact" parentDisplayName="Person" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{663ae4f9-2b68-e911-a95c-000d3a12468b}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="131" type="26" schemaName="Inactive Companies" displayName="Inactive Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{6e7c1c2c-2e61-e911-a956-000d3a124001}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="131" type="26" schemaName="Won Opportunities" displayName="Won Opportunities" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="msdynce_Sales (9.0.4.0076)" id="{f73a5bef-a782-de11-9ff3-00155da3b012}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="111" type="26" schemaName="My Open Referrals" displayName="My Open Referrals" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{21d066a5-335d-e911-a956-000d3a124001}" />
-        <Dependent key="30" type="60" displayName="Relationship Manager Dash" id="{f7172d9f-3768-e911-a95c-000d3a12468b}" />
+        <Required key="132" type="26" schemaName="Active Companies" displayName="Active Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{d7985a3e-2e61-e911-a956-000d3a124001}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="132" type="26" schemaName="All Contacts" displayName="All Contacts" parentSchemaName="contact" parentDisplayName="Person" solution="msdynce_AppCommon (9.0.4.0066)" id="{0d5d377b-5e7c-47b5-bab1-a5cb8b4ac105}" />
-        <Dependent key="133" type="60" displayName="Contacts Dashboard" parentDisplayName="Person" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+        <Required key="133" type="26" schemaName="All Companies" displayName="All Companies" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{3ef13638-2e61-e911-a956-000d3a124001}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="134" type="29" displayName="Customer 360 Person" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{8ee0e00b-9856-4271-9fb4-1a3088d29f58}" />
+        <Required key="134" type="29" displayName="Customer 360 Person" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{8ee0e00b-9856-4271-9fb4-1a3088d29f58}" />
         <Dependent key="134" type="29" displayName="Customer 360 Person" id="{8ee0e00b-9856-4271-9fb4-1a3088d29f58}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="58" type="29" displayName="Certificate of Deposit" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
-        <Dependent key="58" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Required key="62" type="29" displayName="Certificate of Deposit" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
+        <Dependent key="62" type="29" displayName="Certificate of Deposit" id="{d32ac2a6-22d2-4e3c-ad32-89c1dc5cc15f}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="66" type="29" displayName="Customer Journey" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
-        <Dependent key="66" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Required key="71" type="29" displayName="Customer Journey" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
+        <Dependent key="71" type="29" displayName="Customer Journey" id="{065c7f95-45c0-443d-922c-a257e82e19dc}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="82" type="29" displayName="Mortgage Application" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
-        <Dependent key="82" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
+        <Required key="80" type="29" displayName="Mortgage Application" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
+        <Dependent key="80" type="29" displayName="Mortgage Application" id="{a85fa825-9e7f-4db0-ada6-cdb235c69337}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="31" type="29" displayName="Contact Onboarding from Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
+        <Required key="31" type="29" displayName="Contact Onboarding from Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
         <Dependent key="31" type="29" displayName="Contact Onboarding from Prospect" id="{e92d2a4c-44d0-4437-a944-fb58d72c28a1}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="135" type="59" schemaName="Leads by Rating" displayName="Leads by Rating" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" id="{f5976c58-5693-de11-97d4-00155da3b01e}" />
-        <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="136" type="59" schemaName="Prospects by Rating" displayName="Prospects by Rating" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{7abbdba7-0265-e911-a956-000d3a124001}" />
+        <Required key="135" type="59" schemaName="Prospects by Rating" displayName="Prospects by Rating" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{7abbdba7-0265-e911-a956-000d3a124001}" />
         <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="137" type="59" schemaName="Referrals by Rating" displayName="Referrals by Rating" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{5f982045-bb65-e911-a956-000d3a124001}" />
-        <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
+        <Required key="136" type="59" schemaName="Company Name by Enrollment Branch" displayName="Company Name by Enrollment Branch" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{67797343-d565-e911-a956-000d3a124001}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="138" type="59" schemaName="Referred By by Owner" displayName="Referred By by Owner" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{f5ba975e-be65-e911-a956-000d3a124001}" />
-        <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
-      </MissingDependency>
-      <MissingDependency>
-        <Required key="139" type="59" schemaName="Budget by Est. Close Date" displayName="Budget by Est. Close Date" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{bad3aa42-3868-e911-a95c-000d3a12468b}" />
+        <Required key="137" type="59" schemaName="Name by ID Expiry Date" displayName="Name by ID Expiry Date" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{6a44e331-026d-e911-a95c-000d3a12468b}" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="140" type="59" schemaName="Name by ID Expiry Date" displayName="Name by ID Expiry Date" parentSchemaName="msfsi_kyc" parentDisplayName="KYC" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{6a44e331-026d-e911-a95c-000d3a12468b}" />
+        <Required key="138" type="59" schemaName="Leads by Rating" displayName="Leads by Rating" parentSchemaName="lead" parentDisplayName="Prospect" solution="msdynce_LeadManagement (9.0.4.0066)" id="{f5976c58-5693-de11-97d4-00155da3b01e}" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="141" type="59" schemaName="Company Name by Enrollment Branch" displayName="Company Name by Enrollment Branch" parentSchemaName="account" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{67797343-d565-e911-a956-000d3a124001}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="139" type="59" schemaName="Referrals by Rating" displayName="Referrals by Rating" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{5f982045-bb65-e911-a956-000d3a124001}" />
+        <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="139" type="59" schemaName="Budget by Est. Close Date" displayName="Budget by Est. Close Date" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{bad3aa42-3868-e911-a95c-000d3a12468b}" />
+        <Required key="140" type="59" schemaName="Referred By by Owner" displayName="Referred By by Owner" parentSchemaName="lead" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{f5ba975e-be65-e911-a956-000d3a124001}" />
+        <Dependent key="11" type="60" displayName="Prospects and Referrals" id="{974a8cf8-7765-e911-a956-000d3a124001}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="141" type="59" schemaName="Budget by Est. Close Date" displayName="Budget by Est. Close Date" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{bad3aa42-3868-e911-a95c-000d3a12468b}" />
+        <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
+      </MissingDependency>
+      <MissingDependency>
+        <Required key="141" type="59" schemaName="Budget by Est. Close Date" displayName="Budget by Est. Close Date" parentSchemaName="opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{bad3aa42-3868-e911-a95c-000d3a12468b}" />
         <Dependent key="30" type="60" displayName="Relationship Manager Dash" id="{f7172d9f-3768-e911-a95c-000d3a12468b}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="142" type="60" displayName="Customer 360" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.1)" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="142" type="60" displayName="Customer 360" parentDisplayName="Company" solution="FinancialServicesCommonAccelerator (1.0.3.3)" id="{22f26026-440f-440f-812a-e3fc457654cd}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="143" type="60" displayName="Banking Prospect" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{fc43206d-c339-4c39-a8bf-2f2804b075d9}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="143" type="60" displayName="Banking Prospect" parentDisplayName="Prospect" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{fc43206d-c339-4c39-a8bf-2f2804b075d9}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="144" type="60" displayName="Banking Quick Create Opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.2)" id="{6603d56e-7cd3-4999-b58a-b683007dd749}" />
-        <Dependent key="7" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
+        <Required key="144" type="60" displayName="Banking Quick Create Opportunity" parentDisplayName="Opportunity" solution="FinancialServicesCommonAcceleratorSales (1.0.3.3)" id="{6603d56e-7cd3-4999-b58a-b683007dd749}" />
+        <Dependent key="8" type="80" schemaName="msfsi_retailbanking" displayName="Retail Banking" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="133" type="60" displayName="Contacts Dashboard" parentDisplayName="Person" solution="msdynce_Service (9.0.5.56)" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
-        <Dependent key="133" type="60" displayName="Contacts Dashboard" parentDisplayName="Person" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+        <Required key="126" type="60" displayName="Contacts Dashboard" parentDisplayName="Person" solution="msdynce_Service (9.0.5.56)" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
+        <Dependent key="126" type="60" displayName="Contacts Dashboard" parentDisplayName="Person" id="{70ad8b15-e3f3-4d7d-9e4b-16cb4e51b484}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="145" type="60" displayName="AI for Sales" parentDisplayName="Person" solution="SICommon (9.0.2.494)" id="{293c878f-f068-40a0-ae48-4297e060871c}" />
+        <Required key="145" type="60" displayName="AI for Sales" parentDisplayName="Person" solution="SICommon (9.0.2.712)" id="{293c878f-f068-40a0-ae48-4297e060871c}" />
         <Dependent key="145" type="60" displayName="AI for Sales" parentDisplayName="Person" id="{293c878f-f068-40a0-ae48-4297e060871c}" />
       </MissingDependency>
       <MissingDependency>
-        <Required key="146" type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.1.0000.13535)" />
+        <Required key="146" type="66" schemaName="MscrmControls.Calendar.CalendarControl" displayName="MscrmControls.Calendar.CalendarControl" solution="CustomControlsCore (9.1.0000.18046)" />
         <Dependent key="13" type="60" displayName="Retail Daily Dash" id="{8360c747-7665-e911-a956-000d3a124001}" />
       </MissingDependency>
     </MissingDependencies>

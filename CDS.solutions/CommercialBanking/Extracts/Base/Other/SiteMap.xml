@@ -222,7 +222,7 @@
         <SubArea Id="nav_metric" DescriptionResourceId="Metrics_SubArea_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="metric" AvailableOffline="true" PassParams="false" />
         <SubArea Id="nav_goalrollupqueries" DescriptionResourceId="GoalQueries_SubArea_Description" Icon="/_imgs/ico_18_9602.png" IntroducedVersion="7.0.0.0" Entity="goalrollupquery" AvailableOffline="true" PassParams="false" />
       </Group>
-      <Group Id="Tools" ResourceId="Area_Tools" DescriptionResourceId="Area_Tools_Description" IntroducedVersion="7.0.0.0" IsProfile="true" ToolTipResourseId="Area_Tools_ToolTip">
+      <Group Id="Tools" ResourceId="Area_Tools" IsProfile="true" DescriptionResourceId="Area_Tools_Description" ToolTipResourseId="Area_Tools_ToolTip" IntroducedVersion="7.0.0.0">
         <SubArea Id="nav_reports" DescriptionResourceId="Reports_Description" Icon="/_imgs/imagestrips/transparent_spacer.gif" IntroducedVersion="7.0.0.0" Entity="report" AvailableOffline="true" PassParams="false">
           <Privilege Entity="report" Privilege="Read" />
         </SubArea>

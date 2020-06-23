@@ -20,6 +20,7 @@
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>1.0.0</IntroducedVersion>
   <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>Lead</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Contact Onboarding from Prospect" />

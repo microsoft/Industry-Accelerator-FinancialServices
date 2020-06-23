@@ -402,6 +402,7 @@
                             <EnableJumpBar>false</EnableJumpBar>
                             <RecordsPerPage>10</RecordsPerPage>
                             <EnableChartPicker>false</EnableChartPicker>
+                            <ChartGridMode>Grid</ChartGridMode>
                           </parameters>
                         </control>
                       </cell>
@@ -489,7 +490,7 @@
       <events>
         <event name="onload" application="true" active="true">
           <InternalHandlers>
-            <Handler functionName="Mscrm.Form_onload" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="228e5887-18c6-4d90-8d6e-bae09af2d977" enabled="true">
+            <Handler functionName="Mscrm.OpportunityMainSystemLibraryWebResource.Form_onload" libraryName="Sales/Opportunity/Opportunity_main_system_library.js" handlerUniqueId="228e5887-18c6-4d90-8d6e-bae09af2d977" enabled="true">
               <dependencies>
                 <dependency id="estimatedvalue" />
                 <dependency id="isrevenuesystemcalculated" />
