@@ -199,19 +199,19 @@
                       </cell>
                     </row>
                     <row>
-                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{80d99dcb-d1e5-482f-b588-ba8524834bd0}">
-                        <labels>
-                          <label description="Site" languagecode="1033" />
-                        </labels>
-                        <control id="siteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="siteid" disabled="false" />
-                      </cell>
-                    </row>
-                    <row>
                       <cell id="{9d2ce97f-7bcc-4e5c-842b-465d803feb7c}">
                         <labels>
                           <label description="Business Unit" languagecode="1033" />
                         </labels>
                         <control id="businessunitid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="businessunitid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell auto="false" showlabel="true" locklevel="0" rowspan="1" colspan="1" id="{80d99dcb-d1e5-482f-b588-ba8524834bd0}">
+                        <labels>
+                          <label description="Site" languagecode="1033" />
+                        </labels>
+                        <control id="siteid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="siteid" disabled="false" />
                       </cell>
                     </row>
                     <row>

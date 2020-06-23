@@ -320,7 +320,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -461,9 +463,9 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <MinValue>0</MinValue>
+          <MinValue>-1000000000</MinValue>
           <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <displaynames>
             <displayname description="Delinquent Amount" languagecode="1033" />
@@ -479,7 +481,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -502,7 +506,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <CalculationOf>msfsi_delinquentamount</CalculationOf>
           <displaynames>
@@ -860,9 +864,9 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <MinValue>0</MinValue>
+          <MinValue>-1000000000</MinValue>
           <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <displaynames>
             <displayname description="Monthly Income" languagecode="1033" />
@@ -878,7 +882,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>1</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -901,7 +907,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <CalculationOf>msfsi_monthlyincome</CalculationOf>
           <displaynames>
@@ -941,9 +947,9 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>0</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <MinValue>0</MinValue>
+          <MinValue>-1000000000</MinValue>
           <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <displaynames>
             <displayname description="Monthly Liabilities" languagecode="1033" />
@@ -959,7 +965,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -982,7 +990,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <CalculationOf>msfsi_monthlyliabilities</CalculationOf>
           <displaynames>
@@ -1196,7 +1204,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -1219,7 +1229,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <displaynames>
             <displayname description="Total Deposits" languagecode="1033" />
@@ -1236,7 +1246,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -1259,7 +1271,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <CalculationOf>msfsi_totaldeposits</CalculationOf>
           <displaynames>
@@ -1276,7 +1288,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>auto</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -1299,7 +1313,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <displaynames>
             <displayname description="Total Loans" languagecode="1033" />
@@ -1316,7 +1330,9 @@
           <RequiredLevel>none</RequiredLevel>
           <DisplayMask>ValidForAdvancedFind|ValidForForm|ValidForGrid</DisplayMask>
           <ImeMode>disabled</ImeMode>
+          <ValidForUpdateApi>0</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>1</IsCustomField>
           <IsAuditEnabled>0</IsAuditEnabled>
           <IsSecured>0</IsSecured>
@@ -1339,7 +1355,7 @@
           <IsLocalizable>0</IsLocalizable>
           <MinValue>-922337203685477</MinValue>
           <MaxValue>922337203685477</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <CalculationOf>msfsi_totalloans</CalculationOf>
           <displaynames>

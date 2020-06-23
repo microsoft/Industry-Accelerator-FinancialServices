@@ -402,7 +402,7 @@
                     </row>
                     <row />
                     <row />
-                    <row height="auto" />
+                    <row />
                   </rows>
                 </section>
                 <section name="suggestionsection" showlabel="false" showbar="false" locklevel="1" id="{ea88f7fa-aa19-4995-9b04-f1c724b52e39}" IsUserDefined="0" columns="1" labelid="{d902fdc4-a74d-45bb-a58e-f8558117a0be}">
@@ -546,7 +546,7 @@
                     </row>
                     <row />
                     <row />
-                    <row height="auto" />
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -1430,6 +1430,9 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
+      <DisplayConditions FallbackForm="true" Order="3">
+        <Everyone />
+      </DisplayConditions>
       <clientresources>
         <internalresources>
           <clientincludes>
@@ -1440,9 +1443,6 @@
       <formLibraries>
         <Library name="Sales/Opportunity/Opportunity_main_system_library.js" libraryUniqueId="{2cbe0022-0929-11e7-93ae-92361f002671}" />
       </formLibraries>
-      <DisplayConditions FallbackForm="true" Order="3">
-        <Everyone />
-      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Sales Insights" languagecode="1033" />

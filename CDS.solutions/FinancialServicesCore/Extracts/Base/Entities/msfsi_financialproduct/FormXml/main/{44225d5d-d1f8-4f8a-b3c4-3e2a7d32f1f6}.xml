@@ -182,7 +182,7 @@
                       </cell>
                       <cell id="{0d95e6eb-e942-76e9-d4a5-13b1a9e84d12}" showlabel="true" locklevel="0" labelid="{9b05fec5-e28f-48b9-a810-c47d3b611e43}">
                         <labels>
-                          <label description="Last Payment Amount" languagecode="1033" />
+                          <label description="Last Repayment Amount" languagecode="1033" />
                         </labels>
                         <control id="msfsi_lastpaymentamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="msfsi_lastpaymentamount" disabled="false" />
                       </cell>

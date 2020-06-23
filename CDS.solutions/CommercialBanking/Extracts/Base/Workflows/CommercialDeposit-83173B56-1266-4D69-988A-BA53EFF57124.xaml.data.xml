@@ -20,6 +20,7 @@
   <IsTransacted>1</IsTransacted>
   <IntroducedVersion>0.0.0.1</IntroducedVersion>
   <BusinessProcessType>0</BusinessProcessType>
+  <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>Account</PrimaryEntity>
   <LocalizedNames>
     <LocalizedName languagecode="1033" description="Commercial Deposit" />

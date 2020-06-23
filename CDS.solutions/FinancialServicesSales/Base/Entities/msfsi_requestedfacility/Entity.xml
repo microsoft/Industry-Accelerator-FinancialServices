@@ -105,9 +105,9 @@
           <IsFilterable>0</IsFilterable>
           <IsRetrievable>1</IsRetrievable>
           <IsLocalizable>0</IsLocalizable>
-          <MinValue>0</MinValue>
+          <MinValue>-1000000000</MinValue>
           <MaxValue>1000000000</MaxValue>
-          <Accuracy>4</Accuracy>
+          <Accuracy>2</Accuracy>
           <AccuracySource>0</AccuracySource>
           <displaynames>
             <displayname description="Amount" languagecode="1033" />
@@ -224,6 +224,7 @@
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
+          <ValidForCreateApi>0</ValidForCreateApi>
           <IsCustomField>0</IsCustomField>
           <IsAuditEnabled>1</IsAuditEnabled>
           <IsSecured>0</IsSecured>

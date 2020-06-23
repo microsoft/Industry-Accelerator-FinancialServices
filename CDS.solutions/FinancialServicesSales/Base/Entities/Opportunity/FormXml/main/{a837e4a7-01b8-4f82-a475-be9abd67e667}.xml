@@ -21,7 +21,7 @@
               <sections>
                 <section name="opportunity_information" showlabel="false" showbar="false" id="{5d1cf874-b807-4158-b230-1a13c1db73ad}" columns="1" IsUserDefined="0">
                   <labels>
-                    <label description="Opportunity information" languagecode="1033" />
+                    <label description="Opportunity Information" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -104,7 +104,7 @@
                 </section>
                 <section name="Opportunity_details" showlabel="false" showbar="false" id="{f961b0a9-2637-4fd3-a4d7-8e55b5246727}" layout="varwidth" columns="1" celllabelposition="Top" IsUserDefined="0">
                   <labels>
-                    <label description="Opportunity details" languagecode="1033" />
+                    <label description="Opportunity Details" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -152,7 +152,7 @@
               <sections>
                 <section name="Notes_pane" showlabel="false" showbar="false" id="{cbe1fe44-90c3-40f3-9307-2e72bdefe443}" layout="varwidth" columns="11" celllabelposition="Top" locklevel="0" labelwidth="115" IsUserDefined="0">
                   <labels>
-                    <label description="Notes pane" languagecode="1033" />
+                    <label description="NOTES PANE" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -225,13 +225,13 @@
                 </section>
                 <section name="Social_pane" showlabel="false" showbar="false" locklevel="0" id="{c03918d8-d714-7b95-3083-443db3e303c8}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115">
                   <labels>
-                    <label description="Social pane" languagecode="1033" />
+                    <label description="SOCIAL PANE" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{798de0be-acfe-4480-b3f7-69312505588a}" colspan="1" auto="false" rowspan="6" showlabel="true">
                         <labels>
-                          <label description="Stakeholders" languagecode="1033" />
+                          <label description="STAKEHOLDERS" languagecode="1033" />
                         </labels>
                         <control id="Stakeholders" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -268,7 +268,7 @@
                     <row>
                       <cell id="{92822c63-42c0-4b31-8cb5-8ce123553796}" colspan="1" auto="false" rowspan="6" showlabel="true">
                         <labels>
-                          <label description="Sales team" languagecode="1033" />
+                          <label description="SALES TEAM" languagecode="1033" />
                         </labels>
                         <control id="Pursuit_Team" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -305,7 +305,7 @@
                     <row>
                       <cell id="{05a38f4d-1649-4741-84b6-d6de2db78048}" colspan="1" auto="false" rowspan="6" showlabel="true">
                         <labels>
-                          <label description="Competitors" languagecode="1033" />
+                          <label description="COMPETITORS" languagecode="1033" />
                         </labels>
                         <control id="Competitors" classid="{E7A81278-8635-4d9e-8D4D-59480B391C5B}">
                           <parameters>
@@ -341,14 +341,14 @@
         </tab>
         <tab name="Product_Line_Items" verticallayout="true" id="{79548060-31f7-4646-8c08-0296ecd4113b}" visible="true" expanded="true" IsUserDefined="0" showlabel="true">
           <labels>
-            <label description="Product line items" languagecode="1033" />
+            <label description="Product Line Items" languagecode="1033" />
           </labels>
           <columns>
             <column width="100%">
               <sections>
                 <section name="opportunityproducts" showlabel="false" showbar="false" id="{2b1ed7f7-3ebb-42f3-809f-94eba9f94fb2}" height="auto" IsUserDefined="0" layout="varheight" columns="11">
                   <labels>
-                    <label description="Opportunity products" languagecode="1033" />
+                    <label description="Opportunity Products" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
@@ -462,13 +462,13 @@
                 </section>
                 <section name="totals" showlabel="false" showbar="false" locklevel="0" id="{736e5dc8-6758-42ee-8e28-812ec6f75abd}" IsUserDefined="0" layout="varwidth" columns="1" labelwidth="115" celllabelalignment="Left" celllabelposition="Left">
                   <labels>
-                    <label description="Product line item totals" languagecode="1033" />
+                    <label description="Product Line Item Totals" languagecode="1033" />
                   </labels>
                   <rows>
                     <row>
                       <cell id="{91C4D5D8-FDBC-4F1A-8A91-753A1AE4E376}">
                         <labels>
-                          <label description="Detail amount" languagecode="1033" />
+                          <label description="Detail Amount" languagecode="1033" />
                         </labels>
                         <control id="totallineitemamount" classid="{533B9E00-756B-4312-95A0-DC888637AC78}" datafieldname="totallineitemamount" disabled="true" />
                       </cell>
@@ -562,7 +562,7 @@
                     </row>
                     <row />
                     <row />
-                    <row height="auto" />
+                    <row />
                   </rows>
                 </section>
               </sections>
@@ -690,6 +690,8 @@
               <Title LCID="2052" Text="活动" />
               <Title LCID="3076" Text="活動" />
               <Title LCID="1028" Text="活動" />
+              <Title LCID="3098" Text="Активности" />
+              <Title LCID="2074" Text="Aktivnosti" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="opportunity_sales_orders" Sequence="20" Area="Sales" Id="navOrders" Show="false">
@@ -739,6 +741,8 @@
               <Title LCID="2052" Text="订单" />
               <Title LCID="3076" Text="訂單" />
               <Title LCID="1028" Text="訂單" />
+              <Title LCID="3098" Text="Поруџбине" />
+              <Title LCID="2074" Text="Porudžbine" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="opportunity_customer_opportunity_roles" Id="navRelationship" TitleResourceId="Tab_Label_Relationship" Area="Info" Show="false" Sequence="22">
@@ -791,6 +795,8 @@
               <Title LCID="2052" Text="关系" />
               <Title LCID="3076" Text="關聯" />
               <Title LCID="1028" Text="關聯" />
+              <Title LCID="3098" Text="Односи" />
+              <Title LCID="2074" Text="Odnosi" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="opportunity_invoices" Sequence="30" Area="Sales" Id="navInvoices" Show="false">
@@ -840,6 +846,8 @@
               <Title LCID="2052" Text="发票" />
               <Title LCID="3076" Text="發票" />
               <Title LCID="1028" Text="發票" />
+              <Title LCID="3098" Text="Фактуре" />
+              <Title LCID="2074" Text="Fakture" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="opportunitycompetitors_association" Sequence="40" Area="Sales" Id="navComp" Show="false">
@@ -889,6 +897,8 @@
               <Title LCID="2052" Text="竞争对手" />
               <Title LCID="3076" Text="競爭對手" />
               <Title LCID="1028" Text="競爭對手" />
+              <Title LCID="3098" Text="Конкуренти" />
+              <Title LCID="2074" Text="Konkurenti" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navDocument" Sequence="9000" Area="Info" Id="navDocument">
@@ -938,6 +948,8 @@
               <Title LCID="2052" Text="文档" />
               <Title LCID="3076" Text="文件" />
               <Title LCID="1028" Text="文件" />
+              <Title LCID="3098" Text="Документи" />
+              <Title LCID="2074" Text="Dokumenti" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAsyncOperations" Sequence="9500" Area="ProcessCenter" Id="navAsyncOperations" Show="false">
@@ -987,6 +999,8 @@
               <Title LCID="2052" Text="工作流" />
               <Title LCID="3076" Text="工作流程" />
               <Title LCID="1028" Text="工作流程" />
+              <Title LCID="3098" Text="Токови посла" />
+              <Title LCID="2074" Text="Tokovi posla" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navConnections" Id="navConnections" Sequence="9600" Area="Info">
@@ -1036,6 +1050,8 @@
               <Title LCID="2052" Text="连接" />
               <Title LCID="3076" Text="人脈" />
               <Title LCID="1028" Text="人脈" />
+              <Title LCID="3098" Text="Везе" />
+              <Title LCID="2074" Text="Veze" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navAudit" Area="Info" Id="navAudit" Sequence="9601">
@@ -1085,6 +1101,8 @@
               <Title LCID="2052" Text="审核历史记录" />
               <Title LCID="3076" Text="稽核歷程記錄" />
               <Title LCID="1028" Text="稽核歷程記錄" />
+              <Title LCID="3098" Text="Историја надгледања" />
+              <Title LCID="2074" Text="Istorija nadgledanja" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="hardcoded_{B7196B13-6B9D-42CD-BD58-B19A3953126F}navProcessSessions" Sequence="9700" Area="ProcessCenter" Id="navProcessSessions" Show="false">
@@ -1134,6 +1152,8 @@
               <Title LCID="2052" Text="对话会话" />
               <Title LCID="3076" Text="對話方塊工作階段" />
               <Title LCID="1028" Text="對話方塊工作階段" />
+              <Title LCID="3098" Text="Сесије дијалога" />
+              <Title LCID="2074" Text="Sesije dijaloga" />
             </Titles>
           </NavBarByRelationshipItem>
           <NavBarByRelationshipItem RelationshipName="bpf_opportunity_msfsi_businesscheckingaccount" Sequence="10000" Area="Info" Id="nav_bpf_opportunity_msfsi_businesscheckingaccount" Show="false">
@@ -1210,6 +1230,8 @@
               <Title LCID="2052" Text="公共" />
               <Title LCID="3076" Text="通用" />
               <Title LCID="1028" Text="通用" />
+              <Title LCID="3098" Text="Уобичајено" />
+              <Title LCID="2074" Text="Uobičajeno" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Sales">
@@ -1259,6 +1281,8 @@
               <Title LCID="2052" Text="销售​" />
               <Title LCID="3076" Text="銷售" />
               <Title LCID="1028" Text="銷售" />
+              <Title LCID="3098" Text="Продаја" />
+              <Title LCID="2074" Text="Prodaja" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Service">
@@ -1308,6 +1332,8 @@
               <Title LCID="2052" Text="服务" />
               <Title LCID="3076" Text="服務" />
               <Title LCID="1028" Text="服務" />
+              <Title LCID="3098" Text="Услуга" />
+              <Title LCID="2074" Text="Usluga" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="Marketing">
@@ -1357,6 +1383,8 @@
               <Title LCID="2052" Text="市场营销" />
               <Title LCID="3076" Text="行銷" />
               <Title LCID="1028" Text="行銷" />
+              <Title LCID="3098" Text="Маркетинг" />
+              <Title LCID="2074" Text="Marketing" />
             </Titles>
           </NavBarArea>
           <NavBarArea Id="ProcessCenter">
@@ -1406,6 +1434,8 @@
               <Title LCID="2052" Text="流程" />
               <Title LCID="3076" Text="程序" />
               <Title LCID="1028" Text="程序" />
+              <Title LCID="3098" Text="Процеси" />
+              <Title LCID="2074" Text="Procesi" />
             </Titles>
           </NavBarArea>
         </NavBarAreas>
@@ -1522,6 +1552,9 @@
           </customControl>
         </controlDescription>
       </controlDescriptions>
+      <DisplayConditions FallbackForm="true" Order="2">
+        <Everyone />
+      </DisplayConditions>
       <clientresources>
         <internalresources>
           <clientincludes>
@@ -1534,9 +1567,6 @@
         <Library name="Sales/Opportunity/Opportunity_main_system_library.js" libraryUniqueId="{2cbe0022-0929-11e7-93ae-92361f002671}" />
         <Library name="Forecasting/Opportunity/Opportunity_Forecast_MainSystemLibrary.js" libraryUniqueId="{85640c20-938b-41e2-897f-fa8a476c6f6d}" />
       </formLibraries>
-      <DisplayConditions FallbackForm="true" Order="2">
-        <Everyone />
-      </DisplayConditions>
     </form>
     <LocalizedNames>
       <LocalizedName description="Opportunity" languagecode="1033" />
